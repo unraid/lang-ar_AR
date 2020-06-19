@@ -1,5 +1,5 @@
 ; Translation Credit.  Will appear in CA's credits
-translationCredit=<Author> (<Language>)
+translationCredit=<Zyzto> (العربية)
 Cancel=إلغاء
 
 ; My PSAs / banners
