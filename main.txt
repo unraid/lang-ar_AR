@@ -1,5 +1,5 @@
-A format is NEVER part of a data recovery or disk rebuild process and if done in such circumstances will normally lead to loss of all data on the disks being formatted=التنسيق ** لا يعد ** جزءًا من عملية استعادة البيانات أو عملية إعادة بناء القرص وإذا تم القيام به في مثل هذه الظروف ، فسيؤدي ذلك عادةً إلى فقد جميع البيانات الموجودة على الأقراص التي يتم تنسيقها
-Aborted=احباط
+A format is NEVER part of a data recovery or disk rebuild process and if done in such circumstances will normally lead to loss of all data on the disks being formatted=التنسيق ** لا يعد ** جزءًا من عملية استعادة البيانات أو عملية إعادة بناء القرص وإذا تم القيام به في مثل هذه الظروف، فسيؤدي ذلك عادةً إلى فقد جميع البيانات الموجودة على الأقراص التي يتم تنسيقها
+Aborted=احبط
 Add=أضف
 Add Pool=أضف تجمع
 All existing data on this device will be OVERWRITTEN when array is Started=سيتم الكتابة فوق كل البيانات الموجودة على الجهاز عند تشغيل المصفوفة
@@ -13,12 +13,12 @@ Balance=موازنة
 Blacklisted=مدرج في القائمة السوداء
 Boot Device=جهاز الإقلاع
 Boot system in UEFI mode=نظام الإقلاع في وضع UEFI
-btrfs balance status=حالة توازن btrfs 
+btrfs balance status=حالة موازنة btrfs 
 btrfs check status=فحص حالة btrfs
 btrfs filesystem df=btrfs filesystem df
 BTRFS operation is running=عملية BTRFS قيد التشغيل
 btrfs scrub status=حالة تنظيف btrfs
-Can not read attributes=لا يمكن قراءة سمات
+Can not read attributes=لا يمكن قراءة السمات
 Can not read capabilities=لا يمكن قراءة القدرات
 Can not read identification=لا يمكن قراءة التعريف
 Canceled=ملغى
@@ -27,8 +27,8 @@ Capabilities=القدرات
 Check Filesystem Status=تحقق من حالة نظام الملفات
 Clear Stats=إزالة الإحصائيات
 Clearing in progress=الإزالة قيد التقدم
-Click to spin down device=انقر لتهبيط الجهاز
-Click to spin up device=انقر لتدوير الجهاز
+Click to spin down device=انقر لتهبيط دوران الجهاز
+Click to spin up device=انقر لتنشيط دوران الجهاز
 Comments=التعليقات
 complete=مكتملة
 Completed without error=اكتملت بدون خطأ
@@ -47,7 +47,7 @@ creating Flash backup zip file this may take several minutes=إنشاء ملف �
 Creation error=خطأ في التصحيح
 Critical disk temperature threshold=عتبة درجة حرارة القرص الحرجة
 Critical disk utilization threshold=عتبة استخدام القرص الحرجة
-Current operation %s on %s=العملية الحالية %s على **%s**
+Current operation %s on %s=العملية الحالية %s من **%s**
 Current position=الموضع الحالي
 Custom attributes use comma to separate numbers=السمات المخصصة (استخدم الفاصلة للفصل بين الأرقام)
 Date of purchase=تاريخ الشراء
@@ -57,7 +57,7 @@ detected=تم العثور
 Device encrypted and unlocked=الجهاز مشفر وغير مؤمن
 Device encrypted=الجهاز مشفر
 Device is part of a pool=الجهاز جزء من تجمع
-Device locked unknown error=تم قفل الجهاز: خطأ غير معروف
+Device locked unknown error=الجهاز مقفل: خطأ غير معروف
 Device locked wrong encryption key=الجهاز مقفل: مفتاح تشفير خاطئ
 Device to be encrypted=الجهاز يحتاج تشفير
 Disk in parity slot is not biggest=القرص في فتحة التماثل ليس الأكبر
@@ -71,7 +71,7 @@ encrypted=مشفر
 Encryption input=إدخال التشفير
 Encryption status=حالة التشفير
 Enter new key=أدخل مفتاح جديد
-Errors occurred - Check SMART report=حدثت أخطاء - تحقق من تقرير تقنية المراقبة الذاتية والتحليل والإعلام
+Errors occurred - Check SMART report=حدث أخطاء - تحقق من تقرير تقنية المراقبة الذاتية والتحليل والإعلام
 Estimated finish=الانتهاء التقديري
 Estimated speed=السرعة المقدرة
 Failed=فشل
@@ -143,7 +143,7 @@ Parity valid requires ALL disks to have their original content=*التماثل �
 Parity-Check in progress=التحقق من التماثل قيد التقدم
 ParityRead-Check History=سجل تماثل/فحص القراءة
 Parity-SyncData-Rebuild in progress=مزامنة التماثل / إعادة بناء البيانات قيد التقدم
-Partition format=تنسيق التقسيم
+Partition format=تنسيق القسم
 Partition size=حجم القسم
 Passed=ناجح
 Passphrase=عبارة المرور
@@ -156,8 +156,8 @@ Pool of %s devices=تجمع من %s أجهزة
 Preclear in progress=المسح المسبق قيد التقدم
 Printable Characters Only=أحرف قابلة للطباعة فقط
 Proceed to start=تابع للبدء
-Raw Value=القيمة الخام
-Raw View=النظرة الخام
+Raw Value=القيمة الأولية
+Raw View=النظرة الأولية
 Read-Check in progress=تحقق القراءة قيد التقدم
 Reboot in safe mode=إعادة التشغيل في الوضع الآمن
 registration key=مفتاح التسجيل
@@ -180,7 +180,7 @@ Set default boot menu=تعيين قائمة الإقلاع الافتراضية
 show passphrase=إظهار عبارة المرور
 Show=إظهار
 Slots=فتحات
-SMART attribute notifications=إعلامات سمة تقنية المراقبة الذاتية والتحليل والإعلام
+SMART attribute notifications=إخطارات سمة تقنية المراقبة الذاتية والتحليل والإعلام
 SMART error log=سجل أخطاء تقنية المراقبة الذاتية والتحليل والإعلام
 SMART extended self-test=الاختبار الذاتي الممتد لتقنية المراقبة الذاتية والتحليل والإعلام
 SMART health-check failed=فشل الفحص الصحي لتقنية المراقبة الذاتية والتحليل والإعلام
@@ -207,7 +207,7 @@ Temp=مؤقت
 The array will be immediately available, but unprotected since parity has not been assigned=ستكون المصفوفة متاحة على الفور، ولكن **بدون حماية** نظرًا لعدم تخصيص *التماثل*
 The array will be immediately available, but unprotected until Parity-Sync completes=ستكون المصفوفة متاحة على الفور، ولكن **بدون حماية** حتى اكتمال مزامنة التماثل
 The replacement disk must be as big or bigger than the original=يجب أن يكون القرص البديل بنفس حجم أو أكبر من القرص الأصلي
-This is typically done when a new disk is added to the array to get it ready for files to be written to it=يتم ذلك عادةً عند إضافة قرص جديد إلى المصفوفة لتجهيزه لكتابة الملفات إليه
+This is typically done when a new disk is added to the array to get it ready for files to be written to it=يتم ذلك عادةً عند إضافة قرص جديد إلى المصفوفة لتجهيزه لكتابة الملفات عليه
 This unRAID Server OS release has been withdrawn and may no longer be used. Please %s update your server=تم سحب إصدار نظام تشغيل خادم unRAID هذا ولم يعد من الممكن استخدامه. يرجى %s تحديث الخادم الخاص بك
 This will reboot the system=سيؤدي هذا إلى إعادة تشغيل النظام
 This will shutdown the system=سيؤدي هذا إلى إيقاف تشغيل النظام
@@ -271,7 +271,7 @@ will record the new disks information and bring the expanded array on-line=سي�
 will remove the missing cache disk and then bring the array on-line=سيزيل قرص التخزين المؤقت المفقود ، ثم تشغيل المصفوفة
 will resume the paused Clearing=سيستأنف المسح المتوقف
 will resume the paused Parity-Check=سيستأنف فحص التماثل المتوقف
-will resume the paused Parity-SyncData-Rebuild=سيستأنف مزامنة التماثل/اعادة بناة البيانات المتوقفة
+will resume the paused Parity-SyncData-Rebuild=سيستأنف مزامنة التماثل/اعادة بناء البيانات المتوقفة
 will resume the paused Read-Check=سيستأنف فحص القراءة المتوقف
 will start Clearing new data disks=بدء  **مسح** أقراص البيانات الجديدة
 will start Parity-Check=بدء  **فحص التماثل**
@@ -279,7 +279,7 @@ will start Parity-Sync andor Data-Rebuild=بدء  **مزامنة التماثل*
 will start Read-Check of all array disks=بدء فحص القراءة لجميع أقراص المصفوفة
 will start Read-Check of all data disks=بدء **فحص القراءة** لجميع أقراص البيانات
 will stop Clearing=سيتم أيقاف المسح
-will stop Parity-SyncData-Rebuild=سيتم أيقاف مزامنة التماثل / اعادة بناة البيانات
+will stop Parity-SyncData-Rebuild=سيتم أيقاف مزامنة التماثل / اعادة بناء البيانات
 will stop the Parity-Check=سيتم أيقاف فحص التماثل
 will stop the Read-Check=سيتم أيقاف فحص القراءة
 will take the array off-line=سيتم أيقاف المصفوفة
