@@ -233,6 +233,7 @@ Please wait=الرجاء الانتظار
 Plugins=الملحقات الإضافية
 Plus=إضافي
 prefix_SI=K M G T P E Z Y
+prefix_IEC=Ki Mi Gi Ti Pi Ei Zi Yi
 Private=خاص
 Pro=مميز
 Proceed=متابعة
