@@ -36,8 +36,13 @@ Configuration valid=التكوين صالح
 Convert to raid0 mode=حوّل إلى وضع raid0
 Convert to raid1 mode=حوّل إلى وضع raid1
 Convert to raid10 mode=حوّل إلى وضع raid10
+<<<<<<< Updated upstream
 Convert to raid5 mode see help=التحويل إلى وضع raid5 *انظر للمساعدة
 Convert to raid6 mode see help=التحويل إلى وضع raid6 *انظر للمساعدة
+=======
+Convert to raid5 mode see help=التحويل إلى وضع raid5 *اطلع على للمساعدة
+Convert to raid6 mode see help=التحويل إلى وضع raid6 *اطلع على للمساعدة
+>>>>>>> Stashed changes
 Convert to single mode=حوّل إلى الوضع المنفرد
 Copying=جاري النسخ
 corrected=صُحح
@@ -134,7 +139,11 @@ OK=موافق
 Once clear completes, the array may be Started, expanding the array to include the new disks=بمجرد اكتمال المسح ، يمكن بدء المصفوفة، وتوسيع المصفوفة لتشمل الأقراص الجديدة
 Once copy completes, the array may be Started, to initiate Data-Rebuild of the disabled disk=بمجرد اكتمال النسخ ، يمكن بدء المصفوفة، لبدء إعادة بناء البيانات للقرص المعطل
 operation=العملية
+<<<<<<< Updated upstream
 Options see Help=خيارات (انظر المساعدة)
+=======
+Options see Help=خيارات (اطلع على المساعدة)
+>>>>>>> Stashed changes
 Otherwise use the keyfile method for UTF8 input=بخلاف ذلك، استخدم طريقة **keyfile** لإدخال UTF8
 Parity disks content will be overwritten=سيتم الكتابة فوق محتوى قرص/أقراص *تماثل*
 Parity is already valid=التماثل صالح بالفعل
