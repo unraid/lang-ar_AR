@@ -7,7 +7,7 @@ Happy New Year=كل عام وانتم بخير
 Happy Holidays from Andrew, Tracey, and family=اعياد سعيدة من اندرو، تريسي و العائلة
 Please Enjoy Responsibly=رجاءً افرحوا بمسؤولية
 Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=النوافذ المنبثقة متطلبة لعمل صفحة التطبيقات العامة يرجى السماح بها من خلال المتصفح
-Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=دوكر غير مفعلة، الإضافات متاحة حاليا
+Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=دوكر غير مفعل، الإضافات متاحة حاليا
 Community Applications works best when cookies are enabled in your browser Certain features may not be available=صفحة التطبيقات العامة تعمل بشكل أفضل عندما تفعل الكوكيز
 Backup Server Active Some icons may not appear, and plugin installations may be affected=السيرفر البديل نشط، بعض الأيقونات ربما لا تظهر، وتثبيت الإضافات ربما يتأثر
 
