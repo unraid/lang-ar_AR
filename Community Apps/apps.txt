@@ -1,68 +1,69 @@
-; Translation Credit.  Will appear in CA's credits
+; Translation Credit.  Will appear in CA's credits
 translationCredit=<Zyzto> (العربية)
 Cancel=إلغاء
 
 ; My PSAs / banners
-Happy New Year=كل عام وانتم بخير
-Happy Holidays from Andrew, Tracey, and family=اعياد سعيدة من اندرو، تريسي و العائلة
-Please Enjoy Responsibly=رجاءً افرحوا بمسؤولية
-Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=النوافذ المنبثقة متطلبة لعمل صفحة التطبيقات العامة يرجى السماح بها من خلال المتصفح
-Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=دوكر غير مفعل، الإضافات متاحة حاليا
-Community Applications works best when cookies are enabled in your browser Certain features may not be available=صفحة التطبيقات العامة تعمل بشكل أفضل عندما تفعل الكوكيز
-Backup Server Active Some icons may not appear, and plugin installations may be affected=السيرفر البديل نشط، بعض الأيقونات ربما لا تظهر، وتثبيت الإضافات ربما يتأثر
+Happy New Year=كل عام وأنتم بخير
+Happy Holidays from Andrew, Tracey, and family=أعياد سعيدة من أندرو، وتريسي والعائلة
+Please Enjoy Responsibly=استمتعوا بمسؤولية رجاءً
+Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=تتطلب نوافذ تطبيقات المجتمع المنبثقة للإتاحة تحت ظروف معينة،عليكالسماح بالقوائم المنبثقة خلال تسجيلك للخادم
+Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=خدمة حاويات دوكر غير متوفرة - تتوفر الملحقات الإضافية فقط للتثبيت أو الإدارة
+Community Applications works best when cookies are enabled in your browser Certain features may not be available=تعمل تطبيقات المجتمع بشكل أفضل عندما تكون ملفات تعريف الارتباط مُمَكّنة في متصفحك، قد لا تتوفر بعض الميزات
+Backup Server Active Some icons may not appear, and plugin installations may be affected=الخادم الاحتياطي نشط، قد لا تظهر بعض الرموز ، وقد تتأثر تثبيتات بعض المكونات الإضافية
 
 ; Sorting Options
 Sorting options=خيارات الترتيب
 Sorting options unavailable=خيارات الترتيب غير متاحة
-Sort By Name Ascending=ترتيب بالأسماء تصاعدي
-Sort By Name Descending=ترتيب بالأسماء تنازلي
-Sort By Downloads=ترتيب بعدد التحميلات
-Sort By Trend=ترتيب بالرائج
-Sort By Date Added=ترتيب بالتاريخ
+Sort By Name Ascending=ترتيب الأسماء تصاعديًا
+Sort By Name Descending=ترتيب الأسماء تنازليًا
+Sort By Downloads=ترتيب حسب عدد التنزيلات
+Sort By Trend=ترتيب حسب الاتجاه الرائج
+Sort By Date Added=ترتيب حسب التاريخ
+
 ; Initial disclaimer translations
-Disclaimer=تنبيه
-All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=جميع التطبيقات هنا، من صنع مطورين لا يتنموا إلى Limetech ، لا نتحمل او اي مطور للتطبيقات هذه لأي مشاكل او عدم توافق ينتج من استخدامها
-Every attempt is made to ensure that only safe and compatible applications are present=نحاول بقدر الإمكان على التأكد من كل تطبيق متواجد انه أمن ومتوافق
-Application Policy=شروط التطبيقات
+Disclaimer=إخلاء مسؤولية
+All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=جميع التطبيقات المدرجة هنا هي إضافات من طرف ثالث إلى Unraid، لا يقدم أصحاب تطبيقات المجتمع وشركة Limetech أي ضمان فيما يتعلق بملاءمة أي تطبيق مدرج هنا
+Every attempt is made to ensure that only safe and compatible applications are present=نحاول قدر الإمكان التأكد من أمان وتوافق كل تطبيق متاح
+Application Policy=نهج التطبيقات
 I Understand=أقر بالشروط
-Installations of apps disabled You must accept the warning to be able to install applications=للتثبيت أي تطبيق مخفي يجب عليك ان توافق على التحذير المقدم
-Click here=اضغط هنا
+Installations of apps disabled You must accept the warning to be able to install applications=تم تعطيل عمليات تثبيت التطبيقات، يجب قبول التحذير لتتمكن من تثبيت التطبيقات
+Click here=انقر هنا
 
 ; Plugin Disclaimer
-Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=التطبيقات العامة تشمل تطبيقات دوكر وإضافات مصممة لتحسين النظام، وتعمل بكامل الصلاحيات على جهازك و واضحة في صفحة التطبيقات العامة
-Plugin Note=مذكرات الإضافة
+Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=تحتوي تطبيقات المجتمع على حاويات دوكر وتطبيقات ملحقات إضافية مصممة لتحسين نظام التشغيل، يتم تشغيلها بامتيازات كاملة على نظامك وتحديدها بوضوح داخل تطبيقات المجتمع 
+Plugin Note=ملاحطة الملحق الإضافي
 
 ; Multi Install
-Install Plugin Applications=ثبت **تطبيقات/إضافات**
+Install Plugin Applications=ثبت **تطبيقات الملحقات الإضافية**
 
 ; Searches
 Search=بحث
-Please enter search term=ادخل كلمة للبحث
+Please enter search term=ادخل كلمة البحث
 Click Here To Get More Results From DockerHub=اضغط هنا للحصول على نتائج من DockerHub
-No Matching Applications Found On Docker Hub=لا توجد نتائج من DockerHub
-No Matching Applications Found=لا توجد نتائج
+No Matching Applications Found On Docker Hub=لا توجد نتائج متوفرة من DockerHub
+No Matching Applications Found= لا توجد نتائج للتطبيقات
 
 ; Install Plugin title of openbox
-Install Plugin=تثبيت الإضافة
+Install Plugin=تثبيت الملحق الإضافي
 
 ; Remove App from previously installed
 Delete Template=حذف القالب
 Yes, delete it=نعم، احذفه
 
 ; Uninstall popup
-Uninstall Application=حذف تطبيق
+Uninstall Application=حذف التطبيق
 Yes uninstall it=نعم، احذفه
 
 ; Remove Private Application
-Remove Private Application=حذف تطبيق
+Remove Private Application=حذف التطبيق الخاص
 Yes, remove it=نعم، احذفه
 
 ; App Pinning
-Click to pin this application=اضغط لتعليق التطبيق
+Click to pin this application=انقر لتعليق التطبيق
 Click to unpin this application=اضغط لإلغاء تعليق التطبيق
 
 ; Branch installations
-Choose A Branch To Install=اختر اي فرع
+Choose A Branch To Install=اختر فرع للتثبيت
 
 ; Multiple application installs
 ; no apps selected
@@ -72,21 +73,22 @@ Yes, install it=نعم، ثبتها
 
 ; Multi-install popup
 Yes, install them=نعم، ثبتهم
-Cookies not enabled Plugins must be separately installed from docker applications=الكوكيز غير مفعلة الإضافات يجب ثبتيها منفصلة عن تطبيقات دوكر
-Docker applications will be installed utilizing the most recently saved template with no user input on your part=تطبيقات دوكر سيتم تثبيتها بإستخدام احدث قالب محفوظ بدون تدخل المستخدم
+Cookies not enabled Plugins must be separately installed from docker applications=ملفات تعريف الارتباط  غير ممكنة، يجب تثبيت الملحقات الإضافية بشكل منفصل عن تطبيقات دوكر
+Docker applications will be installed utilizing the most recently saved template with no user input on your part=سيتم تثبيت تطبيقات دوكر باستخدام أحدث قالب محفوظ دون تدخل المستخدم من جهتك
 Updating Support Links=تحديث روابط الدعم
-Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=إنتهى التثبيت، اذا لم يظهر زر **تم**، إذن اضغط **X** في اعلى النافذة
+Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=انتهى التثبيت، إذا لم يظهر زر **تم**، عليك النقر على **X** الأحمر في أعلى النافذة
 
 ; error messages
-No data was returned It is probable that another browser session has rebooted your server Reloading this browser tab will probably fix this error=لا توجد معلومات للعرض بالأغلب أن صفحة أخرى طلبت إعادة تشغيل السيرفر، يرجى تحديث الصفحة لحل المشكلة
-An error occurred Could not find any %s Apps=حدث خطأ لم نستطع إيجاد %s تطبيقات
-Download of appfeed failed=فشل تحميل صفحة التطبيقات
+No data was returned It is probable that another browser session has rebooted your server Reloading this browser tab will probably fix this error=لا توجد معلومات للعرض، على الأغلب، طلب متصفح آخر لإعادة تشغيل الخادم، يمكن حل المشكلة بتحديث صفحة المتصفح على الأغلب
+An error occurred Could not find any %s Apps=حدث خطأ لم نستطع إيجاد %s أي من التطبيقات
+Download of appfeed failed=فشل تنزيل صفحة التطبيقات
+
 ; the %s here refers to a function being called
-Something really went wrong here=حدث خطأ
-Post the ENTIRE contents of this message in the Community Applications Support Thread=انسخ رسالة الخطأ كاملة للمنتديات الدعم
-Unknown error happened Please post a screenshot in the support thread of the Statistics screen=حدث خطأ غير معروف ارسل صورة من الخطأ في صفحة الإحصائيات
-Something really wrong happened Reloading the Apps tab will probably fix the problem=حدث خطأ، تحديث الصفحة ربما يصلح المشكلة
-This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=إسم الإضافة متكرر %s ، سوف يأثر هذا على تثبيتهما
+Something really went wrong here= حدث خطأ ما
+Post the ENTIRE contents of this message in the Community Applications Support Thread=انشر محتويات هذه الرسالة بالكامل في منتدى الدعم تطبيقات المجتمع
+Unknown error happened Please post a screenshot in the support thread of the Statistics screen=حدث خطأ غير معروف، أرسل صورة إحصائيات الخطأ في منتدى الدعم
+Something really wrong happened Reloading the Apps tab will probably fix the problem=حدث خطأ ما، تحديث صفحة التطبيقات قد يصلح المشكلة
+This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=يحتوي هذا الملحق الإضافي على اسم مكرر من ملحق إضافي آخر **%s** سيؤثر هذا على قدرتك على تثبيت كلا الملحقين الإضافيين في وقت واحد
 
 ; CA Sections Keep the length reasonable
 MENU=القائمة
@@ -97,216 +99,217 @@ CATEGORIES=التصنفيات
 New Apps=التطبيقات الجديدة
 Updated Apps=التطبيقات المحدثة
 Random Apps=تطبيقات عشوائية
-Top New Installs=اعلى تطبيقات مثبتة حديثة
+Top New Installs=أفضل أحدث  التثبيتات
 Trending Apps=التطبيقات الرائجة
 All Apps=جميع التطبيقات
 OTHER=أخرى
 Statistics=إحصائيات
-Credits=إنجاز
+Credits=الحقوق
 Support=الدعم
 VERSION=الإصدار
 Change Log=سجل التغييرات
 
 ; Credits
 Development=التطوير
-Additional Contributions=مشاركات
-GUI Layout Design=مصمم الواجهة
-Application Feed=مصدر التطبيقات
-Additional Testing=تجربة
-Moderation=ادارة
-Additional Libraries=مكاتب إضافية
-Copyright=حقوق
-Translation=ترجمة
+Additional Contributions=مشاركات إضافية
+GUI Layout Design=تصميم واجهة GUI
+Application Feed=موجز التطبيقات
+Additional Testing=تجارب إضافية
+Moderation=الإشراف
+Additional Libraries=مكتبات إضافية
+Copyright= حقوق الطبع
+Translation=الترجمة
 
 ; Statistics page
-Deprecated Applications are able to still be installed if you have previously had them installed New installations of these applications are blocked unless you enable Display Deprecated Applications within CAs General Settings=التطبيقات منتهية الدعم يمكن إعادة ثبيتها اذا كانت مثبتة سابقا لكن اي تطبيق أخر منتهي الدعم يتطلب تفعيل **إظهار التطبيقات منتهية الدعم** من خلال الإعدادات العامة من التطبيقات العامة
-The following applications are blacklisted CA will never allow you to install or reinstall these applications=هذه التطبيقات محجوبة ولن تستطيع ابدا تثبيتها او إعادة تثبيتها
-While highly not recommended to do, incompatible applications can be installed by enabling Display Incompatible Applications within CAs General Settings=**لا ينصح** بتثبيت تطبيقات غير متوافقة، لكن يمكن تثبيتها بعد تغيير إعدادات العرض
-This display is informational ONLY=تظهر معلومات فقط
+Deprecated Applications are able to still be installed if you have previously had them installed New installations of these applications are blocked unless you enable Display Deprecated Applications within CAs General Settings=هناك إمكانية لتثبيت التطبيقات المهملة إذا سبق لك تثبيتها، تحظر عمليات التثبيت الجديدة لهذه التطبيقات ما لم تقم بالتمكن من عرض التطبيقات المهملة داخل الإعدادات العامة لتطبيقات المجتمع
+
+The following applications are blacklisted CA will never allow you to install or reinstall these applications=هذه التطبيقات محظورة ولن  تدعك تطبيقات المجتمع بتثبيتها أو إعادة تثبيتها أبدًا
+While highly not recommended to do, incompatible applications can be installed by enabling Display Incompatible Applications within CAs General Settings=**على الرغم من عدم نصحنا بهذا الإجراء، ** يمكن تثبيت تطبيقات غير متوافقة بعد تمكين عرض التطبيقات غير المتوافقة في إعدادات تطبيقات المجتمع
+This display is informational ONLY=هذا العرض للعلم فقط
 unknown=غير معروف
-Last Change To Application Feed=أخر تعديل في صفحة التطبيقات
+Last Change To Application Feed=آخر تعديل في موجز التطبيقات
 Number Of Docker Applications=عدد تطبيقات دوكر
-Number Of Plugin Applications=عدد الإضافات
+Number Of Plugin Applications=عدد تطبيقات الملحقات الإضافية
 Number Of Templates=عدد القوالب
-Number Of Repositories=عدد المصادر
+Number Of Repositories=عدد المستودعات
 Number Of Private Docker Applications=عدد تطبيقات دوكر الشخصية
-Number Of Invalid Templates=عدد القوالب الغير متوافقة
+Number Of Invalid Templates=عدد القوالب غير الصالحة
 Number Of Template Errors=عدد أخطاء القوالب
-Number Of Blacklisted Apps=عدد التطبيقات المحجوبة
-Number Of Incompatible Applications=عدد التطبيقات غير المكتملة
-Number Of Deprecated Applications=عدد التطبيقات منتهية الدعم
-Number Of Moderation Entries=عدد التغييرات الإدارية
-Primary Server=السيرفر الرئيسي
-Backup Server=السيرفر البديل
+Number Of Blacklisted Apps=عدد التطبيقات المحظورة
+Number Of Incompatible Applications=عدد التطبيقات غير المتوافقة
+Number Of Deprecated Applications=عدد التطبيقات المهملة
+Number Of Moderation Entries=عدد تغييرات الإشراف
+Primary Server=الخادم الرئيسي
+Backup Server=الخادم الاحتياطي
 
 ; Statistics Popup Titles
-Repository List=قائمة المصادر
-All Invalid Templates Found=جميع القوالب الغير متوافقة
+Repository List=قائمة المستودعات
+All Invalid Templates Found=جميع القوالب غير الصالحة
 Template Errors=أخطاء القوالب
-All Moderation Entries=التعديلات الإدارية
+All Moderation Entries=كل تغييرات الإشراف
 
 ; Statistics Popup
-No invalid templates found=لا يوجد قوالب غير متوافقة
-These templates are invalid and the application they are referring to is unknown=القوالب غير متوافقة و التطبيق غير معروف
-No templates were automatically fixed=لم يتم إصلاح أي قالب
-All of these errors found have been fixed automatically=جميع الأخطاء تم إصلاحها تلقائيًا
-Note that many of these errors can be avoided by following the directions=تنبيه يمكن تجنب أغلب الأخطاء بإتباع التعليمات
+No invalid templates found=لا يوجد قوالب غير صالحة
+These templates are invalid and the application they are referring to is unknown=هذه القوالب غير صالحة والتطبيق المشار إليه غير معروف
+No templates were automatically fixed= لم يتم إصلاح أي قالب بشكل أتوماتيكي
+All of these errors found have been fixed automatically=تم إصلاح جميع هذه الأخطاء بشكل أتوماتيكي
+Note that many of these errors can be avoided by following the directions= يمكنك تجنب أغلب هذه الأخطاء باتباع التعليمات
 HERE=**هنا**
-The following plugins have duplicated filenames and are not able to be installed simultaneously=هذه الإضافات متكررة الأسماء ولا يمكن تثبيتها
-The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=تطبيقات دوكر هذه تعود لنفس المصدر لكن تحمل تغييرات للقالب
-If any of these entries are incorrect then contact the moderators of CA to discuss=ان كان هناك اي خطأ في البيانات الرجاء التواصل مع إدارة التطبيقات العامة
-Global Repository Comments=تعليقات المصادر العامة
-Applied to all applications=(Applied to all applications)
-Individual Application Moderation=
+The following plugins have duplicated filenames and are not able to be installed simultaneously=هذه الإضافات ذات أسماء متكررة ولا يمكن تثبيتها بشكل متزامن
+The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=تطبيقات دوكر هذه تشير لنفس مستودع دوكر ولكن تحمل تغييرات في القالب لضمان هذا الأمر
+If any of these entries are incorrect then contact the moderators of CA to discuss=حال كانت أي من هذه التغييرات خاطئة، الرجاء التواصل مع مشرفي تطبيقات المجتمع
+Global Repository Comments=تعليقات المستودع العمومي
+Applied to all applications=مطبق على كل التطبيقات
+Individual Application Moderation=الإشراف الفردي على التطبيق
 
 ; Misc
-Community Applications Changelog=تغييرات التطبيقات العامة
+Community Applications Changelog=سجل تغييرات تطبيقات المجتمع
 
 ; Categories try not to be excessively long This is displayed on the left of CA screen
 
-Backup=نسخ إحتياطي
-Cloud=سحابي
-Downloaders=التحميلات
-Game Servers=سيرفرات العاب
-Home Automation=البيت الذكي
-Media Applications=تطبيقات وسائط
+Backup=نسخ احتياطي
+Cloud=سحابة
+Downloaders=أدوات التنزيل
+Game Servers=خوادم الألعاب
+Home Automation=أنظمة تحكم منزلية تلقائية
+Media Applications=تطبيقات الوسائط
 Books=كتب
 Music=موسيقى
 Photos=صور
-Video=فديوهات
+Video=فيديوهات
 Other=أخرى
-Media Servers=سيرفرات وسائط
+Media Servers=خوادم الوسائط
 Network Services=خدمات الشبكة
 DNS=DNS
 FTP=FTP
 Management=إدارة
-Messenger=تواصل
-Proxy=بروكسي
+Messenger=مسنجر
+Proxy=وكيل
 VOIP=VOIP
 VPN=VPN
 Web=ويب
-Productivity=إنشائية
-Security=أمن
-Tools Utilities=أدوات / خدمات
+Productivity=الإنتاجية
+Security=الأمن
+Tools Utilities=أدوات/ أدوات مساعدة
 System=نظام
 Themes=سمات
-Utilities=خدمات
-Private Apps=تطبيقات شخصية
+Utilities=أدوات مساعدة
+Private Apps=تطبيقات خاصة
 Uncategorized=غير مصنف
 
 ; Categories displayed within a popup or on the card
-GameServers=سيرفرات العاب
-HomeAutomation=البيت الذكي
-MediaApp=تطبيق وسائط
-MediaAppBooks=تطبيق وسائط:كتب
-MediaAppMusic=تطبيق وسائط:موسيقى
-MediaAppPhotos=تطبيق وسائط:صور
-MediaAppVideo=تطبيق وسائط:فديو
-MediaAppOther=تطبيق وسائط:أخرى
+GameServers=خواد الألعاب
+HomeAutomation=أنظمة تحكم منزلية تلقائية
+MediaApp=تطبيق وسائط 
+MediaAppBooks=تطبيق وسائط كتب
+MediaAppMusic=تطبيق وسائط موسيقى
+MediaAppPhotos=تطبيق وسائط صور
+MediaAppVideo=تطبيق وسائط فيديو
+MediaAppOther=تطبيق وسائط أخرى
 MediaServer=سيرفر وسائط متعددة
-MediaServerBooks=سيرفر وسائط:كتب
-MediaServerMusic=سيرفر وسائط:موسيقى
-MediaServerPhotos=سيرفر وسائط:صور
-MediaServerVideo=سيرفر وسائط:فديو
-MediaServerOther=سيرفر وسائط:أخرى
+MediaServerBooks=خادم وسائط كتب
+MediaServerMusic=خادم وسائط موسيقى
+MediaServerPhotos=خادم وسائط صور
+MediaServerVideo=خادم وسائط فيديو
+MediaServerOther=خادم وسائط أخرى
 Network=شبكة
-NetworkDNS=شبكة:DNS
-NetworkFTP=شبكة:FTP
-NetworkManagement=شبكة:إدارة
-NetworkProxy=شبكة:بروكسي
-NetworkVOIP=شبكة:VOIP
-NetworkVPN=شبكة:VPN
-NetworkWeb=شبكة:ويب
-NetworkOther=شبكة:أخرى
-ToolsSystem=أدوات:نظم
-ToolsThemes=أدوات:سمات
-ToolsUtilities=أدوات:خدمات
+NetworkDNS=شبكة DNS
+NetworkFTP=شبكة FTP
+NetworkManagement=شبكةالإدارة
+NetworkProxy=شبكة وكيل
+NetworkVOIP=شبكة VOIP
+NetworkVPN=شبكة VPN
+NetworkWeb=شبكة ويب
+NetworkOther=شبكة أخرى
+ToolsSystem=أدوات النظام
+ToolsThemes=أدوات السمات
+ToolsUtilities=أدوات أدوات مساعدة
 Other=أخرى
-OtherUncategorized=أخرى:غير مصنفة
+OtherUncategorized=أخرى غير مصنفة
 and %s more=و أخرى %s
 
 ; App Popup Related
-Donate To Author=تبرع للناشر
-Donate To Maintainer=تبرع للمطور
-Author=ناشر
-Maintainer=مطور
+Donate To Author=تبرع للمؤلف
+Donate To Maintainer=تبرع للمصلح
+Author=الناشر
+Maintainer=المصلح
 DockerHub=DockerHub
-Application Template=قوالب التطبيقات
-Base OS=النظام الأساسي
-DockerHub Stars=إحصائيات DockerHub
-Added to CA=أضف إلى التطبيقات العامة
-Date Updated=تاريخ الإضافة
+Application Template=قالب التطبيق
+Base OS=قاعدة نظام التشغيل
+DockerHub Stars=نجوم DockerHub
+Added to CA=أضف إلى تطبيقات المجتمع
+Date Updated=تاريخ التحديث
 Current Version=الإصدار الحالي
-Minimum OS=أقل نسخة مسموحة
-Max OS=أعلى نسخة مسموحة
-Total Downloads=عدد التحميلات
-Licence=الرخصة
-30 Day Trend=إحصائيات 30 يوم
+Minimum OS= نظام تشغيل الأدنى
+Max OS=نظام التشغيل الأقصى
+Total Downloads=عدد التنزيلات
+Licence=الترخيص
+30 Day Trend=اتجاه 30 يوم
 Ranked #%s=قيم **#%s**
 ; as in Trending up or down arrow
-Trending %s=الشهرة %s
+Trending %s=الاتجاه %s
 ; as in As of some date
 As of %s=(As of %s)
-This application template has been blacklisted=التطبيق/قالب تم حجبه
-This application template has been deprecated=التطبيق/قالب منتهي الدعم
-This application is not compatible with your version of Unraid=التطبيق غير متوافق مع إصدار النظام
-Another browser tab or device has updated the displayed templates Some actions are not available=تم تغيير القالب من خلال نافذة أخرى، بعض الخيارات غير متوفرة
-Reinstall default=إعادة تثبيت (إفتراضي)
-WebUI=الواجهة
-Reinstall=إعادة تثبيت
+This application template has been blacklisted=تم حظر قالب هذا التطبيق
+This application template has been deprecated=تم إهمال قالب هذا التطبيق 
+This application is not compatible with your version of Unraid=هذا التطبيق غير متوافق مع إصدار نظام Unraid خاصتك
+Another browser tab or device has updated the displayed templates Some actions are not available=قام صفحة متصفح أو جهاز آخر بتحديث بعض القوالب المعروضة، بعض الإجراءات غير متاحة
+Reinstall default=إعادة تثبيت الخيار الافتراضي
+WebUI=WebUI
+Reinstall=إعادة التثبيت
 Install=تثبيت
 Project=مشروع
-Install Using The Templates Default Tag=إستخدم القالب الإفتراضي للتثبيت
-Moderator Comments=تعليقات الإدارة:
-Note not all authors keep up to date on change logs=**تنبيه** الناشرون عدد منهم لا ينشروا تغييرات الإصدارات
-Note not all maintainers keep up to date on change logs=**تنبيه** المطورون عدد منهم لا ينشروا تغييرات الإصدارات
+Install Using The Templates Default Tag=استخدم علامة القالب الافتراضي للتثبيت
+Moderator Comments=تعليقات المشرف
+Note not all authors keep up to date on change logs=**تنبيه** لا يقوم جميع الكؤلفون بتحديث سجل التغييرات
+Note not all maintainers keep up to date on change logs=**تنبيه** لايقوم جميع المصلحون بتحديث سجل التغييرات
 ;the following if using a space you MUST use nbsp but keep it down to one word if at all possible
 Donate=تبرع
-Currently Installed Version=الإصدار الحالي
-Install The Update=تحديث
+Currently Installed Version=الإصدار المثبت الحالي
+Install The Update=تثبيت التحديث
 ; as in you have the latest version already installed
-Latest Version=أجدد إصدار
+Latest Version=أحدث إصدار
 Multi Language Support=دعم لغات متعددة
 ; as in more than 100000
 More than %s=اكثر من %s
 
 ; Graphs
-Trend Per Month=الشهرة بالشهر
-Downloads Per Month=التحميل كل شهر
-Total Downloads=إجمالي التحميلات
+Trend Per Month=الاتجاه حسب الشهر
+Downloads Per Month=التنزيل حسب الشهر
+Total Downloads=إجمالي التنزيلات
 
 ; Multi install script
 Installing docker applications %s=تثبيت تطبيقات دوكر %s
-Starting %s=يبدأ %s
-%s failed to start You should install it by itself to fix the errors=التطبيق %s فشل التثبيت يجب تثبيته منفصلُا
-Setting installed applications to autostart=التطبيقات المثبتة ستعمل تلقائيًا مع التشغيل
-Docker Application Installation finished=إنتهى تثبيت تطبيقات دوكر
+Starting %s=البدء %s
+%s failed to start You should install it by itself to fix the errors=%s لإصلاح الأخطاء فشل البدء، يجب تثبيته بنفسك 
+Setting installed applications to autostart=إعدادات التطبيقات المثبتة للبدء التلقائي
+Docker Application Installation finished=انتهاء تثبيت تطبيق دوكر
 
 ; Application Cards
-Private dockerHub Conversion=مصدر DockerHub خاص
-Go to the project page=إذهب إلى صفحة المشروع
-Go to the support thread=إذهب إلى صفحة الدعم
+Private dockerHub Conversion=خاص DockerHub تحويل
+Go to the project page=اذهب إلى صفحة المشروع
+Go to the support thread=اذهب إلى صفحة الدعم
 Uninstall Application=إزالة التطبيق
-Remove Private Application=إزالة تطبيق خاص
+Remove Private Application=إزالة التطبيق الخاص
 Remove Application From List=إزالة التطبيق من القائمة
-Check off to select multiple reinstalls=إختر لإعادة تثبيت تطبيقات
-Go to the plugin settings=إذهب إلى إعدادات الإضافة
-Click to reinstall the application using default values=إعادة التثبيت بالإعدادات الإفتراضية
-Click to edit the application values=اضغط لتعديل قيم التطبيق
-Click to reinstall=اضغط لإعادة التثبيت
-Click to install=اضغط للتثبيت
-Install plugin=تثبيت إضافة
-Click to go to the WebUI=اضغط لذهاب إلى موقع التطبيق
-This application has been marked as being Beta=التطبيق تم تصنيف beta
-This application template has been deprecated=قالب التطبيق منتهي الدعم
-This application is not compatible with your version of Unraid=التطبيق غير متوافق مع النظام
-This application template has been blacklisted=قالب التطبيق مجحوب
-Search for more applications from %s=إبحث عن تطبيقات من %s
-Click for more information=اضغط لمعلومات إضافية
+Check off to select multiple reinstalls=تحقق من إعادة التثبيت المتعددة
+Go to the plugin settings=إذهب إلى إعدادات الملحق الإضافي
+Click to reinstall the application using default values=انقر لإعادة تثبيت التطبيق باستخدام القيم الافتراضية
+Click to edit the application values=انقر لتحرير قيم التطبيق
+Click to reinstall=انقر لإعادة التثبيت
+Click to install=انقر للتثبيت
+Install plugin=تثبيت الملحق الإضافي
+Click to go to the WebUI=انقر للذهاب إلى WebUI
+This application has been marked as being Beta=تم تصنيف هذا التطبيق من الصنف بيتا
+This application template has been deprecated=تم إهمال قالب التطبيق هذا
+This application is not compatible with your version of Unraid=هذا التطبيق غير متوافق مع إصدار نظام Unraid خاصتك
+This application template has been blacklisted=قالب التطبيق هذا محظور
+Search for more applications from %s=ابحث عن المزيد من التطبيقات من %s
+Click for more information=انقر لمزيد من المعلومات
 
 ; Dockerhub searches
-Search For Containers From %s=إبحث عن تطبيقات دوكر من %s
-Search for similar containers=إبحث عن تطبيقات متشابهة
+Search For Containers From %s=ابحث عن حاويات من %s
+Search for similar containers=ابحث عن حاويات مشابهة
 
 ; Page Navigation
 Displaying %s - %s of %s=عرض %1$s - %2$s (من %3$s)
@@ -315,24 +318,24 @@ Updating Content=تحديث المحتوى
 Language=اللغة
 Switch to this language=تحول إلى هذه اللغة
 Country Code=رمز الدولة
-Install Language Pack=تثبيت لغة
-Remove Language Pack=حذف لغة
-Update Language Pack=تحديث لغة
-Installed Version=تثبيت إصدار
+Install Language Pack=تثبيت حزمة اللغة
+Remove Language Pack=حذف حزمة اللغة
+Update Language Pack=تحديث حزمة اللغة
+Installed Version=الإصدار المثبت
 
 ; Help Text
-This chooses how to sort the results=حدد ترتيب النتائج
-These icons respectively will Install or Edit an application=هذه الإيقونات ستثبت او تحدث تطبيقًا
-Clicking these icons will take you to an applications GUI or settings=الضغط هنا سينقلك لصفحة التطبيقات العامة
-This will update an application=هذا سيحدث تطبيقًا
-This will take you to the appropriate support thread for an application=هذا سينقلك لصفحة الدعم
-This will immediately switch to the language=هذا سيحول اللغة
-This will take you to the project page for an application=هذا سينقلك لصفحة المشروع
-Clicking this icon will uninstall the application or delete it from the lists depending upon your current section=ضغط هذه الأيقونة سيزيل التطبيق او يحذفه من القائمة بناءً على خيارك
-Clicking these icons will pin or unpin an application for later viewer from the Pinned Apps section=ضغط هذه الأيقونات سيعلق التطبيق للمشاهدة لاحقًا
-Clicking this will display more information about the application NOTE You can also click on the applications icon to display more information=ضغط هذا سيظهر معلومات إضافية عن التطبيق، ويمكن أيضا الضغط على ايقونة التطبيق للحصول على المعلومات
-Clicking this will display any warnings or extra comments about the application=ضغط هذا سيظهر تحذيرات و تعليقات إضافة عن التطبيق
-On the previous apps section you can select multiple applications to install simultaneously=في صفحة التطبيقات السابقة يمكنك تحديد عدة تطبيقات لتثبت في نفس الوقت
-This is the recommended version to install by the application author themselves=هذا الإصدار الموصى بتثبته من الناشر
-For support for this plugin visit=لمزيد من الدعم زر
-To view the policies Community Applications has=لقرائة شروط التطبيقات العامة
+This chooses how to sort the results=لاختيار كيفية تصنيف النتائج
+These icons respectively will Install or Edit an application= ستثبت أو تحرر  هذه الأيقونات على التوالي تطبيق ما
+Clicking these icons will take you to an applications GUI or settings=النقر على هذه الأيقونات سينقلك لصفحة التطبيقات GUI أو الإعدادات
+This will update an application=هذا سيحدّث تطبيقًا
+This will take you to the appropriate support thread for an application=هذا سينقلك لمنتدى الدعم الموافق للتطبيق
+This will immediately switch to the language=هذا سينتقل مباشرة إلى اللغة
+This will take you to the project page for an application=هذا سينقلك لصفحة مشروع التطبيق
+Clicking this icon will uninstall the application or delete it from the lists depending upon your current section=النقر على هذه الأيقونة سيزيل التطبيق أو يحذفه من القائمة حسب خيارك الحالي
+Clicking these icons will pin or unpin an application for later viewer from the Pinned Apps section=النقر على هذه الأيقونات سيعلق  أو يزيل تعليق تطبيق لمشاهد لاحق من قسم تطبيق معلق
+Clicking this will display more information about the application NOTE You can also click on the applications icon to display more information=النقر على هذا سيظهر المزيد من المعلومات عن التطبيق، يمكنك أيضًا النقر على أيقونة التطبيق لعرض المزيد من المعلومات
+Clicking this will display any warnings or extra comments about the application=النقر على هذا سيعرض تحذيرات أو تعليقات إضافية عن التطبيق
+On the previous apps section you can select multiple applications to install simultaneously=في قسم التطبيقات السابقة، يمكنك تحديد عدة تطبيقات لتثبيتها في نفس الوقت 
+This is the recommended version to install by the application author themselves=هذا الإصدار الموصى بتثبيته من قبل مؤلف التطبيق نفسه
+For support for this plugin visit=لمزيد من الدعم للملحق الإضافي هذا قم بزيارة
+To view the policies Community Applications has=لقراءة نهج تطبيقات المجتمع
