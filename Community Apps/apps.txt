@@ -7,7 +7,7 @@ Happy New Year=كل عام وانتم بخير
 Happy Holidays from Andrew, Tracey, and family=اعياد سعيدة من اندرو، تريسي و العائلة
 Please Enjoy Responsibly=رجاءً افرحوا بمسؤولية
 Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=النوافذ المنبثقة متطلبة لعمل صفحة التطبيقات العامة يرجى السماح بها من خلال المتصفح
-Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=التطبيقات غير مفعلة، الإضافات متاحة حاليا
+Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=دوكر غير مفعل، الإضافات متاحة حاليا
 Community Applications works best when cookies are enabled in your browser Certain features may not be available=صفحة التطبيقات العامة تعمل بشكل أفضل عندما تفعل الكوكيز
 Backup Server Active Some icons may not appear, and plugin installations may be affected=السيرفر البديل نشط، بعض الأيقونات ربما لا تظهر، وتثبيت الإضافات ربما يتأثر
 
@@ -29,7 +29,7 @@ Installations of apps disabled You must accept the warning to be able to install
 Click here=اضغط هنا
 
 ; Plugin Disclaimer
-Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=التطبيقات العامة تشمل تطبيقات وإضافات مصممة لتحسين النظام، وتعمل بكامل الصلاحيات على جهازك و واضحة في صفحة التطبيقات العامة
+Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=التطبيقات العامة تشمل تطبيقات دوكر وإضافات مصممة لتحسين النظام، وتعمل بكامل الصلاحيات على جهازك و واضحة في صفحة التطبيقات العامة
 Plugin Note=مذكرات الإضافة
 
 ; Multi Install
@@ -72,8 +72,8 @@ Yes, install it=نعم، ثبتها
 
 ; Multi-install popup
 Yes, install them=نعم، ثبتهم
-Cookies not enabled Plugins must be separately installed from docker applications=الكوكيز غير مفعلة الإضافات يجب ثبتيها منفصلة عن التطبيقات
-Docker applications will be installed utilizing the most recently saved template with no user input on your part=التطبيقات سيتم تثبيتها بإستخدام احدث قالب محفوظ بدون تدخل المستخدم
+Cookies not enabled Plugins must be separately installed from docker applications=الكوكيز غير مفعلة الإضافات يجب ثبتيها منفصلة عن تطبيقات دوكر
+Docker applications will be installed utilizing the most recently saved template with no user input on your part=تطبيقات دوكر سيتم تثبيتها بإستخدام احدث قالب محفوظ بدون تدخل المستخدم
 Updating Support Links=تحديث روابط الدعم
 Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=إنتهى التثبيت، اذا لم يظهر زر **تم**، إذن اضغط **X** في اعلى النافذة
 
@@ -125,11 +125,11 @@ While highly not recommended to do, incompatible applications can be installed b
 This display is informational ONLY=تظهر معلومات فقط
 unknown=غير معروف
 Last Change To Application Feed=أخر تعديل في صفحة التطبيقات
-Number Of Docker Applications=عدد التطبيقات
+Number Of Docker Applications=عدد تطبيقات دوكر
 Number Of Plugin Applications=عدد الإضافات
 Number Of Templates=عدد القوالب
 Number Of Repositories=عدد المصادر
-Number Of Private Docker Applications=عدد التطبيقات الشخصية
+Number Of Private Docker Applications=عدد تطبيقات دوكر الشخصية
 Number Of Invalid Templates=عدد القوالب الغير متوافقة
 Number Of Template Errors=عدد أخطاء القوالب
 Number Of Blacklisted Apps=عدد التطبيقات المحجوبة
@@ -153,7 +153,7 @@ All of these errors found have been fixed automatically=جميع الأخطاء 
 Note that many of these errors can be avoided by following the directions=تنبيه يمكن تجنب أغلب الأخطاء بإتباع التعليمات
 HERE=**هنا**
 The following plugins have duplicated filenames and are not able to be installed simultaneously=هذه الإضافات متكررة الأسماء ولا يمكن تثبيتها
-The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=التطبيقات هذه تعود لنفس المصدر لكن تحمل تغييرات للقالب
+The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=تطبيقات دوكر هذه تعود لنفس المصدر لكن تحمل تغييرات للقالب
 If any of these entries are incorrect then contact the moderators of CA to discuss=ان كان هناك اي خطأ في البيانات الرجاء التواصل مع إدارة التطبيقات العامة
 Global Repository Comments=تعليقات المصادر العامة
 Applied to all applications=(Applied to all applications)
@@ -276,14 +276,14 @@ Downloads Per Month=التحميل كل شهر
 Total Downloads=إجمالي التحميلات
 
 ; Multi install script
-Installing docker applications %s=تثبيت تطبيق %s
+Installing docker applications %s=تثبيت تطبيقات دوكر %s
 Starting %s=يبدأ %s
 %s failed to start You should install it by itself to fix the errors=التطبيق %s فشل التثبيت يجب تثبيته منفصلُا
 Setting installed applications to autostart=التطبيقات المثبتة ستعمل تلقائيًا مع التشغيل
-Docker Application Installation finished=إنتهى تثبيت التطبيقات
+Docker Application Installation finished=إنتهى تثبيت تطبيقات دوكر
 
 ; Application Cards
-Private dockerHub Conversion=مصدر خاص
+Private dockerHub Conversion=مصدر DockerHub خاص
 Go to the project page=إذهب إلى صفحة المشروع
 Go to the support thread=إذهب إلى صفحة الدعم
 Uninstall Application=إزالة التطبيق
@@ -305,7 +305,7 @@ Search for more applications from %s=إبحث عن تطبيقات من %s
 Click for more information=اضغط لمعلومات إضافية
 
 ; Dockerhub searches
-Search For Containers From %s=إبحث عن تطبيقات من %s
+Search For Containers From %s=إبحث عن تطبيقات دوكر من %s
 Search for similar containers=إبحث عن تطبيقات متشابهة
 
 ; Page Navigation
