@@ -9,7 +9,7 @@ Autostart=التشغيل التلقائي
 Back=رجوع
 Bus=ناقل
 Capacity=السعة
-Change Icon=تغيير الايقونة
+Change Icon=تغيير الأيقونة
 Cleanup=تنظيف
 Click and Select cdrom image to install operating system=انقر وحدد صورة القرص المدمج لتثبيت نظام التشغيل
 Config Folder=مجلد التكوين
@@ -24,8 +24,8 @@ define type of cpu presented to this vm=تحديد نوع وحدة المعال�
 description of virtual machine=وصف الجهاز الافتراضي
 Disk devices=أجهزة القرص
 Download Folder=مجلد التحميل
-Download, Click and Select virtio drivers image=تحميل، انقر وحدد صورة برامج تشغيل الادخال و الإخراج الافتراضي
-Downloading=جاري التحميل
+Download, Click and Select virtio drivers image=تنزيل، انقر واختر صورة برامج تشغيل الإدخال والإخراج الافتراضي
+Downloading=جاري التنزيل
 eg=على سبيل المثال
 Emulated=تمت مضاهاته
 Extracting=جاري الاستخراج
@@ -41,7 +41,7 @@ Hyperv tweaks for Windows=تعديلات Hyperv لنظام التشغيل وين
 Hyper-V=Hyper-V
 i440fx will work for most=سوف يعمل i440fx للأغلبية
 Icon=أيقونة
-Initial=مبدئي
+Initial=أولي
 Invalid VM to edit=جهاز افتراضي غير صالح للتعديل
 ISO storage path doesnt exist=مسار تخزين أيزو غير موجود
 ISO storage path was empty=كان مسار تخزين أيزو فارغًا
@@ -53,16 +53,16 @@ Logical CPUs=وحدات المعالجة المركزية المنطقية
 Machine=آلة
 Manual=يدوي
 Max=أقصى
-MD5 verification failed, your download is incomplete or corrupted=فشل التحقق من MD5 ، التنزيل غير مكتمل أو تالف
+MD5 verification failed, your download is incomplete or corrupted=فشل التحقق من MD5 ،التنزيل غير مكتمل أو تالف
 mount tag inside vm=تحميل العلامة داخل الجهاز الافتراضي
-My Workstation=محطة العمل الخاصة بي
+My Workstation=محطة عملي
 name of mount tag inside vm=اسم علامة التثبيت داخل الجهاز الافتراضي
 Name of virtual machine=اسم الجهاز الافتراضي
 Network Bridge=جسر الشبكة
 Network MAC=عنوان التحكم بالنفاذ للوسط للشبكة
 No Virtual Machines installed=لم يتم تثبيت أجهزة افتراضية
-None available=لا يوجد
-Not enough free space, need at least=لا توجد مساحة حرة كافية ، تحتاج على الأقل
+None available=غير متوفر
+Not enough free space, need at least=لا توجد مساحة حرة كافية، تحتاج على الأقل
 Not running=لا يعمل
 OpenELEC Version=إصدار OpenELEC
 OpenELEC=OpenELEC
@@ -78,25 +78,25 @@ path on Unraid share to save OpenELEC settings=المسار على مشاركة 
 Path to ROM BIOS file=المسار إلى ملف قرص النظام الأساسي للإدخال والإخراج
 Please choose a folder the LibreELEC image will download to=الرجاء اختيار مجلد ليتم تنزيل صورة LibreELEC عليه
 Please choose a folder the OpenELEC image will download to=الرجاء اختيار مجلد ليتم تنزيل صورة OpenELEC عليه
-Primary=ابتدائي
+Primary=أساسي
 Q35 for a newer machine model with PCIE=Q35 لنموذج آلة أحدث مع PCIE
 QEMU64=QEMU64
-random mac, you can supply your own=عنوان التحكم بالنفاذ للوسط عشوائي ، يمكنك توريد الخاصة بك
-re-generate random mac address=إعادة إنشاء عنوان التحكم بالنفاذ للوسط عشوائي
+random mac, you can supply your own=mac عشوائي، يمكنك استعمال خاصتك
+re-generate random mac address=إعادة إنشاء عنوان mac عشوائي 
 Remove LibreELEC image=إزالة صورة LibreELEC
 Remove OpenELEC image=إزالة صورة OpenELEC
-Remove this LibreELEC file=إزالة هذا الملف LibreELEC
-Remove this OpenELEC file=قم بإزالة ملف OpenELEC هذا
+Remove this LibreELEC file=إزالة ملف LibreELEC
+Remove this OpenELEC file=إزالة ملف OpenELEC 
 SeaBIOS will work for most=SeaBIOS سيعمل لمعظم
 SeaBIOS=SeaBIOS
 Select the BIOS=حدد النظام الأساسي للإدخال والإخراج
 Select the LibreELEC version to use=حدد إصدار LibreELEC للاستخدام
 Select the machine model=حدد طراز الجهاز
 Select the OpenELEC version to use=حدد إصدار OpenELEC لاستخدامه
-Select the USB Controller to emulate=حدد وحدة تحكم يو اس بي لمضاهاته
-Separate sub-folder and image will be created based on Name=سيتم إنشاء مجلد فرعي منفصل وصورة بناءً على الاسم
+Select the USB Controller to emulate=حدد وحدة تحكم USB لتتم مضاهاته
+Separate sub-folder and image will be created based on Name=سيتم إنشاء مجلد فرعي منفصل وصورة حسب الاسم
 shares=المشاركات
-Some OSes wont support USB3=لن تدعم بعض أنظمة تشغيل يو اس بي 3
+Some OSes wont support USB3=لن تدعم بعض أنظمة تشغيل USB3
 Sound Card=بطاقة الصوت
 Start All=بدء الكل
 Start VM after creation=بدء الجهاز الافتراضي بعد الانشاء
@@ -104,19 +104,19 @@ Stop All=إيقاف الكل
 Toggle VM autostart=تبديل التشغيل التلقائي للجهاز الافتراضي
 type of storage image=نوع صورة التخزين
 Unknown action=إجراء غير معروف
-Unknown version=إصدارغير معروف
+Unknown version=إصدار غير معروف
 Unraid Mount tag=علامة تثبيت اونريد
 Unraid Share=مشاركة اونريد
 Updating=جاري التحديث
-USB Controller=متحكم اليو اس بي
-USB Devices=اجهزة اليو اس بي
+USB Controller=متحكم USB
+USB Devices=أجهزة USB
 vDisk Bus=ناقل القرص الافتراضي
 vDisk Location=موقع القرص الافتراضي
 vDisk Size=سعة القرص الافتراضي
 vDisk Type=نوع القرص الافتراضي
 vDisks=الأقراص الافتراضية
 video for VNC=فيديو للحوسبة الشبكية الافتراضية
-VirtIO Drivers CDRom Bus=تعريفات الادخال و الإخراج الافتراضي لناقل القرص المدمج
+VirtIO Drivers CDRom Bus=تعريفات الإدخال و الإخراج الافتراضي لناقل القرص المدمج
 VirtIO Drivers ISO=أيزو تعريفات الادخال و الإخراج الافتراضي 
 Virtual Machines=الأجهزة الافتراضية
 VM creation error=خطأ في إنشاء الجهاز الافتراضي
@@ -126,6 +126,6 @@ VNC Password=كلمة مرور الحوسبة الشبكية الافتراضي�
 VNC Video Driver=مشغل فيديو الحوسبة الشبكية الافتراضية
 VNC=الحوسبة الشبكية الافتراضية
 Wasnt able to stop the process=لم يتم التمكن من إيقاف العملية
-Windows 7XP=ويندوز أكس بي/7
-Windows 82012, newer Linux distros=ويندوز 8/2012، توزيعات لينوكس  الأحدث
-XML View=عرض لغة الترميز القابلة للامتداد
+Windows 7XP=ويندوز XP7
+Windows 82012, newer Linux distros=ويندوز 8/2012، توزيعات لينوكس الأحدث
+XML View=عرض XML
