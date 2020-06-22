@@ -1,5 +1,5 @@
-A format is NEVER part of a data recovery or disk rebuild process and if done in such circumstances will normally lead to loss of all data on the disks being formatted=التنسيق ** لا يعد ** جزءًا من عملية استعادة البيانات أو عملية إعادة بناء القرص وإذا تم القيام به في مثل هذه الظروف، فسيؤدي ذلك عادةً إلى فقد جميع البيانات الموجودة على الأقراص التي يتم تنسيقها
-Aborted=احبط
+A format is NEVER part of a data recovery or disk rebuild process and if done in such circumstances will normally lead to loss of all data on the disks being formatted=التنسيق **لا يعد** جزءًا من عملية استعادة البيانات أو عملية إعادة بناء القرص وإذا تم القيام به في مثل هذه الظروف، فسيؤدي ذلك عادةً إلى فقد جميع البيانات الموجودة على الأقراص التي يتم تنسيقها
+Aborted=تم الإحباط
 Add=أضف
 Add Pool=أضف تجمع
 All existing data on this device will be OVERWRITTEN when array is Started=سيتم الكتابة فوق كل البيانات الموجودة على الجهاز عند تشغيل المصفوفة
@@ -10,9 +10,9 @@ Attribute Name=اسم السمة
 Attributes=سمات
 Balance Status=حالة التوازن
 Balance=موازنة
-Blacklisted=مدرج في القائمة السوداء
-Boot Device=جهاز الإقلاع
-Boot system in UEFI mode=نظام الإقلاع في وضع UEFI
+Blacklisted=محظور
+Boot Device=جهاز التمهيد
+Boot system in UEFI mode=نظام التمهيد في وضع UEFI
 btrfs balance status=حالة موازنة btrfs 
 btrfs check status=فحص حالة btrfs
 btrfs filesystem df=btrfs filesystem df
@@ -27,7 +27,7 @@ Capabilities=القدرات
 Check Filesystem Status=تحقق من حالة نظام الملفات
 Clear Stats=إزالة الإحصائيات
 Clearing in progress=الإزالة قيد التقدم
-Click to spin down device=انقر لتهبيط دوران الجهاز
+Click to spin down device=انقر لتثبيط دوران الجهاز
 Click to spin up device=انقر لتنشيط دوران الجهاز
 Comments=التعليقات
 complete=مكتملة
@@ -36,15 +36,15 @@ Configuration valid=التكوين صالح
 Convert to raid0 mode=حوّل إلى وضع raid0
 Convert to raid1 mode=حوّل إلى وضع raid1
 Convert to raid10 mode=حوّل إلى وضع raid10
-Convert to raid5 mode see help=التحويل إلى وضع raid5 *اطلع على للمساعدة
-Convert to raid6 mode see help=التحويل إلى وضع raid6 *اطلع على للمساعدة
+Convert to raid5 mode see help=التحويل إلى وضع raid5 *راجع قسم المساعدة
+Convert to raid6 mode see help=التحويل إلى وضع raid6 *راجع قسم المساعدة
 Convert to single mode=حوّل إلى الوضع المنفرد
 Copying=جاري النسخ
-corrected=صُحح
-Create an empty file system on the disks shown as Unmountable discarding all data currently on the disks and update parity to reflect this=قم بإنشاء نظام ملفات فارغ على الأقراص الموضحة كـغير مثبتة مع تجاهل جميع البيانات الموجودة حاليًا على الأقراص وتحديث التماثل لتعكس ذلك
-Creating Flash backup=إنشاء نسخة احتياطية لذاكرة الوميضية
-creating Flash backup zip file this may take several minutes=إنشاء ملف مضغوط احتياطي لذاكرة الوميضية (قد يستغرق هذا عدة دقائق)
-Creation error=خطأ في التصحيح
+corrected=مُصحح
+Create an empty file system on the disks shown as Unmountable discarding all data currently on the disks and update parity to reflect this=قم بإنشاء نظام ملفات فارغ على الأقراص الموضحة غير المثبتة مع تجاهل جميع البيانات الموجودة حاليًا على الأقراص وتحديث التماثل لتعكس ذلك
+Creating Flash backup=إنشاء نسخة احتياطية للذاكرة المحمولة
+creating Flash backup zip file this may take several minutes=إنشاء ملف مضغوط احتياطي للذاكرة المحمولة (قد يستغرق هذا عدة دقائق)
+Creation error=خطأ في الإنشاء
 Critical disk temperature threshold=عتبة درجة حرارة القرص الحرجة
 Critical disk utilization threshold=عتبة استخدام القرص الحرجة
 Current operation %s on %s=العملية الحالية %s من **%s**
@@ -81,9 +81,9 @@ File system type=نوع نظام الملفات
 Finding %s error=جاري إيجاد: **%s** خطأ
 Finding %s errors=جاري إيجاد: **%s** من الأخطاء 
 Flag=علامة
-Flash backup=النسخ الاحتياطي لذاكرة الوميضية
-Flash Device Settings=إعدادات جهاز الذاكرة الوميضية
-Format Unmountable disks=تهيئة الأقراص الغير مثبتة
+Flash backup=النسخ الاحتياطي للذاكرة المحمولة
+Flash Device Settings=إعدادات جهاز الذاكرة المحمولة
+Format Unmountable disks=تهيئة الأقراص غير المثبتة
 Formatting=جاري التنسيق
 formatting=جاري التنسيق
 Free=شاغر
@@ -92,14 +92,14 @@ Global Configuration=التكوين العام
 Hide=إخفاء
 Identification=التعريف
 Identity=هوية
-if checked, Start array but do not mount disks=إذا تم تحديده، فابدأ المصفوفة ولكن لا تقم بتثبيت الأقراص
-If this is a new array, move the largest disk into the parity slot=إذا كان هذا المصفوفة جديدة، انقل أكبر قرص إلى فتحة التماثل
-If you are adding a new disk or replacing a disabled disk, try Parity-Swap=إذا كنت تقوم بإضافة قرص جديد أو استبدال قرص معطل ، فحاول تبديل التماثل
-If you want to preserve the data on the new disks, reset the array configuration and rebuild parity instead=إذا كنت تريد الاحتفاظ بالبيانات الموجودة على الأقراص الجديدة ، فأعد تعيين تكوين المصفوفة وأعد بناء التماثل بدلاً من ذلك
+if checked, Start array but do not mount disks=إذا تم تحديده، ابدأ المصفوفة ولكن لا تقم بتثبيت الأقراص
+If this is a new array, move the largest disk into the parity slot=إذا كانت هذه المصفوفة جديدة، انقل أكبر قرص إلى فتحة التماثل
+If you are adding a new disk or replacing a disabled disk, try Parity-Swap=إذا كنت تقوم بإضافة قرص جديد أو استبدال قرص معطل، حاول استبدال التماثل
+If you want to preserve the data on the new disks, reset the array configuration and rebuild parity instead=إذا كنت تريد الاحتفاظ بالبيانات الموجودة على الأقراص الجديدة، أعد تعيين تكوين المصفوفة وأعد بناء التماثل بدلاً من ذلك
 Information=معلومات
 Install a replacement disk as soon as possible=قم بتثبيت قرص بديل في أقرب وقت ممكن
 Insufficient free disk space available=مساحة القرص المتوفرة غير كافية
-Interrupted=منقطع
+Interrupted=مقاطعة
 Invalid configuration=تكوين غير صالح
 Invalid expansion=توسيع غير صالح
 Invalid pool name=اسم تجمع غير صالح
@@ -131,13 +131,13 @@ No self-tests logged on this disk=لم يتم تسجيل أي اختبارات �
 Not installed=غير مثبت
 Note do not use pool names which are also used as user share names=ملاحظة: لا تستخدم أسماء التجمع التي تستخدم أيضًا كأسماء مشاركة المستخدم
 OK=موافق
-Once clear completes, the array may be Started, expanding the array to include the new disks=بمجرد اكتمال المسح ، يمكن بدء المصفوفة، وتوسيع المصفوفة لتشمل الأقراص الجديدة
-Once copy completes, the array may be Started, to initiate Data-Rebuild of the disabled disk=بمجرد اكتمال النسخ ، يمكن بدء المصفوفة، لبدء إعادة بناء البيانات للقرص المعطل
+Once clear completes, the array may be Started, expanding the array to include the new disks=بمجرد اكتمال المسح، يمكن بدء المصفوفة، وتوسيع المصفوفة لتشمل الأقراص الجديدة
+Once copy completes, the array may be Started, to initiate Data-Rebuild of the disabled disk=بمجرد اكتمال النسخ، يمكن بدء المصفوفة، لبدء إعادة بناء البيانات للقرص المعطل
 operation=العملية
-Options see Help=خيارات (اطلع على المساعدة)
+Options see Help=خيارات (راجع قسم المساعدة)
 Otherwise use the keyfile method for UTF8 input=بخلاف ذلك، استخدم طريقة **keyfile** لإدخال UTF8
 Parity disks content will be overwritten=سيتم الكتابة فوق محتوى قرص/أقراص *تماثل*
-Parity is already valid=التماثل صالح بالفعل
+Parity is already valid=التماثل صالح
 Parity operation is running=عملية التماثل قيد التشغيل
 Parity valid requires ALL disks to have their original content=*التماثل الصالح* يتطلب **جميع** الأقراص ان تحتوي على محتوياتها الاصلية
 Parity-Check in progress=التحقق من التماثل قيد التقدم
@@ -169,28 +169,28 @@ Repair corrupted blocks=إصلاح الكتل التالفة
 Replacement disk installed=تم تركيب القرص البديل
 Replacement disk is too small=القرص البديل صغير جدًا
 Retype passphrase=أعد كتابة عبارة المرور
-Schedule=عين موعداً
+Schedule=جدولة
 Scrub Status=حالة التنظيف
 Scrub=تنظيف
 See Cache Settings=انظر إعدادات التخزين المؤقت
 self-test in progress=الاختبار الذاتي قيد التقدم
 Self-Test=الاختبار الذاتي
-Server boot mode=وضع إقلاع الخادم
-Set default boot menu=تعيين قائمة الإقلاع الافتراضية
+Server boot mode=وضع تمهيد الخادم
+Set default boot menu=تعيين قائمة التمهيد الافتراضية
 show passphrase=إظهار عبارة المرور
 Show=إظهار
 Slots=فتحات
-SMART attribute notifications=إخطارات سمة تقنية المراقبة الذاتية والتحليل والإعلام
-SMART error log=سجل أخطاء تقنية المراقبة الذاتية والتحليل والإعلام
-SMART extended self-test=الاختبار الذاتي الممتد لتقنية المراقبة الذاتية والتحليل والإعلام
-SMART health-check failed=فشل الفحص الصحي لتقنية المراقبة الذاتية والتحليل والإعلام
-SMART notification value=قيمة إشعار تقنية المراقبة الذاتية والتحليل والإعلام
-SMART self-test history=سجل الفحص الذاتي لتقنية المراقبة الذاتية والتحليل والإعلام
-SMART Settings=إعدادات تقنية المراقبة الذاتية والتحليل والإعلام
-SMART short self-test=الفحص الذاتي القصير لتقنية المراقبة الذاتية والتحليل والإعلام
-SMART status=حالة تقنية المراقبة الذاتية والتحليل والإعلام
+SMART attribute notifications=إخطارات سمة SMART
+SMART error log=سجل أخطاء SMART
+SMART extended self-test=الاختبار الذاتي الممتد SMART
+SMART health-check failed=فشل الفحص الصحي SMART
+SMART notification value=قيمة إشعار SMART
+SMART self-test history=سجل الفحص الذاتي SMART
+SMART Settings=إعدادات SMART
+SMART short self-test=الفحص الذاتي القصير SMART
+SMART status=حالة SMART
 Speed=السرعة
-Spin down delay=تأخيرتثبيط الدوران
+Spin down delay=تأخير تثبيط الدوران
 Spin Down=تثبيط الدوران
 Spin Up=تنشيط الدوران
 Spinup groups=مجموعات تنشيط الدوران
@@ -215,18 +215,18 @@ This will stop the array=سيؤدي هذا إلى إيقاف المصفوفة
 This will stop the running operation=سيؤدي هذا إلى إيقاف العملية الجارية
 Threshold=عتبة
 Title=العنوان
-Toggle readswrites display=تبديل عرض القراءة / الكتابة
-Too many attached devices Please consider upgrading your=الكثير من الأجهزة المرفقة يرجى النظر في ترقية
+Toggle readswrites display=تبديل عرض القراءة/الكتابة
+Too many attached devices Please consider upgrading your=الكثير من الأجهزة المرفقة، يرجى النظر في ترقية
 Too many wrong andor missing disks=الكثير من الأقراص الخاطئة و/أو المفقودة
 Total size=الحجم الإجمالي
 Unassign ALL devices to delete this pool=إلغاء تعيين **جميع** الأجهزة لحذف هذا التجمع
-unavailable no parity-check entries logged=غير متاح (لم يتم تسجيل إدخالات التحقق من التماثل)
-Unavailable - disk must be spun up=غير متوفر - يجب أن يتم تنشيط دوران القرص
+unavailable no parity-check entries logged=غير متوفر - لم يتم تسجيل إدخالات التحقق من التماثل 
+Unavailable - disk must be spun up=غير متوفر - يجب تنشيط دوران القرص
 Unavailable=غير متوفر
-Unclean shutdown detected=تم اكتشاف إيقاف تشغيل غير صحيح
-Unmountable disk present=يوجد قرص غير قابل للتثبيت
-Unmountable disks present=يوجد أقراص غير قابلة للتثبيت
-Unmountable Encrypted volume present=غير قابل للتثبيت: يوجد وحدة تخزين مشفرة
+Unclean shutdown detected=اكتشاف إيقاف تشغيل غير صحيح
+Unmountable disk present=قرص غير قابل للتثبيت
+Unmountable disks present=أقراص غير قابلة للتثبيت
+Unmountable Encrypted volume present=غير قابل للتثبيت: وحدة تخزين مشفرة
 Unmountable Missing encryption key=غير قابل للتثبيت: مفتاح التشفير مفقود
 Unmountable No file system=غير قابل للتثبيت: لا يوجد نظام ملفات
 Unmountable No pool uuid=غير قابل للتثبيت: لا يوجد معرّف فريد عالميًا للتجمع
@@ -256,37 +256,37 @@ will copy the parity information to the new parity disk=سيتم نسخ معلو
 will create a file system in all Unmountable disks=سينشئ نظام ملفات في جميع الأقراص الغير مثبتة
 will delete the encryption keyfile=سيحذف ملف مفتاح التشفير
 will disable the missing disk and then bring the array on-line Install a replacement disk as soon as possible=سيتم تعطيل القرص المفقود ومن ثم تشغيل المصفوفة. قم بتثبيت قرص بديل في أقرب وقت ممكن
-will expand the file system of the data disk if possible then bring the array on-line and start Data-Rebuild=سيتم توسيع نظام الملفات لقرص البيانات؛ إن أمكن، ثم سيقوم بتشغيل المصفوفة ويبدأ إعادة بناء البيانات
+will expand the file system of the data disk if possible then bring the array on-line and start Data-Rebuild=سيتم توسيع نظام الملفات لقرص البيانات؛ إن أمكن، ثم سيقوم بتشغيل المصفوفة والبدء بإعادة بناء البيانات
 will immediately clear all disk statistics=سيتم مسح كافة إحصائيات القرص على الفور
-will immediately invoke the Mover=سوف يستدعى الناقل فوراً
+will immediately invoke the Mover=سيستدعى الناقل فوراً
 will immediately spin down all disks=سيتم تثبيط دوران جميع الأقراص على الفور
 will immediately spin up all disks=سيتم تنشيط دوران جميع الأقراص على الفور
-will pause the Clearing=سيتم أيقاف المسح
-will pause the Parity-Check=سيتم أيقاف فحص التماثل
-will pause the Parity-SyncData-Rebuild=سيتم أيقاف مزامنة التماثل/ أعادة بناء البيانات
-will pause the Read-Check=سيتم أيقاف فحص القراءة
+will pause the Clearing=سيتم إيقاف المسح
+will pause the Parity-Check=سيتم إيقاف فحص التماثل
+will pause the Parity-SyncData-Rebuild=سيتم إيقاف مزامنة التماثل/ أعادة بناء البيانات
+will pause the Read-Check=سيتم إيقاف فحص القراءة
 will record all disk information and bring the array on-line=سيسجل جميع معلومات القرص و تشغيل المصفوفة
-will record all disk information, bring the array on-line, and start Parity-Sync=سيسجل جميع معلومات القرص، تشغيل المصفوفة و بدء مزامنة التماثل
-will record the new disks information and bring the expanded array on-line=سيسجل جميع معلومات القرص و تشغيل المصفوفة الممتدة
-will remove the missing cache disk and then bring the array on-line=سيزيل قرص التخزين المؤقت المفقود ، ثم تشغيل المصفوفة
+will record all disk information, bring the array on-line, and start Parity-Sync=سيسجل جميع معلومات القرص، تشغيل المصفوفة وبدء مزامنة التماثل
+will record the new disks information and bring the expanded array on-line=سيسجل جميع معلومات القرص وتشغيل المصفوفة الممتدة
+will remove the missing cache disk and then bring the array on-line=سيزيل قرص التخزين المؤقت المفقود، ثم تشغيل المصفوفة
 will resume the paused Clearing=سيستأنف المسح المتوقف
 will resume the paused Parity-Check=سيستأنف فحص التماثل المتوقف
-will resume the paused Parity-SyncData-Rebuild=سيستأنف مزامنة التماثل/اعادة بناء البيانات المتوقفة
+will resume the paused Parity-SyncData-Rebuild=سيستأنف مزامنة التماثل/إعادة بناء البيانات المتوقفة
 will resume the paused Read-Check=سيستأنف فحص القراءة المتوقف
 will start Clearing new data disks=بدء  **مسح** أقراص البيانات الجديدة
-will start Parity-Check=بدء  **فحص التماثل**
-will start Parity-Sync andor Data-Rebuild=بدء  **مزامنة التماثل** و/او **إعادة بناء البيانات**
+will start Parity-Check=بدء** فحص التماثل**
+will start Parity-Sync andor Data-Rebuild=بدء** مزامنة التماثل**و/أو**إعادة بناء البيانات**
 will start Read-Check of all array disks=بدء فحص القراءة لجميع أقراص المصفوفة
 will start Read-Check of all data disks=بدء **فحص القراءة** لجميع أقراص البيانات
-will stop Clearing=سيتم أيقاف المسح
-will stop Parity-SyncData-Rebuild=سيتم أيقاف مزامنة التماثل / اعادة بناء البيانات
-will stop the Parity-Check=سيتم أيقاف فحص التماثل
-will stop the Read-Check=سيتم أيقاف فحص القراءة
-will take the array off-line=سيتم أيقاف المصفوفة
-Worst=أسوأ
+will stop Clearing=سيتم إيقاف المسح
+will stop Parity-SyncData-Rebuild=سيتم إيقاف مزامنة التماثل/إعادة بناء البيانات
+will stop the Parity-Check=سيتم إيقاف فحص التماثل
+will stop the Read-Check=سيتم إيقاف فحص القراءة
+will take the array off-line=سيتم إيقاف المصفوفة
+Worst=الأسوأ
 Write corrections to parity=اكتب تصحيحات على التماثل
 Writes=يكتب
 Wrong key=المفتاح خاطئ
 xfs_repair status=حالة إصلاح xfs
 You may not add new disks and also remove existing disks=لا يمكنك إضافة أقراص جديدة وإزالة الأقراص الموجودة أيضًا
-your server=الخادم الخاص بك
+your server=خادمك الخاص
