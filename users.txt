@@ -1,10 +1,10 @@
 Add User=إضافة مستخدم
 Add=إضافة
-Click to select PNG file=إضغط لإختيار صورة
+Click to select PNG file=انقر لاختيار صورة ملف PNG
 Custom image=تخصيص الصورة
 Description=وصف
 Do not use reserved names=لا تستخدم أسماء محجوزة
-Drag-n-drop a PNG file or click the image at the left=اسحب و ضع ملف صورة او اضغط على الصورة على اليسار
+Drag-n-drop a PNG file or click the image at the left=اسحب وضع ملف صورة أو انقر على الصورة على اليسار
 Edit User=تحرير المستخدم
 Invalid user name=اسم المستخدم غير صحيح
 Only PNG images are allowed=فقط صور بصيغة PNG
