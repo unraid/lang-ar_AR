@@ -13,7 +13,7 @@ Balance=موازنة
 Blacklisted=محظور
 Boot Device=جهاز التمهيد
 Boot system in UEFI mode=نظام التمهيد في وضع UEFI
-btrfs balance status=حالة موازنة btrfs 
+btrfs balance status=حالة موازنة btrfs
 btrfs check status=فحص حالة btrfs
 btrfs filesystem df=btrfs filesystem df
 BTRFS operation is running=عملية BTRFS قيد التشغيل
@@ -79,7 +79,7 @@ Feature=خاصية
 File system status=حالة نظام الملفات
 File system type=نوع نظام الملفات
 Finding %s error=جاري إيجاد: **%s** خطأ
-Finding %s errors=جاري إيجاد: **%s** من الأخطاء 
+Finding %s errors=جاري إيجاد: **%s** من الأخطاء
 Flag=علامة
 Flash backup=النسخ الاحتياطي للذاكرة المحمولة
 Flash Device Settings=إعدادات جهاز الذاكرة المحمولة
@@ -199,7 +199,7 @@ Started, array unprotected=قيد التشغيل، المصفوفة غير مح�
 Started, formatting=قيد التشغيل، جاري التنسيق
 Starting=جاري البدء
 Stopping=جاري الإيقاف
-Sync errors=أخطاء المزامنة 
+Sync errors=أخطاء المزامنة
 Sync=مزامنة
 Syslinux Configuration=تكوين Syslinux
 Syslinux configuration=تكوين Syslinux
@@ -220,7 +220,7 @@ Too many attached devices Please consider upgrading your=الكثير من ال�
 Too many wrong andor missing disks=الكثير من الأقراص الخاطئة و/أو المفقودة
 Total size=الحجم الإجمالي
 Unassign ALL devices to delete this pool=إلغاء تعيين **جميع** الأجهزة لحذف هذا التجمع
-unavailable no parity-check entries logged=غير متوفر - لم يتم تسجيل إدخالات التحقق من التماثل 
+unavailable no parity-check entries logged=غير متوفر - لم يتم تسجيل إدخالات التحقق من التماثل
 Unavailable - disk must be spun up=غير متوفر - يجب تنشيط دوران القرص
 Unavailable=غير متوفر
 Unclean shutdown detected=اكتشاف إيقاف تشغيل غير صحيح
