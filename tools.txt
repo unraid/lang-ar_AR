@@ -116,186 +116,184 @@ User=المستخدم
 Vars=المتغيرات
 warning=تحذير
 webGUI=واجهة المستخدم الرسومية على شبكة الإنترنت
-When received, please paste the URL into the Key file URL box and=When received, please paste the URL into the <i>Key file</i> URL box and
-Wrong File Extension=
-You havent sent Limetech your hardware profile yet=You haven't sent Limetech your hardware profile yet
-Your hardware profile was last submitted on=
-Your Trial key has expired=Your *Trial* key has expired
-Your Trial key requires an internet connection=Your *Trial* key requires an internet connection
+When received, please paste the URL into the Key file URL box and=عند الاستلام ، يرجى لصق عنوان URL في مربع عنوان <i>ملف المفتاح</i> و
+Wrong File Extension=صيغة ملف خاطئة
+You havent sent Limetech your hardware profile yet=لم ترسل الى Limetech ملف تعريف الجهاز الخاص بك حتى الآن
+Your hardware profile was last submitted on=تم إرسال ملف تعريف الجهاز الخاص بك آخر مرة في
+Your Trial key has expired=انتهت صلاحية مفتاحك *التجريبي*
+Your Trial key requires an internet connection=يتطلب مفتاحك *التجريبي* اتصالاً بالإنترنت
 
 ; Sysdevs text - added May 18, 2020
-A reboot is required to apply changes=
-ALERT=
-Bind selected to VFIO at Boot=
-CPU Thread Pairings=
-Changes saved=
-Function Level Reset FLR supported=Function Level Reset (FLR) supported
-In use by Unraid=
-Kernel driver in use vfio-pci=Kernel driver in use: vfio-pci
-No changes=
-PCI Devices and IOMMU Groups=
-Reboot to take effect=
-SCSI Devices=
-The below list doesnt not reflect the way IOMMU would naturally group devices=The below list doesn't not reflect the way IOMMU would naturally group devices
-This controller is bound to vfio, connected USB devices are not visible=
-This controller is bound to vfio, connected drives are not visible=
-To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=To see natural IOMMU groups for your hardware, go to the [VM Manager] page and set the **PCIe ACS override** setting to **Disabled**
-USB Devices=
-Your system has booted with the PCIe ACS Override setting enabled=
+A reboot is required to apply changes=مطلوب إعادة التشغيل لتطبيق التغييرات
+ALERT=تنبيه
+Bind selected to VFIO at Boot=اربط التحديد بـ VFIO عند التمهيد
+CPU Thread Pairings=اقتران مؤشرات ترابط المعالج
+Changes saved=تم حفظ التغييرات
+Function Level Reset FLR supported=دعم إعادة تعيين مستوى الوظيفة (FLR)
+In use by Unraid=قيد الاستخدام من قبل Unraid
+Kernel driver in use vfio-pci=برنامج تشغيل Kernel قيد الاستخدام: vfio-pci
+No changes=لا يوجد تغيرات
+PCI Devices and IOMMU Groups=أجهزة PCI ومجموعات IOMMU
+Reboot to take effect=إعادة التشغيل لتصبح سارية المفعول
+SCSI Devices=أجهزة SCSI
+The below list doesnt not reflect the way IOMMU would naturally group devices=لا تعكس القائمة أدناه الطريقة التي تجمع بها IOMMU الأجهزة بشكل طبيعي
+This controller is bound to vfio, connected USB devices are not visible=وحدة التحكم هذه مرتبطة بـ vfio ، أجهزة USB المتصلة غير مرئية
+This controller is bound to vfio, connected drives are not visible=وحدة التحكم هذه مرتبطة بـ vfio ، محركات الأقراص المتصلة غير مرئية
+To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=لرؤية مجموعات IOMMU الطبيعية لجهازك، انتقل إلى صفحة [مدير الأجهزة الافتراضية] وقم بتعيين إعداد **PCIe ACS override** الى **معطّل**
+USB Devices=اجهزة USB
+Your system has booted with the PCIe ACS Override setting enabled=تم تمهيد نظامك مع تمكين إعداد PCIe ACS Override
 
 :diagnostics_1_plug:
-This utility is used for troubleshooting purposes. It will collect all of the system information and configuration files, and package these files in a single ZIP file which can be saved locally.
-Subsequently, this file can be included in your correspondence with Limetech or the Unraid forum.
+يتم استخدام هذه الأداة المساعدة لأغراض استكشاف الأخطاء وإصلاحها. سيجمع كل معلومات النظام وملفات التكوين ، ويحزم هذه الملفات في ملف ZIP مضغوط واحد يمكن حفظه محليًا.
+وبالتالي، يمكن تضمين هذا الملف في مراسلاتك مع Limetech أو منتدى Unraid.
 
-This will help others to quickly get the inside information of your system and provide better support to your problem. The following information
-and configuration files are collected:
+سيساعد هذا الآخرين على الحصول بسرعة على المعلومات الداخلية لنظامك وتقديم دعم أفضل لمشكلتك. يتم جمع ملفات المعلومات والتكوين التالية:
+
 :end
 
 :diagnostics_2_plug:
 + */config*
-  <br>copy all *\*.cfg files*, *go* file and the *super.dat* file. These are configuration files.
+  <br>نسخ جميع ملفات *\*.cfg *، ملف * go* * وملف *super.dat*. هذه هي ملفات التكوين.
 + */config/shares*
-  <br>copy all *\*.cfg* files. These are user share settings files.
+  <br>نسخ جميع ملفات *\*.cfg*. هذه هي ملفات إعدادات مشاركة المستخدم.
 + *Syslog file(s)*
-  <br>copy the current *syslog* file and any previous existing *syslog* files.
+  <br>نسخ ملف *سجل النظام* الحالي وأي ملفات *سجل نظام* سابقة.
 + *System*
-  <br>save output of the following commands:
+  <br>حفظ مخرجات الأوامر التالية:
   <br>lsscsi, lspci, lsusb, free, lsof, ps, ethtool & ifconfig.
-  <br>display of iommu groups.
-  <br>display of command line parameters (e.g. pcie acs override, pci stubbing, etc).
-  <br>save system variables.
+  <br>عرض مجموعات iommu.
+  <br>عرض معاملات سطر الأوامر (e.g. pcie acs override, pci stubbing, etc).
+  <br>حفظ متغيرات النظام.
 + *SMART reports*
-  <br>save a SMART report of each individual disk present in your system.
+  <br>حفظ تقرير SMART لكل قرص فردي موجود في نظامك.
 + *Docker*
-  <br>save files *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* and *vfio-pci*.
+  <br>حفظ الملفات *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* و *vfio-pci*.
 :end
 
 :diagnostics_3_plug:
-Clicking **Download** will start the collection process and then instruct your browser to save the zip file locally.
+يؤدي النقر على **تنزيل** إلى بدء عملية التجميع ثم توجيه متصفحك لحفظ الملف المضغوط محليًا.
 
-*No personal information such as user names, passwords, or any other file contents not specified above is included
-by Unraid OS; however, your server name, IP address, and user share names* **will** *be included.*
+*لا يتم تضمين أي معلومات شخصية مثل أسماء المستخدمين أو كلمات المرور أو أي محتويات ملف أخرى غير محددة أعلاه بواسطة نظام التشغيل Unraid؛ ومع ذلك ، سيتم* **تضمين** *اسم الخادم وعنوان IP وأسماء مشاركة المستخدم.*
 
-*Note that 3rd-party plugins **may** or may not store personal information in plugin-specific configuration files and/or output
-to the system log.*
+*لاحظ أن الملحقات الإضافية للجهات الخارجية **قد** أو لا تخزن المعلومات الشخصية في ملفات التكوين و/أو الإخراج الخاصة بالملحقات الإضافية إلى سجل النظام. *
 
-*Use* **Anonymize diagnostics** *when publishing the diagnostics file in the public forum. In private communication with Limetech it is recommended to uncheck this setting and capture all information unaltered.*
+*استخدم* **إخفاء هوية التشخيص** *عند نشر ملف التشخيص في المنتدى العام. في الاتصالات الخاصة مع Limetech ، يوصى بإلغاء تحديد هذا الإعداد والتقاط جميع المعلومات دون تغيير.*
+
+
 :end
 
 :newconfig_plug:
-This is a utility to reset the array disk configuration so that all disks appear as "New" disks, as
-if it were a fresh new server.
+هذه أداة لإعادة تعيين تكوين اقراص المصفوفة بحيث تظهر كافة الأقراص كأقراص "جديدة" ، مثل
+إذا كان الخادم جديدًا.
 
-This is useful when you have added or removed multiple drives and wish to rebuild parity based on
-the new configuration.
+يفيد ذلك عندما تقوم بإضافة أو إزالة محركات أقراص متعددة وترغب في إعادة بناء التماثل بناءً على التكوين الجديد.
 
-Use the *'Preserve current assignments'* selection to populate the desired disk slots ***after*** the array has been reset. By default **no** disk slots are populated.
+استخدم الاختيار *’الحفاظ على المهام الحالية’* لملء فتحات القرص المطلوبة ***بعد*** إعادة تعيين المصفوفة. بشكل افتراضي **لا** يتم تعبئة فتحات القرص.
 
-**DO NOT USE THIS UTILITY THINKING IT WILL REBUILD A FAILED DRIVE** - it will have the opposite
-effect of making it ***impossible*** to rebuild an existing failed drive - you have been warned!
+**لا تستخدم هذه الأداة المساعدة معتقداً أنها ستعيد بناء محرك أقراص فاشل** - سيكون لها تأثيراً معاكساً يجعل من ***المستحيل*** إعادة بناء محرك أقراص فاشل موجود - لقد تم تحذيرك!
+
+
 :end
 
 :newperms_1_plug:
-This is a mandatory one-time action to be taken after upgrading from a pre-5.0 Unraid server release to Unraid v5 or a later release.
-Select **ALL DISKS** when performing this one-time action.
+هذا إجراء إلزامي يتم إجراؤه لمرة واحدة بعد الترقية من إصدار خادم ما قبل 5.0 Unraid إلى Unraid v5 أو إصدار لاحق.
+حدد **جميع الأقراص** عند تنفيذ هذا الإجراء لمرة واحدة.
 
-This utility is also useful for restoring default ownership/permissions on files and
-directories when transitioning back from Active Directory to non-Active Directory integration.
+هذه الأداة مفيدة أيضًا لاستعادة الملكية / الأذونات الافتراضية للملفات والدلائل عند الانتقال مرة أخرى من Active Directory إلى تكامل غير Active Directory.
 
-The utility starts a background process that goes to each of your data disks and cache disks and selected user shares
-and changes file and directory ownership to *nobody/users* (i.e., uid/gid to 99/100), and sets permissions
-as follows:
+تبدأ الأداة المساعدة العملية في الخلفية بحيث تذهب إلى كل من أقراص البيانات وأقراص التخزين المؤقت ومشاركات المستخدم المحددة
+وتغيير ملكية الملفات والدلائل إلى *nobody/users* (i.e., uid/gid to 99/100)، وتعيين الأذونات كالآتي:
+
+
 :end
 
 :newperms_2_plug:
-For directories:
+للدلائل:
   drwxrwxrwx
 
-For read/write files:
+لقراءة/كتابة الملفات:
   -rw-rw-rw-
 
-For readonly files:
+للملفات المقروءة فقط:
   -r--r--r--
 :end
 
 :newperms_3_plug:
-Clicking **Start** will open another window and start the background process.
+سيؤدي النقر على **بدء** إلى فتح نافذة أخرى وبدء عملية خلفية.
 
-Closing the window before completion will terminate the background process - so don't do that. This process can take a long time if you have many files.
+سيؤدي إغلاق النافذة قبل الانتهاء إلى إنهاء العملية الخلفية - لذلك لا تفعل ذلك. يمكن أن تستغرق هذه العملية وقتًا طويلاً إذا كان لديك العديد من الملفات.
 
-Note that this tool may negatively affect any docker containers if you allow your appdata share to be included.
+لاحظ أن هذه الأداة قد تؤثر سلبًا على أي حاويات دوكر(Docker) إذا سمحت بتضمين مشاركة بيانات التطبيق الخاصة بك.
 :end
 
 :registration_1_plug:
-Your server will not be usable until you purchase a Registration key or install a free 30-day *Trial* key. A *Trial*
-key provides all the functionality of a *Pro* Registration key.
+لن يكون خادمك قابلاً للاستخدام حتى تشتري مفتاح تسجيل أو تثبت مفتاح *تجريبي *مجاني لمدة 30 يومًا. يوفر مفتاح *التجريبي* جميع وظائف مفتاح التسجيل *مميز*.
 
-Registration keys are bound to your USB Flash boot device serial number (GUID).  Please use a high quality name brand device
-at least 1GB in size.
+ترتبط مفاتيح التسجيل بالرقم التسلسلي لجهاز التمهيد الخاص بـ USB Flash (GUID). يُرجى استخدام جهاز عالي الجودة لاسم العلامة التجارية بحجم 1 غيغابايت على الأقل.
 
-Note: USB memory card readers are generally **not** supported because most do not present unique serial numbers.
+ملحوظة: أجهزة قراءة بطاقات ذاكرة USB بشكل عام **غير** مدعومة لأن معظمها لا يقدم أرقامًا تسلسلية فريدة.
+
+
 :end
 
 :registration_2_plug:
-+ Please make sure your [server time](DateTime) is accurate to within 5 minutes.
-+ Please make sure there is a [DNS server](NetworkSettings) specified.
++ يرجى التأكد من أن [وقت الخادم] (التاريخ والوقت) دقيقان في غضون 5 دقائق.
++ يرجى التأكد من تحديد [خادم DNS] في (إعدادات الشبكة).
 :end
 
 :registration_3_plug:
-Your *Trial* key includes all the functionality and device support of a *Pro* Registration key.
+يشمل مفتاحك *التجريبي* جميع الوظائف ودعم الجهاز لمفتاح التسجيل *المميز*.
 
-After your *Trial* key has reached expiration, your server **still functions normally** until the next time you **Stop** the array.
+بعد انتهاء صلاحية مفتاحك *التجريبي*، **سوف يستمر خادمك بالعمل بشكل طبيعي** حتى المرة التالية التي تقوم فيها **بإيقاف** المصفوفة
 
-At that point, you may either purchase a Registration key, or request a *Trial* extension.
+عند هذه المرحلة، يمكنك إما شراء مفتاح تسجيل، أو طلب تمديد *المفتاح التجريبي*.
 :end
 
 :registration_4_plug:
-To continue using Unraid OS you may purchase a Registration key. Alternately, you may request a *Trial* extension key.
+لمتابعة استخدام Unraid OS، يمكنك شراء مفتاح تسجيل. وبدلاً من ذلك، يمكنك طلب تمديد *المفتاح التجريبي*.
 
-Most *Trial* extension requests are processed immediately but please allow up to one business day to receive your *Trial* extension key.
+تتم معالجة معظم طلبات تمديد *الفترة التجريبية* على الفور، ولكن يُرجى الانتظار حتى يوم عمل واحد لاستلام مفتاح تمديد *التجربة*.
 :end
 
 :registration_5_plug:
-It is not possible to use a *Trial* key with an existing Unraid OS installation.
+لا يمكن استخدام مفتاح *تجريبي* مع تثبيت موجود لنظام التشغيل Unraid.
 
-You may purchase a Registration key corresponding to this USB Flash device to continue using this installation.
+يمكنك شراء مفتاح تسجيل مطابق لجهاز USB Flash هذا لمتابعة استخدام هذا التثبيت.
 
-For more information, please [Contact Support](https://lime-technology.com/contact).
+لمزيد من المعلومات ، يرجى [الاتصال بالدعم] (https://lime-technology.com/contact).
 :end
 
 :registration_6_plug:
-It appears that your Registration key file is corrupted or missing.  The key file should be located in the
-[config](/Registration/Browse?dir&#61;/boot/config) directory on your USB Flash boot device.
+يبدو أن ملف مفتاح التسجيل تالف أو مفقود. يجب وضع الملف المفتاح في دليل [config] (/Registration/Browse?dir&#61;/boot/config) على جهاز إقلاع USB Flash الخاص بك.
 
-If you do not have a backup copy of your Registration key file, [Contact Support](https://lime-technology.com/contact).
 
-If this was a *Trial* installation, you may purchase a Registration key.
+إذا لم يكن لديك نسخة احتياطية من ملف مفتاح التسجيل الخاص بك ، [اتصل بالدعم] (https://lime-technology.com/contact).
+
+إذا كان هذا تثبيتًا *تجريبيًا*، فيمكنك شراء مفتاح تسجيل.
 :end
 
 :registration_7_plug:
-*Trial* installations are only valid with the originally registered USB Flash device.
+*التثبيتات التجريبية* صالحة فقط مع جهاز USB Flash المسجل أصلاً.
 
-To continue using this installation with this USB Flash device, you may purchase a Registration key.
+لمتابعة استخدام هذا التثبيت مع جهاز USB Flash هذا ، يمكنك شراء مفتاح تسجيل.
 :end
 
 :registration_8_plug:
-The Registration key file does not correspond to the USB Flash boot device.
-Please copy the correct key file to the [config](/Registration/Browse?dir&#61;/boot/config) directory
-on your USB Flash boot device. If you do not have a backup copy of your key file, [Contact Support](https://lime-technology.com/contact).
+لا يتوافق ملف مفتاح التسجيل مع جهاز تمهيد USB Flash.
+يرجى نسخ ملف المفتاح الصحيح إلى دليل [config] (/Registration/Browse?dir&#61;/boot/config)
+على جهاز التمهيد الخاص بك USB Flash. إذا لم يكن لديك نسخة احتياطية من ملفك المفتاح، [اتصل بالدعم] (https://lime-technology.com/contact).
 
-If you want to replace your Registration key with a new key bound to this USB Flash device, click Replace Key below. An original key may be
-replaced anytime. Thereafter, a replacement key may be replaced again after one year has passed.  If you require
-another replacement key sooner, [Contact Support](https://lime-technology.com/contact).
+إذا كنت تريد استبدال مفتاح التسجيل الخاص بك بمفتاح جديد مرتبط بجهاز USB Flash هذا، فانقر فوق استبدال المفتاح أدناه. يمكن استبدال المفتاح الأصلي في أي وقت. بعد ذلك، يمكن استبدال مفتاح بديل مرة أخرى بعد مرور عام واحد. إذا كنت بحاجة إلى مفتاح بديل آخر في وقت أقرب، [اتصل بالدعم] (https://lime-technology.com/contact).
+**ملاحظة:** يؤدي استبدال مفتاح التسجيل إلى ادراج USB GUID السابق الى القائمة السوداء.
 
-**Note:** Replacing a Registration key results in permanently *blacklisting* the previous USB Flash GUID.
 :end
 
 :registration_9_plug:
-This USB Flash boot device has been *blacklisted*. This can occur as a result of transfering your Registration key to
-a replacement USB Flash device, and you are currently booted from your old USB Flash device.
+تم إدراج جهاز USB Flash هذا في *القائمة السوداء*. يمكن أن يحدث هذا نتيجة لنقل مفتاح التسجيل الخاص بك إلى جهاز USB Flash بديل، وانت حاليا تقوم بالتشغيل من جهاز USB Flash القديم.
 
-A USB Flash device may also be *blacklisted* if there is no serial number, or if we discover the serial number
-is not unique (this is common with USB card readers).
 
-For more information, please [Contact Support](https://lime-technology.com/contact).
+قد يكون جهاز USB Flash *مدرجًا في القائمة السوداء* إذا لم يكن هناك رقم تسلسلي ، أو إذا اكتشفنا أن الرقم التسلسلي ليس فريدًا (وهذا أمر شائع مع قارئات بطاقة USB).
+
+
+لمزيد من المعلومات، يرجى [الاتصال بالدعم] (https://lime-technology.com/contact).
 :end
