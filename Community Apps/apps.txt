@@ -28,7 +28,7 @@ Installations of apps disabled You must accept the warning to be able to install
 Click here=انقر هنا
 
 ; Plugin Disclaimer
-Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=تحتوي تطبيقات المجتمع على حاويات دوكر وتطبيقات ملحقات إضافية مصممة لتحسين نظام التشغيل، يتم تشغيلها بامتيازات كاملة على نظامك وتحديدها بوضوح داخل تطبيقات المجتمع 
+Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=تحتوي تطبيقات المجتمع على حاويات دوكر وتطبيقات ملحقات إضافية مصممة لتحسين نظام التشغيل، يتم تشغيلها بامتيازات كاملة على نظامك وتحديدها بوضوح داخل تطبيقات المجتمع
 Plugin Note=ملاحطة الملحق الإضافي
 
 ; Multi Install
@@ -198,7 +198,7 @@ Uncategorized=غير مصنف
 ; Categories displayed within a popup or on the card
 GameServers=خواد الألعاب
 HomeAutomation=أنظمة تحكم منزلية تلقائية
-MediaApp=تطبيق وسائط 
+MediaApp=تطبيق وسائط
 MediaAppBooks=تطبيق وسائط كتب
 MediaAppMusic=تطبيق وسائط موسيقى
 MediaAppPhotos=تطبيق وسائط صور
@@ -249,7 +249,7 @@ Trending %s=الاتجاه %s
 ; as in As of some date
 As of %s=(As of %s)
 This application template has been blacklisted=تم حظر قالب هذا التطبيق
-This application template has been deprecated=تم إهمال قالب هذا التطبيق 
+This application template has been deprecated=تم إهمال قالب هذا التطبيق
 This application is not compatible with your version of Unraid=هذا التطبيق غير متوافق مع إصدار نظام Unraid خاصتك
 Another browser tab or device has updated the displayed templates Some actions are not available=قام صفحة متصفح أو جهاز آخر بتحديث بعض القوالب المعروضة، بعض الإجراءات غير متاحة
 Reinstall default=إعادة تثبيت الخيار الافتراضي
@@ -279,7 +279,7 @@ Total Downloads=إجمالي التنزيلات
 ; Multi install script
 Installing docker applications %s=تثبيت تطبيقات دوكر %s
 Starting %s=البدء %s
-%s failed to start You should install it by itself to fix the errors=%s لإصلاح الأخطاء فشل البدء، يجب تثبيته بنفسك 
+%s failed to start You should install it by itself to fix the errors=%s لإصلاح الأخطاء فشل البدء، يجب تثبيته بنفسك
 Setting installed applications to autostart=إعدادات التطبيقات المثبتة للبدء التلقائي
 Docker Application Installation finished=انتهاء تثبيت تطبيق دوكر
 
@@ -333,7 +333,7 @@ Clicking this icon will uninstall the application or delete it from the lists de
 Clicking these icons will pin or unpin an application for later viewer from the Pinned Apps section=النقر على هذه الأيقونات سيعلق  أو يزيل تعليق تطبيق لمشاهد لاحق من قسم تطبيق معلق
 Clicking this will display more information about the application NOTE You can also click on the applications icon to display more information=النقر على هذا سيظهر المزيد من المعلومات عن التطبيق، يمكنك أيضًا النقر على أيقونة التطبيق لعرض المزيد من المعلومات
 Clicking this will display any warnings or extra comments about the application=النقر على هذا سيعرض تحذيرات أو تعليقات إضافية عن التطبيق
-On the previous apps section you can select multiple applications to install simultaneously=في قسم التطبيقات السابقة، يمكنك تحديد عدة تطبيقات لتثبيتها في نفس الوقت 
+On the previous apps section you can select multiple applications to install simultaneously=في قسم التطبيقات السابقة، يمكنك تحديد عدة تطبيقات لتثبيتها في نفس الوقت
 This is the recommended version to install by the application author themselves=هذا الإصدار الموصى بتثبيته من قبل مؤلف التطبيق نفسه
 For support for this plugin visit=لمزيد من الدعم للملحق الإضافي هذا قم بزيارة
 To view the policies Community Applications has=لقراءة نهج تطبيقات المجتمع
