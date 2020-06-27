@@ -39,7 +39,7 @@ Search=بحث
 Please enter search term=ادخل كلمة البحث
 Click Here To Get More Results From DockerHub=اضغط هنا للحصول على نتائج من DockerHub
 No Matching Applications Found On Docker Hub=لا توجد نتائج متوفرة من DockerHub
-No Matching Applications Found= لا توجد نتائج للتطبيقات
+No Matching Applications Found=لا توجد نتائج للتطبيقات
 
 ; Install Plugin title of openbox
 Install Plugin=تثبيت الملحق الإضافي
@@ -82,7 +82,7 @@ An error occurred Could not find any %s Apps=حدث خطأ لم نستطع إي�
 Download of appfeed failed=فشل تنزيل صفحة التطبيقات
 
 ; the %s here refers to a function being called
-Something really went wrong here= حدث خطأ ما
+Something really went wrong here=حدث خطأ ما
 Post the ENTIRE contents of this message in the Community Applications Support Thread=انشر محتويات هذه الرسالة بالكامل في منتدى الدعم تطبيقات المجتمع
 Unknown error happened Please post a screenshot in the support thread of the Statistics screen=حدث خطأ غير معروف، أرسل صورة إحصائيات الخطأ في منتدى الدعم
 Something really wrong happened Reloading the Apps tab will probably fix the problem=حدث خطأ ما، تحديث صفحة التطبيقات قد يصلح المشكلة
@@ -115,7 +115,7 @@ Application Feed=موجز التطبيقات
 Additional Testing=تجارب إضافية
 Moderation=الإشراف
 Additional Libraries=مكتبات إضافية
-Copyright= حقوق الطبع
+Copyright=حقوق الطبع
 Translation=الترجمة
 
 ; Statistics page
@@ -149,9 +149,9 @@ All Moderation Entries=كل تغييرات الإشراف
 ; Statistics Popup
 No invalid templates found=لا يوجد قوالب غير صالحة
 These templates are invalid and the application they are referring to is unknown=هذه القوالب غير صالحة والتطبيق المشار إليه غير معروف
-No templates were automatically fixed= لم يتم إصلاح أي قالب بشكل أتوماتيكي
+No templates were automatically fixed=لم يتم إصلاح أي قالب بشكل أتوماتيكي
 All of these errors found have been fixed automatically=تم إصلاح جميع هذه الأخطاء بشكل أتوماتيكي
-Note that many of these errors can be avoided by following the directions= يمكنك تجنب أغلب هذه الأخطاء باتباع التعليمات
+Note that many of these errors can be avoided by following the directions=يمكنك تجنب أغلب هذه الأخطاء باتباع التعليمات
 HERE=**هنا**
 The following plugins have duplicated filenames and are not able to be installed simultaneously=هذه الإضافات ذات أسماء متكررة ولا يمكن تثبيتها بشكل متزامن
 The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=تطبيقات دوكر هذه تشير لنفس مستودع دوكر ولكن تحمل تغييرات في القالب لضمان هذا الأمر
@@ -238,7 +238,7 @@ DockerHub Stars=نجوم DockerHub
 Added to CA=أضف إلى تطبيقات المجتمع
 Date Updated=تاريخ التحديث
 Current Version=الإصدار الحالي
-Minimum OS= نظام تشغيل الأدنى
+Minimum OS=نظام تشغيل الأدنى
 Max OS=نظام التشغيل الأقصى
 Total Downloads=عدد التنزيلات
 Licence=الترخيص
@@ -323,7 +323,7 @@ Installed Version=الإصدار المثبت
 
 ; Help Text
 This chooses how to sort the results=لاختيار كيفية تصنيف النتائج
-These icons respectively will Install or Edit an application= ستثبت أو تحرر  هذه الأيقونات على التوالي تطبيق ما
+These icons respectively will Install or Edit an application=ستثبت أو تحرر  هذه الأيقونات على التوالي تطبيق ما
 Clicking these icons will take you to an applications GUI or settings=النقر على هذه الأيقونات سينقلك لصفحة التطبيقات GUI أو الإعدادات
 This will update an application=هذا سيحدّث تطبيقًا
 This will take you to the appropriate support thread for an application=هذا سينقلك لمنتدى الدعم الموافق للتطبيق
