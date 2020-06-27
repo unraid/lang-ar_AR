@@ -11,4 +11,4 @@ This setting allows CA to periodically scan your system and alert you to the pre
 1 Known malware and security vulnerabilities within applications=1 برنامج ضار وشكلة أمنية في التطبيقات
 2 Critical security vulnerabilities within Unraid OS=2 مشكلة أمنية حرجة في نظام تشغيل Unraid
 3 Any installed applications which may seriously hinder the operation of your server=3 أي تطبيق مثبت يثبط تشغيل نظام الخادم
-Support Thread= منتدى الدعم
+Support Thread=منتدى الدعم
