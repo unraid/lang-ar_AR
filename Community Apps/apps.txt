@@ -17,7 +17,6 @@ Sort By Name Descending=ترتيب الأسماء تنازليًا
 Sort By Downloads=ترتيب حسب عدد التنزيلات
 Sort By Trend=ترتيب حسب الاتجاه الرائج
 Sort By Date Added=ترتيب حسب التاريخ
-
 ; Initial disclaimer translations
 Disclaimer=إخلاء مسؤولية
 All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=جميع التطبيقات المدرجة هنا هي إضافات من طرف ثالث إلى Unraid، لا يقدم أصحاب تطبيقات المجتمع وشركة Limetech أي ضمان فيما يتعلق بملاءمة أي تطبيق مدرج هنا
@@ -80,13 +79,13 @@ Finished Installing If the DONE button did not appear, then you will need to cli
 No data was returned It is probable that another browser session has rebooted your server Reloading this browser tab will probably fix this error=لا توجد معلومات للعرض، على الأغلب، طلب متصفح آخر لإعادة تشغيل الخادم، يمكن حل المشكلة بتحديث صفحة المتصفح على الأغلب
 An error occurred Could not find any %s Apps=حدث خطأ لم نستطع إيجاد %s أي من التطبيقات
 Download of appfeed failed=فشل تنزيل صفحة التطبيقات
-
 ; the %s here refers to a function being called
 Something really went wrong here=حدث خطأ ما
 Post the ENTIRE contents of this message in the Community Applications Support Thread=انشر محتويات هذه الرسالة بالكامل في منتدى الدعم تطبيقات المجتمع
 Unknown error happened Please post a screenshot in the support thread of the Statistics screen=حدث خطأ غير معروف، أرسل صورة إحصائيات الخطأ في منتدى الدعم
 Something really wrong happened Reloading the Apps tab will probably fix the problem=حدث خطأ ما، تحديث صفحة التطبيقات قد يصلح المشكلة
 This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=يحتوي هذا الملحق الإضافي على اسم مكرر من ملحق إضافي آخر **%s** سيؤثر هذا على قدرتك على تثبيت كلا الملحقين الإضافيين في وقت واحد
+You have been logged out=
 
 ; CA Sections Keep the length reasonable
 MENU=القائمة
@@ -120,7 +119,6 @@ Translation=الترجمة
 
 ; Statistics page
 Deprecated Applications are able to still be installed if you have previously had them installed New installations of these applications are blocked unless you enable Display Deprecated Applications within CAs General Settings=هناك إمكانية لتثبيت التطبيقات المهملة إذا سبق لك تثبيتها، تحظر عمليات التثبيت الجديدة لهذه التطبيقات ما لم تقم بالتمكن من عرض التطبيقات المهملة داخل الإعدادات العامة لتطبيقات المجتمع
-
 The following applications are blacklisted CA will never allow you to install or reinstall these applications=هذه التطبيقات محظورة ولن  تدعك تطبيقات المجتمع بتثبيتها أو إعادة تثبيتها أبدًا
 While highly not recommended to do, incompatible applications can be installed by enabling Display Incompatible Applications within CAs General Settings=**على الرغم من عدم نصحنا بهذا الإجراء، ** يمكن تثبيت تطبيقات غير متوافقة بعد تمكين عرض التطبيقات غير المتوافقة في إعدادات تطبيقات المجتمع
 This display is informational ONLY=هذا العرض للعلم فقط
@@ -195,7 +193,7 @@ Utilities=أدوات مساعدة
 Private Apps=تطبيقات خاصة
 Uncategorized=غير مصنف
 
-; Categories displayed within a popup or on the card
+; Categories displayed within a popup or on the card.  Where an entry exists after the "=" it is not translated, but rather how it should look
 GameServers=خواد الألعاب
 HomeAutomation=أنظمة تحكم منزلية تلقائية
 MediaApp=تطبيق وسائط
@@ -320,6 +318,8 @@ Install Language Pack=تثبيت حزمة اللغة
 Remove Language Pack=حذف حزمة اللغة
 Update Language Pack=تحديث حزمة اللغة
 Installed Version=الإصدار المثبت
+A note about translations=
+Click here to view the language changelog=
 
 ; Help Text
 This chooses how to sort the results=لاختيار كيفية تصنيف النتائج
