@@ -1398,186 +1398,180 @@ A mirror of the syslog file is stored in the **logs** folder of the flash device
 :end
 
 :confirm_reboot_help:
-Choose if rebooting or powering down the server needs a confirmation checkbox.
+حدد إذا تريد التأكيد عند إعادة/إيقاف التشغيل
 :end
 
 :confirm_array_stop_help:
-Choose if stopping the array needs a confirmation checkbox.
+حدد إذا تريد التأكيد عند إيقاف المصفوفة
 :end
 
 :display_settings_help:
-The display settings below determine how items are displayed on screen. Use these settings to tweak the visual effects to your likings.
+إعدادات العرض هذه تحدد طريقة عرض العناصر على الشاشة. إستخدام هذه الإعدادات لتغيير ما يعرض امامكم
 
-You can experiment with these settings as desired, they only affect visual properties.
+يمكنكم تجربة الإعدادات قد الإمكان، أي تغيير هو تغيير مرئي
 :end
 
 :display_font_size_help:
-This is a per device setting
+الإعدادات لكل جهاز على حدة
 :end
 
 :display_wwn_device_id_help:
-World Wide Name (WWN) is a unique identifier used for SAS attached devices.
+اسم النطاق العالمي(WWN) هو معرف فريد يستخدم لأجهزة SAS
 
-Select *Disabled* to suppress the appending of WWN to the device identification
+حدد *تعطيل* لإيقاف إضافة WWN لتعريف الجهاز
 
-Select "Automatic" to append WWN to the device identification in case of SAS devices
+حدد *تلقائي*  لإضافة WWN لتعريف الجهاز في حالة كان الجهاز SAS
 :end
 
 :display_custom_text_color_help:
-Overrule the default text color in the header. This can be used to match the text color with a background image.
+تجاوز اللون الإفتراضي نص العنوان. يستخدم لمماثلة لون النص مع لون الخلفية
 :end
 
 :display_custom_background_color_help:
-Overrule the default background color in the header. This can be used to match the background color with a custom text color.
+تجاوز اللون الإفتراضي للخلفية خلف العنوان. يستخدم لمماثلة لون الخلفية مع لون النص
 :end
 
 :display_custom_banner_help:
-Image will be scaled to 1920x90 pixels. The maximum image file upload size is 512 kB (524,288 bytes).
+الصورة سيتغير حجمها إلى 1920x90 بكسل. أكبر حجم لرفع صورة هو 512 كيلو بايت (524,512 بايت)
 :end
 
 :display_temperature_unit_help:
-Selects the temperature unit for the disk temperature thresholds. Changing the unit will adjust the existing value in the disk temperature thresholds as appropriate.
+حدد حدود الحرارة القصوى للقرص. تغيير المقياس سيغير القيم الموجدة لحرارة القرص
 
-Make sure any newly entered values represent the selected temperature unit.
+تأكد من القيم المدخلة انها مطابقة للمقايس المختار
 :end
 
 :vms_enable_help:
-Stopping the VM Manager will first attempt to shutdown all running VMs. After 60 seconds, any remaining VM instances will be terminated.
+إيقاف مدير VM سيأثر إلى إيقاف جميع الVMs. بعد 60 ثانية، أي VM سيغلق
 :end
 
 :vms_libvirt_volume_help:
-This is the libvirt volume.
+هذه مساحة تخزين libvirt.
 :end
 
 :vms_libvirt_vdisk_size_help:
-If the system needs to create a new libvirt image file, this is the default size to use specified in GB.
-To resize an existing image file, specify the new size here. Next time the Libvirt service is started the file (and file system) will increased to the new size (but never decreased).
+إذا النظام تتطلب إنشاء مساحة تخزينية جديدة لملف libvirt، هذه المساحة الإفتراضية محدد بجيجا بايت.
+لتغير حجم الملف، حدد الحجم الجديد هنا. مستقبلا عند بدء خدمة libvirt الملف (نظام الملفات) سيزداد حجم للحجم الجديد (لكن لن يتقلص ابدًا)
 :end
 
 :vms_libvirt_location_help:
-You must specify an image file for Libvirt. The system will automatically create this file when the Libvirt service is first started.
+يجب ان تحدد ملف لLibvirt. سينشئ النظام ملف تلقائيًا عند تشغيل خدمة Libvirt لأول مرة.
 :end
 
 :vms_libvirt_storage_help:
-Specify a user share that contains all your VM subdirectories with vdisks
+حدد مجلد مشاركة يتضمن جميع مجلدات الVMs و VDisks
 :end
 
 :vms_libvirt_iso_storage_help:
-Specify a user share that contains all your installation media for operating systems
+حدد مجلد مشاركة يتضمن جميع وسائط التثبيت الخاصة بالنظام
 :end
 
 :vms_virtio_driver_help:
-Specify the virtual CD-ROM (ISO) that contains the VirtIO Windows drivers as provided by the Fedora Project.
-Download the latest ISO from here: <a href="https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html#virtio-win-direct-downloads" target="_blank">fedoraproject.org</a>
+حدد قرص إفتراضي CD-ROM (ISO) يتحوي على VirtIO برامج تشغيل ويندوز المقدمة من مشروع Fedora
+حمل أخر اصدار من هنا : <a href="https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html#virtio-win-direct-downloads" target="_blank">fedoraproject.org</a>
 
-When installing Windows, you will reach a step where no disk devices will be found. There is an option to browse for drivers on that screen.
-Click browse and locate the additional CD-ROM in the menu. Inside there will be various folders for the different versions of Windows.
-Open the folder for the version of Windows you are installing and then select the AMD64 subfolder inside (even if you are on an Intel system, select AMD64).
-Three drivers will be found. Select them all, click next, and the vDisks you have assigned will appear.
+عند تثبيت ويندوز، ستصل إلى خطوة لا يظهر فيها أي قرص. هناك خيار تصفح برامج الشتغيل.
+انقر تصفح وحدد قرص CD-ROM من القائمة. بداخل سيكون هنالك عدة مجلدات لعدة إصدارات من ويندوز.
+افتح المجلد لإصدار ويندوز الخاص بك و حدد مجلد AMD64 بداخل ذلك المجلد (حتى اذا كان نظامك يستخدم معالجات Intel).
+ثلاث برامج تشغيل ستظهر. حددهم كلهم، وانقر التالي وحدد الأقراص الإفتراضية (VDisks) التي حددتها.
 :end
 
 :vms_network_bridge_help:
-Select the name of the network bridge you wish to use as default for your VMs,
-the setting 'virbr0' will let libvirt create a virtual bridge that utilizes NAT (network address translation)
-and act as a DHCP server to hand out IP addresses to virtual machines directly.
-More optional selections are present when virtual bridges are created under network settings.
+حدد جسر الشبكة الإفتراضي لإستخدامه على VMs،
+الإعداد 'virbr0' سيجعل LibVirt ينشئ جسر ظاهري يستخدمه فيه NAT (ترجمة عنوان الشبكة)
+ويأدي دور خادم DHCP لإرسال عناوين IP للأجهزة الظاهرية مباشرة.
+توجد تحديدات اختيارية اكثر عند إنشاء جسر ظاهري تحت إعدادات الشبكة.
 
-NOTE: You can also specify a network bridge on a per-VM basis.
+تنبيه: يمكن تحديد جسر شبكة لكل VM
 :end
 
 :vms_host_shutdown_help:
-When shutting down the server, this defines the action to take upon running VMs. If *Hibernate VMs* is chosen,
-the VM will be instructed to hibernate (if supported) otherwise it will attempt a VM shutdown.
+عند إيقاف النظام، هذا سيحدد ما يحصل لأي جهاز ظاهري قيد العمل. إذا كان *اسبات الجهاز الظاهري* محدد،
+الجهاز الظاهري يذهب إلى وضع السبات (إن كان مدعوم) غير ذلك سيتم إيقافه.
 :end
 
 :vms_shutdown_timeout_help:
-When shutting down the server, this defines how long to wait in seconds for *graceful* VM shutdown before forcing shutdown to continue.
-NOTE: It's recommended to shut down guest VMs from within the VM.
+عند إيقاف النظام، هذا يحدد المدة الزمنية للإيقاف *الطبيعي* للأجهزة الظاهرية قبل إيقاف النظام.
+تنبيه: ينصح بإيقاف الأجهزة الظاهرية من داخلها.
 :end
 
 :vms_acs_override_help:
-*PCIe ACS override* allows various hardware components to expose themselves as isolated devices.
-Typically it is sufficient to isolate *Downstream* ports.
-A hardware component may need the setting *Multi-function* or *Both* to further isolate different hardware functions.<br>
-A reboot is required for changes to this setting to take affect.
+*تجاوز PCIe ACS* يسمح بالعديد من الأجهزة ان تظهر كجهاز منفصل.
+بشكل طبيعي يكفي إستخدام منافذ *Downstream*.
+لكل الأجهزة لربما تحتاج خيار *Multi-function* او *Both* لفصلها بشكل كامل.<br>
+إعادة التشغيل مطلوبة لإتمام التغييرات.
 
-**Warning: use of this setting could cause possible data corruption with certain hardware configurations.**
-Please visit the [Lime Technology forums](https://forums.unraid.net/forum/51-vm-engine-kvm) for more information.
+**تحذير: عند إستخدام هذه الإعدادات ربما يحصل فقدان للبيانات مع بعض الأجهزة**
+الرجاء مراجعة[منتديات Lime Technology](https://forums.unraid.net/forum/51-vm-engine-kvm) للمزيد من المعلومات.
 :end
 
 :vms_vfio_interupts_help:
-If your system doesn't support interrupt remapping, these can be enabled by allowing unsafe interrupts.<br>
-A reboot will be required for changes to this setting to take affect.
+إذا كان جهازك لا يدعم اعتراض إعادة التخطيط، يمكن تفعيل هذا الأمر بالسماح للاعتراض غير الأمن.<br>
+إعادة التشغيل مطلوبة لإتمام التغييرات.
 
-**Warning: use of this setting could cause possible data corruption with certain hardware configurations.**
-Please visit the [Lime Technology forums](https://forums.unraid.net/forum/51-vm-engine-kvm) for more information.
+**تحذير: عند إستخدام هذه الإعدادات ربما يحصل فقدان للبيانات مع بعض الأجهزة**
+الرجاء مراجعة[منتديات Lime Technology](https://forums.unraid.net/forum/51-vm-engine-kvm) للمزيد من المعلومات.
 :end
 
 :vms_libvirt_log_help:
-View the log for libvirt: <a id="openlog" title="/var/log/libvirt/libvirtd.log" href="#" onclick="openWindow('/webGui/scripts/tail_log&arg1=libvirt/libvirtd.log','_(Libvirt Log)_',600,900);">/var/log/libvirt/libvirtd.log</a>
+إظهار سجلات Libvert: <a id="openlog" title="/var/log/libvirt/libvirtd.log" href="#" onclick="openWindow('/webGui/scripts/tail_log&arg1=libvirt/libvirtd.log','_(Libvirt Log)_',600,900);">/var/log/libvirt/libvirtd.log</a>
 :end
 
 :vms_scrub_help:
-**Scrub** runs the *btrfs scrub* program to check file system integrity.
-If repair is needed you should check the *Correct file system errors* and run a second Scrub pass; this will permit *btrfs scrub* to fix the file system.
+**تنقيح** يعمل على *تنقيح btrfs* لتأكد من صلاحية نظام الملفات.
+إذا تطلب أي إصلاح يجب عليك تحديد *إصلاح أخطاء نظام الملفات* وتشغيل التنقيح مرة أخرى; هذا سيسمح ل*تنقيح btrfs* بإصلاح نظام الملفات.
 :end
 
 :vms_cancel_help:
-**Cancel* will cancel the Scrub operation in progress.
+**إلغاء* سيتم إلغاء عملية التنقيح الجارية حاليا.
 :end
 
 :eth_interface_description_help:
-Use this optional field to provide addditional information about the purpose of the connection.
+إستخدم هذا الحقل لتوضيح سبب الإتصال.
 :end
 
 :eth_mac_address_help:
-This is the hardware address of the interface.
-When tagging is enabled all VLANs on this interface will share the same hardware address.
+هذا عنوان الجهاز لواجهة الإستقبال.
+عند تفعيل وضع العلامة جميع الVLANs على واجهة الإستقبال سيتشاركوا عنوان الجهاز.
 :end
 
 :eth_enable_bonding_help:
-Bonding is a feature that combines multiple physical Ethernet interfaces into a single *bonded* interface named **bond0**.
-This can be used to improve the connection redundancy and/or throughput of the system.
-Different bonding modes are supported (see below), but some modes require proper switch support.
+الترابط هو خاصية تجمع عدة واجهات إستقبال فعلية إلى واجهة واحدة *مترابطة* تدعى **bond0**. 
+يمكن إستخدام هذه الخاصية لتحسين كفائة و قدرة الإتصال على النظام.
+تختلف طرق الترابط المدعومة(انظر بالأسفل)، بعض الطرق تتطلب دعم من المبدل(Network Switch).
 :end
 
 :eth_bonding_mode_help:
-**Mode 0 (balance-rr)**<br>
-This mode transmits packets in a sequential order from the first available slave through the last.
-If two real interfaces are slaves in the bond and two packets arrive destined out of the bonded interface the first will be transmitted on the first slave and the second frame will be transmitted on the second slave.
-The third packet will be sent on the first and so on. This provides load balancing and fault tolerance.
+**الوضع 0 (balance-rr)**<br>
+هذا الوضع ينقل الحزم بطريقة تسلسلة من أول تابع إلى الأخير.
+إذا كان هنالك واجهتين إستقبال حقيقتين كتابعين في الترابط وتم إستقبال حزمتين من خارج واجهة الإستقبال، الأولى ستذهب إلى أول تابع والثانية ستذهب إلى التابع الثاني.
+الحزمة الثالثة ستذهب عن طريق الأول. وبذلك يوفر هذا الوضع موازنة الضغط و تحمل الفشل.
 
-**Mode 1 (active-backup) - default**<br>
-This mode places one of the interfaces into a backup state and will only make it active if the link is lost by the active interface.
-Only one slave in the bond is active at an instance of time. A different slave becomes active only when the active slave fails.
-This mode provides fault tolerance.
+**الوضع 1 (active-backup) - الإفتراضي**<br>
+هذا الوضع يضع واحدة من واجهات الإستقبال في حالة إحتياطية و ستفعل فقط إذا فقد الإتصال بالواجهة الحالية.
 
-**Mode 2 (balance-xor)**<br>
-This mode transmits packets based on an XOR formula. Source MAC address is XOR'd with destination MAC address modula slave count.
-This selects the same slave for each destination MAC address and provides load balancing and fault tolerance.
+**الوضع 2 (balance-xor)**<br>
+هذا الوضع ينقل الحزم بالإعتماد على معادلة XOR. سيعادل عنوان MAC المصدر إلى عنوان MAC المستقبل ويعادلان إلى عدد التابعين.
 
-**Mode 3 (broadcast)**<br>
-This mode transmits everything on all slave interfaces. This mode is least used (only for specific purpose) and provides only fault tolerance.
+**الوضع 3 (broadcast)**<br>
+هذا الوضع يرسل كل المعلومات على واجهة التابع. هذا الوضع الأقل إستخدامًا(في حالة خاصة) ويوفر فقط حماية من الفشل.
 
-**Mode 4 (802.3ad)**<br>
-This mode is known as *Dynamic Link Aggregation*. It creates aggregation groups that share the same speed and duplex settings.
-It requires a switch that supports IEEE 802.3ad dynamic link.
-Slave selection for outgoing traffic is done according to the transmit hash policy, which may be changed from the default simple XOR policy via the xmit_hash_policy option.
-Note that not all transmit policies may be 802.3ad compliant, particularly inregards to the packet mis-ordering requirements of section 43.2.4 of the 802.3ad standard.
-Different peer implementations will have varying tolerances for noncompliance.
+**الوضع 4 802.3ad)**<br>
+هذا الوضع يعرف ب*تجميع الارتباط الديناميكي*. ينشئ تجمعات تتشارك السرعة و إعدادات الإزدواجية.
+لكن يتطلب مبدل يدعم IEEE 802.3ad رابط ديناميكي.
+تحديد التابعين لسير المعلومات الصادرة يتم بشروط تجزئة النقل، ويمكن تغييره من معادلة XOR الإفتراضية عن طريق xmit_hash_policy.
+تنبيه ليس كل شروط النقل متوافقة مع 802.3ad، بالتحديد متطلب ترتيب الحزمة الخاطئة من القسم 43.2.4 من مقياس 802.3ad.
 
-**Mode 5 (balance-tlb)**<br>
-This mode is called *Adaptive transmit load balancing*. The outgoing traffic is distributed according to the current load and queue on each slave interface.
-Incoming traffic is received by the current slave.
+**الوضع 5 (balance-tlb)**<br>
+هذا الوضع يسمى *موازنة نقل التوافقية*.النقل الصادر يوزع بالإعتماد على الضغط الحالي و تسلسل الواجهات التابعة.
 
-**Mode 6 (balance-alb)**<br>
-This mode is called *Adaptive load balancing*. This includes balance-tlb + receive load balancing (rlb) for IPV4 traffic.
-The receive load balancing is achieved by ARP negotiation.
-The bonding driver intercepts the ARP Replies sent by the server on their way out and overwrites the src hw address with the unique hw address of one of the slaves in the bond
-such that different clients use different hw addresses for the server.
+**الوضع 6 (balance-alb)**<br>
+هذا الوضع يسمى *موازنة الضغط التوافقية*. يتضمن balance-tlb + موازنة ضغط الإستقبال (rlb) للعمليات نقل IPV4.
+rlb يتم تحقيقه مناقشة ARP.
+اجهزة الترابط التشغيلة تستقبل ردود ARP المرسلة من الخادم على طريقهم و يغير عنوان src الفعلي بعنوان فعلي فريد لكل تابع في الترابط ليكون لكل مستخدم عنوان فعلي فريد للخادم.
 
-*Mode 1 (active-backup) is the recommended setting. Other modes allow you to set up a specific environment, but may require proper switch support.
-Choosing a unsupported mode can result in a disrupted communication.*
+*الوضع 1 (active-backup) الوضع المقترح. الأوضاع الأخرى تمكنك من إنشاء محيط محدد، لكن يتطلب مبدل خصيص.
+*إستخدام وضع غير متوافق سيأثر في التواصل.*
 :end
 
 :eth_bonding_members_help:
