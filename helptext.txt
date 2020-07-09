@@ -1416,7 +1416,7 @@ A mirror of the syslog file is stored in the **logs** folder of the flash device
 :end
 
 :display_wwn_device_id_help:
-اسم النطاق العالمي(WWN) هو معرف فريد يستخدم لأجهزة SAS
+اسم النطاق العالمي (WWN) هو معرف فريد يستخدم لأجهزة SAS
 
 حدد *تعطيل* لإيقاف إضافة WWN لتعريف الجهاز
 
@@ -1498,7 +1498,7 @@ A mirror of the syslog file is stored in the **logs** folder of the flash device
 :vms_acs_override_help:
 *تجاوز PCIe ACS* يسمح بالعديد من الأجهزة ان تظهر كجهاز منفصل.
 بشكل طبيعي يكفي إستخدام منافذ *Downstream*.
-لكل الأجهزة لربما تحتاج خيار *Multi-function* او *Both* لفصلها بشكل كامل.<br>
+لكل الأجهزة لربما تحتاج خيار *Multi-function* أو *Both* لفصلها بشكل كامل.<br>
 إعادة التشغيل مطلوبة لإتمام التغييرات.
 
 **تحذير: عند إستخدام هذه الإعدادات ربما يحصل فقدان للبيانات مع بعض الأجهزة**
@@ -1575,144 +1575,145 @@ rlb يتم تحقيقه مناقشة ARP.
 :end
 
 :eth_bonding_members_help:
-Select which interfaces are member of the *bonded* interface. By default eth0 is a member, while other interfaces are optional.
+حدد أي واجهة تنتمي إلى الواجهة *المترابطة*. إفتراضيًا eth0 يتنمي، بينما الأخرون إختياري إنتمائهم. 
 :end
 
 :eth_enable_bridging_help:
-Bridging is a feature which creates a virtual bridge and allows VMs and Docker containers to communicate directly with the physical Ethernet port.
-Both bonding and bridging can be combined to let VMs or containers communicate over a *bonded* interface.
+التجسير هي خاصية تنشئ جسر إفتراضي وتسمح للVMs و حاويات دوكر لتواصل مباشرة مع منفذ Ethernet.
+كلا الجسر والترابط يمكن دمجهم لجعل الVMs و الحاويات تتواصل عبر واجهة *مترابطة*.
 :end
 
 :eth_bridging_members_help:
-Select which interfaces are member of the *bridged* interface. By default eth0 is a member, while other interfaces are optional.
+حدد أي واجهة تنتمي إلى واجهة *جسر*. إفتراضيًا eth0 يتنمي، بينما الأخرون إختياري إنتمائهم. 
 :end
 
 :eth_network_protocol_help:
-Select which protocol(s) are used. By default IPv4 only is used.<br>
-When both IPv4 and IPv6 is selected, each protocol can be configured independently.
+حدد أي بورتوكول يستخدم. IPv4 الوحيد المستخدم إفتراضيًا.<br>
+عند تحديد كلا IPv4 و IPv6، كلا البروتوكلين يمكن إعدادهم على حدى.
 :end
 
 :eth_ipv4_address_assignment_help:
-The following settings are possible:
+الإختيارات التالية ممكنة:
 
-*Automatic* - the server will attempt to obtain a IPv4 address from the local DHCP server<br>
-*Static* - the IPv4 address is manually set for this interface<br>
-*None* - no IPv4 address is assigned to the interface (only available for VLANs)
+*تلقائي* - النظام سيحاول الحصول على عنوان IPv4 من خادم DHCP المحلي<br>
+*ثابت* - عنوان IPv4 يحدد يدويًا من الإعدادات<br>
+*بدون* - لن يحدد عنوان IPv4 للواجهة (متوفر فقط للVLANs)
 :end
 
 :eth_ipv4_address_help:
-Greyed out when using automatic IP assignment. Otherwise specify here the IPv4 address and mask of the system.
+غير مفعلة عند إستخدام تعيين عنوان تلقائي. غير ذلك ادخل هنا عنوان IPv4 و قناع النظام.
 :end
 
 :eth_ipv4_default_gateway_help:
-Greyed out when using automatic IP assignment. Otherwise specify here the IPv4 address of your router.
+غير مفعلة عند إستخدام تعيين عنوان تلقائي. غير ذلك ادخل هنا عنوان موجه الشبكة(Router) IPv4.
 :end
 
 :eth_ipv4_dns_server_assignment_help:
-If set to *Automatic* the server will use IPv4 DNS server(s) returned by the local automatic assignment.<br>
-If set to *Static* you may enter your own list.
+إذا كان *تلقائي* النظام سيحدد عنوان IPv4 من خلال خادم DNS.<br>
+إذا كان *ثابت* يمكنك إدخال قائمتك الخاصة.
 
-This is useful in Active Directory configurations where you need to set the first DNS Server entry to the IP address of your AD Domain server.
+هذه الخاصية مفيدة عند إستخدام إعدادات Active Directory حيث تدخل خادم Active Directory في الحقل اول لخادم DNS.
 :end
 
 :eth_ipv4_dns_server_help:
-This is the primary IPv4 DNS server to use. Enter a IPv4 address.
+هذا عنوان IPv4 لخادم DNS المستخدم. ادخل عنوان IPv4.
 
-Note: for *Active Directory* you **must** ensure this is set to the IP address of your AD Domain server.
+تنبيه: لإستخدام *Active Directory*  **يجب** يجب ادخال عنوان IP الخاص به.
 :end
 
 :eth_ipv4_dns_server2_help:
-This is the IPv4 DNS server to use when IPv4 DNS server 1 is down.
+هذا عنوان IPv4 DNS عند تعطل الخادمة الأول.
 :end
 
 :eth_ipv4_dns_server3_help:
-This is the IPv4 DNS server to use when IPv4 DNS servers 1 and 2 are both down.
+هذا عنوان IPv4 DNS عند تعطل الخادمة الأول و الثاني.
 :end
 
 :eth_ipv6_address_assignment_help:
-The following settings are possible:
+الإختيارات التالية ممكنة:
 
-*Automatic* - the server will attempt to obtain a IPv6 address from the local DHCP server or Router Advertisement (RA)<br>
-*Static* - the IPv6 address is manually set for this interface<br>
-*None* - no IPv6 address is assigned to the interface (only available for VLANs)
+*تلقائي* - النظام سيحاول الحصول على عنوان IPv6 من خادم DHCP المحلي<br>
+*ثابت* - عنوان IPv6 يحدد يدويًا من الإعدادات<br>
+*بدون* - لن يحدد عنوان IPv6 للواجهة (متوفر فقط للVLANs)
 :end
 
 :eth_ipv6_address_help:
-Greyed out when using automatic IP assignment. Otherwise specify here the IPv6 address of the system.
+غير مفعلة عند إستخدام تعيين عنوان تلقائي. غير ذلك ادخل هنا عنوان IPv6.
 :end
 
 :eth_ipv6_default_gateway_help:
-Greyed out when using automatic IP assignment. Otherwise specify here the IPv6 address of your router.
+غير مفعلة عند إستخدام تعيين عنوان تلقائي. غير ذلك ادخل هنا عنوان موجه الشبكة(Router) IPv6.
 :end
 
 :eth_ipv6_privacy_extensions_help:
-Enable or disable the generation of a random IPv6 interface identifier according to RFC4941. This is similar to the temporary IPv6 address generation on Windows machines.
+فعل أو عطل الإنشاء التلقائي لعنوان IPv6 عشوائي بالإعتماد على RFC4941.
+هذه العملية مشابهة لعملية إنشاء عنوان IPv6 مؤقت في أنظمة Windows.
 :end
 
 :eth_ipv6_dns_server_assignment_help:
-If set to *Automatic* the server will use IPv6 DNS server(s) returned by the local automatic assignment.<br>
-If set to *Static* you may enter your own list.
+إذا كان *تلقائي* النظام سيحدد عنوان IPv6 من خلال خادم DNS.<br>
+إذا كان *ثابت* يمكنك إدخال قائمتك الخاصة.
 :end
 
 :eth_ipv6_dns_server_help:
-This is the primary IPv6 DNS server to use. Enter a IPv6 address.
+هذا عنوان IPv6 لخادم DNS المستخدم. ادخل عنوان IPv6.
 :end
 
 :eth_ipv6_dns_server2_help:
-This is the IPv6 DNS server to use when IPv6 DNS server 1 is down.
+هذا عنوان IPv6 DNS عند تعطل الخادمة الأول.
 :end
 
 :eth_ipv6_dns_server3_help:
-This is the IPv6 DNS server to use when IPv6 DNS servers 1 and 2 are both down.
+هذا عنوان IPv6 DNS عند تعطل الخادمة الأول و الثاني.
 :end
 
 :eth_desired_mtu_help:
-This is the MTU size to use on the physical Ethernet interface.
-If left blank, the MTU will automatically be determined (by default 1500 bytes).
+هذا حجم MTU لإستخدام مدخل إيثرنت فعلي.
+إذا ترك فارع. الحجم سيحدد تلقائيًا (الحجم الإفتراضي 1500 بايت)
 :end
 
 :eth_enable_vlans_help:
-By default no VLANs are configured.<br>
-Enabling VLANs extends the number of logical connections over the same physical connection.
+في الحالة الإفتراضية لا يوجد أي VLAN نشط.<br>
+عند تفعيل VLANs يزيد عدد الإتصالات المنطقية على المنفذ الفعلي.
 
-Note: your router and switch must support VLANs too when this feature is used.
+تنبيه: موجه الشبكة(Router) و المحول(Switch) يجب أن يدعما خاصية VLAN لإستخدامها.
 :end
 
 :eth_vlan_number_help:
-Give each VLAN a unique identifier. Numbers range from 1 to 4095.
+حدد كل VLAN معرف فريد.المجال من 1 إلى 4095
 :end
 
 :eth_network_rules_help:
-The interface assignment rules can be changed here and might be necessary to set the preferred interface for managing Unraid - *use with care, usually there is no need to change*.
+تعيينات الواجهة يمكن تغيرها من هنا و ربما يتطلب إعداد واجهة لإدارة النظام - *استخدم بحذر، على الأرجح لا يوجد حاجة لتغير*.
 
-**eth0** is the main interface used to manage the Unraid system. The other interfaces are optional and may be used as desired.
-Every interface must be uniquely identified by its MAC (hardware) address.
+س**eth0** هي الواجهة الرئيسية لإدارة النظام. الواجهات الأخرى إختيارية و تستخدم بحسب الحاجة.
+كل واجهة يجب أن تعرف بعنوان MAC فريد.
 
-The interface assignment is stored on the flash device under */config/network-rules.cfg*. This file can be viewed with any editor, but it is recommended to make changes via the webGUI only.<br>
-Deleting the file *network-rules.cfg* from the flash device will restore automatic interface assignment after a system reboot.
+إعدادات الواجهة مخزنة على ذاكرة فلاش تحت المسار */config/network-rules.cfg*. هذا الملف يمكن تعديلها من أي قارئ نصوص، لكن يفضل إستخدام واجهة النظام فقط.<br>
+حذف الملف *network-rules.cfg* من ذاكر الفلاش سيأدي إلى إنشاء ملف تلقائي بعد إعادة تشغيل النظام.
 :end
 
 :eth_routing_table_help:
-Enter a valid IPv4 route in the format *nnn.nnn.nnn.nnn/xx*, e.g. *192.168.1.0/24*<br>
-or enter a valid IPv6 route in the format *nnnn:nnnn:nnnn::nnnn/xxx*, e.g. *fe80::3ad8:2fff:fe25:9709/64*
+ادخل عنوان IPv4 صحيح بإستخدام التنسيق التالي *nnn.nnn.nnn.nnn/xx*, مثال *192.168.1.0/24*<br>
+أو ادخل عنوان IPv6 بإستخدام التنسيق التالي *nnnn:nnnn:nnnn::nnnn/xxx*, مثال *fe80::3ad8:2fff:fe25:9709/64*
 
-Select the gateway from the dropdown list or enter a valid IPv4/IPv6 address as gateway value.
+حدد بوابة (Gateway) من القائمة أو ادخل عنوان IPv4/IPv6 صحيح للبوابة.
 
-The metric value is optional, it defaults to 1. Use it to select the prefered gateway when more than one entry of the same route exist.
+القيمة القياسية إختيارية، الإفتراضية هي 1. استخدمها لتحديد البوابة المفضلة عند وجود أكثر من مدخل بنفس العنوان.
 :end
 
 :apc_ups_daemon_help:
-Set to 'Yes' to enable apcupsd and start the daemon, set to 'No' to disable apcupsd and stop the daemon.
+حدد خيار 'نعم' لتفعيل apcupsd وتفعيل daemon، حدد خيار 'لا' لتعطيل apcupsd و إيقاف daemon.
 :end
 
 :apc_ups_cable_help:
-Defines the type of cable connecting the UPS to your computer.Possible generic choices for 'cable' are:
+حدد نوع الكابل الإتصال إلى UPS المتصل الجهاز. خيارات متوفرة:
 
-+ USB, Simple, Smart, Ether, or Custom to specify a special cable.
++ USB, بسيط, ذكي, Ether, أو خاص حدد النوع
 :end
 
 :apc_ups_custom_cable_help:
-Specify a special cable by model number, only applicable when *UPS cable* is set to Custom.
+حدد نوع الكابل برقم الطراز، فقط متاحة عند تحديد نوع الكابل *خاص*
 
 + 940-0119A, 940-0127A, 940-0128A, 940-0020B
 + 940-0020C, 940-0023A, 940-0024B, 940-0024C
@@ -1721,83 +1722,83 @@ Specify a special cable by model number, only applicable when *UPS cable* is set
 :end
 
 :apc_ups_type_help:
-Define a *UPS type*, which corresponds to the type of UPS you have (see the Description for more details).
+حدد نوع UPS الذي تمتلكه(انظر إلى التفاصيل للمزيد من المعلومات).
 
-+ **USB** - most new UPSes are USB
-+ **APCsmart** - newer serial character device, appropriate for SmartUPS models using a serial cable (not USB)
-+ **Net** - network link to a master apcupsd through apcupsd's Network Information Server. This is used if the UPS powering your computer is connected to a different computer for monitoring
-+ **SNMP** - SNMP network link to an SNMP-enabled UPS device
-+ **Dumb** - old serial character device for use with simple-signaling UPSes
-+ **PCnet** - PowerChute Network Shutdown protocol which can be used as an alternative to SNMP with the AP9617 family of smart slot cards
-+ **ModBus** - serial device for use with newest SmartUPS models supporting the MODBUS protocol
++ **USB** - النسخة الحديثة تستخدم هذا
++ **APCsmart** - النسخة الحديثة من الأجهزة المتسلسلة، مخصص لأجهزة SmartUPS بإستخدام كابل تسلسلي
++ **Net** - إتصال شبكة إلى apcupsd الرئيسي بإستخدام شبكة خادم apcupsd. هذه تستخدم إذا كان UPS متصل بجهاز أخر للمراقبة
++ **SNMP** - إتصال SNMP إلى أجهزة SNMP 
++ **Dumb** - إتصال تسلسلي مستخدم للأجهزة القديمة
++ **PCnet** - بروتوكول شبكة PowerChute للإيقاف يمكن إستخدامه بديلا SNMP، لأجهزة AP9617.
++ **ModBus** - إتصال تسلسلي لأجهزة SmartUPS الداعمة لبروتوكول MODBUS
 :end
 
 :apc_ups_device_help:
-Enter the *device* which correspondes to your situation, only applicable when *UPS type* is not set to USB.
+ادخل *الجهاز* يتوافق مع موقفك. يفعل فقط تحديد خيار غير USB في *نوع UPS*
 
 + **apcsmart** - /dev/tty**
-+ **net** - hostname:port. Hostname is the IP address of the NIS server. The deafult port is 3551
-+ **snmp** - hostname:port:vendor:community. Hostname is the ip address or hostname of the UPS on the network. Vendor can be can be "APC" or "APC_NOTRAP". "APC_NOTRAP" will disable SNMP trap catching; you usually want "APC". Port is usually 161. Community is usually "private"
++ **net** - hostname:port. Hostname هو عنوان IP لخادم NIS. المنفذ الإفتراضي هو 3551
++ **snmp** - hostname:port:vendor:community. Hostname هو عنوان IP أو اسم UPS على الشبكة. vendor ممكن أن يكون اما "APC" أو "APC_NOTRAP". في حال "APC_NOTRAP" سيتم تعطيل SNMP Trap Catching . بالغالب تريد "APC". المنفذ على الأرجح 161. المجتمع على الأرجح خاص.
 + **dumb** - /dev/tty**
-+ **pcnet** - ipaddr:username:passphrase:port. ipaddr is the IP address of the UPS management card. username and passphrase are the credentials for which the card has been configured. port is the port number on which to listen for messages from the UPS, normally 3052. If this parameter is empty or missing, the default of 3052 will be used
++ **pcnet** - ipaddr:username:passphrase:port. ipaddr هو عنوان IP كرت إدارة UPS. اسم المستخدم و كلمة المرور هي طريقة الدخول المعدة من الإعدادات.المنفذ هو المنفذ الي يتم السماع لرسائل من UPS، على الأرجح 3052. إذا كان الحقل فارغ أو مفقود. المنفذ الإفتراضي 3052.
 + **modbus** - /dev/tty**
 :end
 
 :apc_battery_level_help:
-If during a power failure, the remaining battery percentage (as reported by the UPS) is below or equal to *Battery level*, apcupsd will initiate a system shutdown.
+في حالة تعطل الطاقة، عند وصول مستوى البطارية (الخاص بالـUPS) إلى الحد أو أقل من هذا الحقل، apcupsd سيقوم بإيقاف النظام.
 :end
 
 :apc_runtime_left_help:
-If during a power failure, the remaining runtime in minutes (as calculated internally by the UPS) is below or equal to this field, apcupsd, will initiate a system shutdown.
+في حالة تعطل الطاقة، عند وصول الدقائق المتبقية (يحسب بداخل الـUPS) يعادل أو أقل الحقل، apcupsd سيقوم بإيقاف النظام.
 :end
 
 :apc_battery_time_help:
-If during a power failure, the UPS has run on batteries for *time-out* many seconds or longer; apcupsd will initiate a system shutdown. A value of zero disables this timer.
+في حالة تعطل الطاقة، عند عمل الـUPS لعدد  *time-out* من الوقت; apcupsd سيقوم بإيقاف النظام. القيمة 0 ستعطل هذه الخاصية
 
-If you have a Smart UPS, you will most likely want to disable this timer by setting it to zero.
-That way, your UPS will continue on batteries until either the % charge remaining drops to or below *Battery level* or the remaining battery runtime drops to or below *minutes*.
+إذا كان لديك Smart UPS، على الأرجح تريد تعطيل هذه الخاصية، الـUPS سيظل يعمل حتى حتى وصول البطارية إلى % معينة أو أقل أو الوقت المتبقي *بدقائق*.
 
-Of course - when testing - setting this to 60 causes a quick system shutdown if you pull the power plug.
-If you have an older dumb UPS, you will want to set this to less than the time you know you can run on batteries.
+عند تجربة الخاصية و وضعها إلى 60 وفصل الطاقة سيأدي إلى إيقاف النظام بسرعة.
+إذا كنت تمتلك جهاز UPS غير ذكي وقديم، يفضل وضع الوقت أقل من وقت عمل البطاريات الطبيعي.
 :end
 
 :apc_note_help:
-**Note:** *Battery level*, *Runtime left*, and *Time on battery* work in conjunction, so the first that occurs will cause the initiation of a shutdown.
+**تنبيه:** *مستوى البطارية*، *الوقت المتبقي*، *الوقت على البطارية* يعملوا بتناسق. لذلك عند حدوث أول حدث منهم سيأدي لإيقاف النظام.
 :end
 
 :apc_killups_help:
-Set to *Yes* to turn off the power to the UPS after a shutdown.
+عند تحديد الخيار إلى *نعم* سيتم إيقاف الـUPS بعد إيقاف النظام.
 :end
 
 :parity_check_scheduled_help:
-By default no parity check is scheduled. Select here the desired schedule. This can be one of the preset schedules for daily, weekly, monthly, yearly or a custom schedule.
+إفتراضيا لا يوجد وقت منظم لتأكد من التكافؤ (Parity check). حدد هنا الجدول، يمكن أن تكون واحدة من الخيارات: يوميًا، أسبوعيًا، شهريًا، سنويًا أو جدول مخصص.
 :end
 
 :parity_day_of_the_week_help:
-When a **weekly** or **custom** schedule is selected then choose here the preferred *day of the week*, in the other schedules this setting is not used and unavailable.
+عند تحديد **أسبوعيًا** أو **مخصص**، حدد من هنا *الأيام في الأسبوع*. في الخيارات الأخرى هذا الحقل معطل.
 :end
 
 :parity_week_of_the_month_help:
-When a **monthly** or **yearly** schedule is selected then choose here the preferred *day of the month*.
-When a **custom** schedule is selected then choose here the preferred *week of the month*, in the other schedules this setting is not used and unavailable.
+عند تحديد **شهريًا** أو **سنويًا**، حدد من هنا *الأيام في الشهر*.
+
+عند تحديد **مخصص**، حدد من هنا *الأسبوع في الشهر*. في الخيارات الأخرى هذا الحقل معطل.
 :end
 
 :parity_time_of_the_day_help:
-Choose the desired *time of the day* to start the schedule. Time granularity is given in half hour periods.
+حدد *الوقت في اليوم* لبدء العملية. الوقت معطى بتقسيم كل نصف ساعة.
 :end
 
 :parity_month_of_the_year_help:
-When a **yearly** or **custom** schedule is selected then choose here the preferred *month of the year*, in the other schedules this setting is not used and unavailable.
+عند تحديد **سنويًا** أو **مخصص**، حدد من هنا *الشهر في السنة*. في الخيارات الأخرى هذا الحقل معطل.
 :end
 
 :parity_write_corrections_help:
-Choose here whether any parity errors found during the check, need to be corrected on the parity disk or not.
+حدد هنا إصلاح الأخطاء في عملية التكافؤ عند التحقق، هل تريد بدء الإصلاح أثناء التحقق أم لا.
 :end
 
 :mover_schedule_help:
-Choose a mover schedule ranging from hourly, daily, weekly and monthly.
+حدد جدول الناقل (Mover) من الخيارات: بالساعات، يوميًا، أسبوعيًا، شهريًا.
 
-The interval determines how fast the mover will activated, it runs in the background.
+الجدول يحدد سرعة تفعيل الناقل، والناقل سيعمل في الخلفية.
 :end
 
 :mover_day_of_the_week_help:
