@@ -33,6 +33,7 @@ Default Value=قيمة افتراضية
 Device=جهاز
 Display=عرض
 DNS=DNS
+Docker Containers=
 Docker Hub URL=رابط DockerHub
 Docker Service failed to start=فشل تفعيل خدامات دوكر
 Donation Link=رابط التبرع
