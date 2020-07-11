@@ -1231,327 +1231,322 @@ created on the same disk where the parent directory exists.
 :end
 
 :confirm_reboot_help:
-Choose if rebooting or powering down the server needs a confirmation checkbox.
+حدد إذا تريد التأكيد عند إعادة/إيقاف التشغيل
 :end
 
 :confirm_array_stop_help:
-Choose if stopping the array needs a confirmation checkbox.
+حدد إذا تريد التأكيد عند إيقاف المصفوفة
 :end
 
 :display_settings_help:
-The display settings below determine how items are displayed on screen. Use these settings to tweak the visual effects to your likings.
+إعدادات العرض هذه تحدد طريقة عرض العناصر على الشاشة. استخدام هذه الإعدادات لتغيير ما يعرض امامكم
 
-You can experiment with these settings as desired, they only affect visual properties.
+يمكنكم تجربة الإعدادات قد الإمكان، أي تغيير هو تغيير مرئي
 :end
 
 :display_font_size_help:
-This is a per device setting
+الإعدادات لكل جهاز على حدة
 :end
 
 :display_wwn_device_id_help:
-World Wide Name (WWN) is a unique identifier used for SAS attached devices.
+اسم النطاق العالمي (WWN) هو معرف فريد يستخدم لأجهزة SAS
 
-Select *Disabled* to suppress the appending of WWN to the device identification
+حدد *تعطيل* لإيقاف إضافة WWN لتعريف الجهاز
 
-Select "Automatic" to append WWN to the device identification in case of SAS devices
+حدد *تلقائي*  لإضافة WWN لتعريف الجهاز في حالة كان الجهاز SAS
 :end
 
 :display_custom_text_color_help:
-Overrule the default text color in the header. This can be used to match the text color with a background image.
+تجاوز اللون الافتراضي نص العنوان. يستخدم لمماثلة لون النص مع لون الخلفية
 :end
 
 :display_custom_background_color_help:
-Overrule the default background color in the header. This can be used to match the background color with a custom text color.
+تجاوز اللون الافتراضي للخلفية خلف العنوان. يستخدم لمماثلة لون الخلفية مع لون النص
 :end
 
 :display_custom_banner_help:
-Image will be scaled to 1920x90 pixels. The maximum image file upload size is 512 kB (524,288 bytes).
+الصورة سيتغير حجمها إلى 1920x90 بكسل. أكبر حجم لرفع صورة هو 512 كيلو بايت (524,512 بايت)
 :end
 
 :display_temperature_unit_help:
-Selects the temperature unit for the disk temperature thresholds. Changing the unit will adjust the existing value in the disk temperature thresholds as appropriate.
+حدد حدود الحرارة القصوى للقرص. تغيير المقياس سيغير القيم الموجدة لحرارة القرص
 
-Make sure any newly entered values represent the selected temperature unit.
+تأكد من القيم المدخلة انها مطابقة للمقايس المختار
 :end
 
 :vms_enable_help:
-Stopping the VM Manager will first attempt to shutdown all running VMs. After 60 seconds, any remaining VM instances will be terminated.
+إيقاف مدير VM سيأثر إلى إيقاف جميع الVMs. بعد 60 ثانية، أي VM سيغلق
 :end
 
 :vms_libvirt_volume_help:
-This is the libvirt volume.
+هذه مساحة تخزين libvirt.
 :end
 
 :vms_libvirt_vdisk_size_help:
-If the system needs to create a new libvirt image file, this is the default size to use specified in GB.
-To resize an existing image file, specify the new size here. Next time the Libvirt service is started the file (and file system) will increased to the new size (but never decreased).
+إذا النظام تتطلب إنشاء مساحة تخزينية جديدة لملف libvirt، هذه المساحة الافتراضية محدد بجيجا بايت.
+لتغير حجم الملف، حدد الحجم الجديد هنا. مستقبلا عند بدء خدمة libvirt الملف (نظام الملفات) سيزداد حجم للحجم الجديد (لكن لن يتقلص ابدًا)
 :end
 
 :vms_libvirt_location_help:
-You must specify an image file for Libvirt. The system will automatically create this file when the Libvirt service is first started.
+يجب ان تحدد ملف لLibvirt. سينشئ النظام ملف تلقائيًا عند تشغيل خدمة Libvirt لأول مرة.
 :end
 
 :vms_libvirt_storage_help:
-Specify a user share that contains all your VM subdirectories with vdisks
+حدد مجلد مشاركة يتضمن جميع مجلدات الVMs و VDisks
 :end
 
 :vms_libvirt_iso_storage_help:
-Specify a user share that contains all your installation media for operating systems
+حدد مجلد مشاركة يتضمن جميع وسائط التثبيت الخاصة بالنظام
 :end
 
 :vms_virtio_driver_help:
-Specify the virtual CD-ROM (ISO) that contains the VirtIO Windows drivers as provided by the Fedora Project.
-Download the latest ISO from here: <a href="https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html#virtio-win-direct-downloads" target="_blank">fedoraproject.org</a>
+حدد قرص افتراضي CD-ROM (ISO) يتحوي على VirtIO برامج تشغيل ويندوز المقدمة من مشروع Fedora
+حمل أخر اصدار من هنا : <a href="https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html#virtio-win-direct-downloads" target="_blank">fedoraproject.org</a>
 
-When installing Windows, you will reach a step where no disk devices will be found. There is an option to browse for drivers on that screen.
-Click browse and locate the additional CD-ROM in the menu. Inside there will be various folders for the different versions of Windows.
-Open the folder for the version of Windows you are installing and then select the AMD64 subfolder inside (even if you are on an Intel system, select AMD64).
-Three drivers will be found. Select them all, click next, and the vDisks you have assigned will appear.
+عند تثبيت ويندوز، ستصل إلى خطوة لا يظهر فيها أي قرص. هناك خيار تصفح برامج الشتغيل.
+انقر تصفح وحدد قرص CD-ROM من القائمة. بداخل سيكون هنالك عدة مجلدات لعدة إصدارات من ويندوز.
+افتح المجلد لإصدار ويندوز الخاص بك و حدد مجلد AMD64 بداخل ذلك المجلد (حتى اذا كان نظامك يستخدم معالجات Intel).
+ثلاث برامج تشغيل ستظهر. حددهم كلهم، وانقر التالي وحدد الأقراص الافتراضية (VDisks) التي حددتها.
 :end
 
 :vms_network_bridge_help:
-Select the name of the network bridge you wish to use as default for your VMs,
-the setting 'virbr0' will let libvirt create a virtual bridge that utilizes NAT (network address translation)
-and act as a DHCP server to hand out IP addresses to virtual machines directly.
-More optional selections are present when virtual bridges are created under network settings.
+حدد جسر الشبكة الافتراضي لاستخدامه على VMs،
+الإعداد 'virbr0' سيجعل LibVirt ينشئ جسر ظاهري يستخدمه فيه NAT (ترجمة عنوان الشبكة)
+ويأدي دور خادم DHCP لإرسال عناوين IP للأجهزة الظاهرية مباشرة.
+توجد تحديدات اختيارية اكثر عند إنشاء جسر ظاهري تحت إعدادات الشبكة.
 
-NOTE: You can also specify a network bridge on a per-VM basis.
+تنبيه: يمكن تحديد جسر شبكة لكل VM
 :end
 
 :vms_host_shutdown_help:
-When shutting down the server, this defines the action to take upon running VMs. If *Hibernate VMs* is chosen,
-the VM will be instructed to hibernate (if supported) otherwise it will attempt a VM shutdown.
+عند إيقاف النظام، هذا سيحدد ما يحصل لأي جهاز ظاهري قيد العمل. إذا كان *اسبات الجهاز الظاهري* محدد،
+الجهاز الظاهري يذهب إلى وضع السبات (إن كان مدعوم) غير ذلك سيتم إيقافه.
 :end
 
 :vms_shutdown_timeout_help:
-When shutting down the server, this defines how long to wait in seconds for *graceful* VM shutdown before forcing shutdown to continue.
-NOTE: It's recommended to shut down guest VMs from within the VM.
+عند إيقاف النظام، هذا يحدد المدة الزمنية للإيقاف *الطبيعي* للأجهزة الظاهرية قبل إيقاف النظام.
+تنبيه: ينصح بإيقاف الأجهزة الظاهرية من داخلها.
 :end
 
 :vms_acs_override_help:
-*PCIe ACS override* allows various hardware components to expose themselves as isolated devices.
-Typically it is sufficient to isolate *Downstream* ports.
-A hardware component may need the setting *Multi-function* or *Both* to further isolate different hardware functions.<br>
-A reboot is required for changes to this setting to take affect.
+*تجاوز PCIe ACS* يسمح بالعديد من الأجهزة ان تظهر كجهاز منفصل.
+بشكل طبيعي يكفي استخدام منافذ *Downstream*.
+لكل الأجهزة لربما تحتاج خيار *Multi-function* أو *Both* لفصلها بشكل كامل.<br>
+إعادة التشغيل مطلوبة لإتمام التغييرات.
 
-**Warning: use of this setting could cause possible data corruption with certain hardware configurations.**
-Please visit the [Lime Technology forums](https://forums.unraid.net/forum/51-vm-engine-kvm) for more information.
+**تحذير: عند استخدام هذه الإعدادات ربما يحصل فقدان للبيانات مع بعض الأجهزة**
+الرجاء مراجعة[منتديات Lime Technology](https://forums.unraid.net/forum/51-vm-engine-kvm) للمزيد من المعلومات.
 :end
 
 :vms_vfio_interupts_help:
-If your system doesn't support interrupt remapping, these can be enabled by allowing unsafe interrupts.<br>
-A reboot will be required for changes to this setting to take affect.
+إذا كان جهازك لا يدعم اعتراض إعادة التخطيط، يمكن تفعيل هذا الأمر بالسماح للاعتراض غير الأمن.<br>
+إعادة التشغيل مطلوبة لإتمام التغييرات.
 
-**Warning: use of this setting could cause possible data corruption with certain hardware configurations.**
-Please visit the [Lime Technology forums](https://forums.unraid.net/forum/51-vm-engine-kvm) for more information.
+**تحذير: عند استخدام هذه الإعدادات ربما يحصل فقدان للبيانات مع بعض الأجهزة**
+الرجاء مراجعة[منتديات Lime Technology](https://forums.unraid.net/forum/51-vm-engine-kvm) للمزيد من المعلومات.
 :end
 
 :vms_libvirt_log_help:
-View the log for libvirt: <a id="openlog" title="/var/log/libvirt/libvirtd.log" href="#" onclick="openWindow('/webGui/scripts/tail_log&arg1=libvirt/libvirtd.log','_(Libvirt Log)_',600,900);">/var/log/libvirt/libvirtd.log</a>
+إظهار سجلات Libvert: <a id="openlog" title="/var/log/libvirt/libvirtd.log" href="#" onclick="openWindow('/webGui/scripts/tail_log&arg1=libvirt/libvirtd.log','_(Libvirt Log)_',600,900);">/var/log/libvirt/libvirtd.log</a>
 :end
 
 :vms_scrub_help:
-**Scrub** runs the *btrfs scrub* program to check file system integrity.
-If repair is needed you should check the *Correct file system errors* and run a second Scrub pass; this will permit *btrfs scrub* to fix the file system.
+**تنقيح** يعمل على *تنقيح btrfs* لتأكد من صلاحية نظام الملفات.
+إذا تطلب أي إصلاح يجب عليك تحديد *إصلاح أخطاء نظام الملفات* وتشغيل التنقيح مرة أخرى; هذا سيسمح ل*تنقيح btrfs* بإصلاح نظام الملفات.
 :end
 
 :vms_cancel_help:
-**Cancel* will cancel the Scrub operation in progress.
+**إلغاء* سيتم إلغاء عملية التنقيح الجارية حاليا.
 :end
 
 :eth_interface_description_help:
-Use this optional field to provide addditional information about the purpose of the connection.
+استخدم هذا الحقل لتوضيح سبب الإتصال.
 :end
 
 :eth_mac_address_help:
-This is the hardware address of the interface.
-When tagging is enabled all VLANs on this interface will share the same hardware address.
+هذا عنوان الجهاز لواجهة الإستقبال.
+عند تفعيل وضع العلامة جميع الVLANs على واجهة الإستقبال سيتشاركوا عنوان الجهاز.
 :end
 
 :eth_enable_bonding_help:
-Bonding is a feature that combines multiple physical Ethernet interfaces into a single *bonded* interface named **bond0**.
-This can be used to improve the connection redundancy and/or throughput of the system.
-Different bonding modes are supported (see below), but some modes require proper switch support.
+الترابط هو خاصية تجمع عدة واجهات إستقبال فعلية إلى واجهة واحدة *مترابطة* تدعى **bond0**. 
+يمكن استخدام هذه الخاصية لتحسين كفائة و قدرة الإتصال على النظام.
+تختلف طرق الترابط المدعومة(انظر بالأسفل)، بعض الطرق تتطلب دعم من المبدل(Network Switch).
 :end
 
 :eth_bonding_mode_help:
-**Mode 0 (balance-rr)**<br>
-This mode transmits packets in a sequential order from the first available slave through the last.
-If two real interfaces are slaves in the bond and two packets arrive destined out of the bonded interface the first will be transmitted on the first slave and the second frame will be transmitted on the second slave.
-The third packet will be sent on the first and so on. This provides load balancing and fault tolerance.
+**الوضع 0 (balance-rr)**<br>
+هذا الوضع ينقل الحزم بطريقة تسلسلة من أول تابع إلى الأخير.
+إذا كان هنالك واجهتين إستقبال حقيقتين كتابعين في الترابط وتم إستقبال حزمتين من خارج واجهة الإستقبال، الأولى ستذهب إلى أول تابع والثانية ستذهب إلى التابع الثاني.
+الحزمة الثالثة ستذهب عن طريق الأول. وبذلك يوفر هذا الوضع موازنة الضغط و تحمل الفشل.
 
-**Mode 1 (active-backup) - default**<br>
-This mode places one of the interfaces into a backup state and will only make it active if the link is lost by the active interface.
-Only one slave in the bond is active at an instance of time. A different slave becomes active only when the active slave fails.
-This mode provides fault tolerance.
+**الوضع 1 (active-backup) - الافتراضي**<br>
+هذا الوضع يضع واحدة من واجهات الإستقبال في حالة احتياطية و ستفعل فقط إذا فقد الإتصال بالواجهة الحالية.
 
-**Mode 2 (balance-xor)**<br>
-This mode transmits packets based on an XOR formula. Source MAC address is XOR'd with destination MAC address modula slave count.
-This selects the same slave for each destination MAC address and provides load balancing and fault tolerance.
+**الوضع 2 (balance-xor)**<br>
+هذا الوضع ينقل الحزم بالاعتماد على معادلة XOR. سيعادل عنوان MAC المصدر إلى عنوان MAC المستقبل ويعادلان إلى عدد التابعين.
 
-**Mode 3 (broadcast)**<br>
-This mode transmits everything on all slave interfaces. This mode is least used (only for specific purpose) and provides only fault tolerance.
+**الوضع 3 (broadcast)**<br>
+هذا الوضع يرسل كل المعلومات على واجهة التابع. هذا الوضع الأقل استخدامًا(في حالة خاصة) ويوفر فقط حماية من الفشل.
 
-**Mode 4 (802.3ad)**<br>
-This mode is known as *Dynamic Link Aggregation*. It creates aggregation groups that share the same speed and duplex settings.
-It requires a switch that supports IEEE 802.3ad dynamic link.
-Slave selection for outgoing traffic is done according to the transmit hash policy, which may be changed from the default simple XOR policy via the xmit_hash_policy option.
-Note that not all transmit policies may be 802.3ad compliant, particularly inregards to the packet mis-ordering requirements of section 43.2.4 of the 802.3ad standard.
-Different peer implementations will have varying tolerances for noncompliance.
+**الوضع 4 802.3ad)**<br>
+هذا الوضع يعرف ب*تجميع الارتباط الديناميكي*. ينشئ تجمعات تتشارك السرعة و إعدادات الازدواجية.
+لكن يتطلب مبدل يدعم IEEE 802.3ad رابط ديناميكي.
+تحديد التابعين لسير المعلومات الصادرة يتم بشروط تجزئة النقل، ويمكن تغييره من معادلة XOR الافتراضية عن طريق xmit_hash_policy.
+تنبيه ليس كل شروط النقل متوافقة مع 802.3ad، بالتحديد متطلب ترتيب الحزمة الخاطئة من القسم 43.2.4 من مقياس 802.3ad.
 
-**Mode 5 (balance-tlb)**<br>
-This mode is called *Adaptive transmit load balancing*. The outgoing traffic is distributed according to the current load and queue on each slave interface.
-Incoming traffic is received by the current slave.
+**الوضع 5 (balance-tlb)**<br>
+هذا الوضع يسمى *موازنة نقل التوافقية*.النقل الصادر يوزع بالاعتماد على الضغط الحالي و تسلسل الواجهات التابعة.
 
-**Mode 6 (balance-alb)**<br>
-This mode is called *Adaptive load balancing*. This includes balance-tlb + receive load balancing (rlb) for IPV4 traffic.
-The receive load balancing is achieved by ARP negotiation.
-The bonding driver intercepts the ARP Replies sent by the server on their way out and overwrites the src hw address with the unique hw address of one of the slaves in the bond
-such that different clients use different hw addresses for the server.
+**الوضع 6 (balance-alb)**<br>
+هذا الوضع يسمى *موازنة الضغط التوافقية*. يتضمن balance-tlb + موازنة ضغط الإستقبال (rlb) للعمليات نقل IPV4.
+rlb يتم تحقيقه مناقشة ARP.
+اجهزة الترابط التشغيلة تستقبل ردود ARP المرسلة من الخادم على طريقهم و يغير عنوان src الفعلي بعنوان فعلي فريد لكل تابع في الترابط ليكون لكل مستخدم عنوان فعلي فريد للخادم.
 
-*Mode 1 (active-backup) is the recommended setting. Other modes allow you to set up a specific environment, but may require proper switch support.
-Choosing a unsupported mode can result in a disrupted communication.*
+*الوضع 1 (active-backup) الوضع المقترح. الأوضاع الأخرى تمكنك من إنشاء محيط محدد، لكن يتطلب مبدل خصيص.
+*استخدام وضع غير متوافق سيأثر في التواصل.*
 :end
 
 :eth_bonding_members_help:
-Select which interfaces are member of the *bonded* interface. By default eth0 is a member, while other interfaces are optional.
+حدد أي واجهة تنتمي إلى الواجهة *المترابطة*. افتراضيًا eth0 يتنمي، بينما الأخرون اختياري انتمائهم. 
 :end
 
 :eth_enable_bridging_help:
-Bridging is a feature which creates a virtual bridge and allows VMs and Docker containers to communicate directly with the physical Ethernet port.
-Both bonding and bridging can be combined to let VMs or containers communicate over a *bonded* interface.
+التجسير هي خاصية تنشئ جسر افتراضي وتسمح للVMs و حاويات دوكر لتواصل مباشرة مع منفذ Ethernet.
+كلا الجسر والترابط يمكن دمجهم لجعل الVMs و الحاويات تتواصل عبر واجهة *مترابطة*.
 :end
 
 :eth_bridging_members_help:
-Select which interfaces are member of the *bridged* interface. By default eth0 is a member, while other interfaces are optional.
+حدد أي واجهة تنتمي إلى واجهة *جسر*. افتراضيًا eth0 يتنمي، بينما الأخرون اختياري انتمائهم. 
 :end
 
 :eth_network_protocol_help:
-Select which protocol(s) are used. By default IPv4 only is used.<br>
-When both IPv4 and IPv6 is selected, each protocol can be configured independently.
+حدد أي بورتوكول يستخدم. IPv4 الوحيد المستخدم افتراضيًا.<br>
+عند تحديد كلا IPv4 و IPv6، كلا البروتوكلين يمكن إعدادهم على حدى.
 :end
 
 :eth_ipv4_address_assignment_help:
-The following settings are possible:
+الاختيارات التالية ممكنة:
 
-*Automatic* - the server will attempt to obtain a IPv4 address from the local DHCP server<br>
-*Static* - the IPv4 address is manually set for this interface<br>
-*None* - no IPv4 address is assigned to the interface (only available for VLANs)
+*تلقائي* - النظام سيحاول الحصول على عنوان IPv4 من خادم DHCP المحلي<br>
+*ثابت* - عنوان IPv4 يحدد يدويًا من الإعدادات<br>
+*بدون* - لن يحدد عنوان IPv4 للواجهة (متوفر فقط للVLANs)
 :end
 
 :eth_ipv4_address_help:
-Greyed out when using automatic IP assignment. Otherwise specify here the IPv4 address and mask of the system.
+غير مفعلة عند استخدام تعيين عنوان تلقائي. غير ذلك ادخل هنا عنوان IPv4 و قناع النظام.
 :end
 
 :eth_ipv4_default_gateway_help:
-Greyed out when using automatic IP assignment. Otherwise specify here the IPv4 address of your router.
+غير مفعلة عند استخدام تعيين عنوان تلقائي. غير ذلك ادخل هنا عنوان موجه الشبكة(Router) IPv4.
 :end
 
 :eth_ipv4_dns_server_assignment_help:
-If set to *Automatic* the server will use IPv4 DNS server(s) returned by the local automatic assignment.<br>
-If set to *Static* you may enter your own list.
+إذا كان *تلقائي* النظام سيحدد عنوان IPv4 من خلال خادم DNS.<br>
+إذا كان *ثابت* يمكنك إدخال قائمتك الخاصة.
 
-This is useful in Active Directory configurations where you need to set the first DNS Server entry to the IP address of your AD Domain server.
+هذه الخاصية مفيدة عند استخدام إعدادات Active Directory حيث تدخل خادم Active Directory في الحقل اول لخادم DNS.
 :end
 
 :eth_ipv4_dns_server_help:
-This is the primary IPv4 DNS server to use. Enter a IPv4 address.
+هذا عنوان IPv4 لخادم DNS المستخدم. ادخل عنوان IPv4.
 
-Note: for *Active Directory* you **must** ensure this is set to the IP address of your AD Domain server.
+تنبيه: لاستخدام *Active Directory*  **يجب** يجب ادخال عنوان IP الخاص به.
 :end
 
 :eth_ipv4_dns_server2_help:
-This is the IPv4 DNS server to use when IPv4 DNS server 1 is down.
+هذا عنوان IPv4 DNS عند تعطل الخادمة الأول.
 :end
 
 :eth_ipv4_dns_server3_help:
-This is the IPv4 DNS server to use when IPv4 DNS servers 1 and 2 are both down.
+هذا عنوان IPv4 DNS عند تعطل الخادمة الأول و الثاني.
 :end
 
 :eth_ipv6_address_assignment_help:
-The following settings are possible:
+الاختيارات التالية ممكنة:
 
-*Automatic* - the server will attempt to obtain a IPv6 address from the local DHCP server or Router Advertisement (RA)<br>
-*Static* - the IPv6 address is manually set for this interface<br>
-*None* - no IPv6 address is assigned to the interface (only available for VLANs)
+*تلقائي* - النظام سيحاول الحصول على عنوان IPv6 من خادم DHCP المحلي<br>
+*ثابت* - عنوان IPv6 يحدد يدويًا من الإعدادات<br>
+*بدون* - لن يحدد عنوان IPv6 للواجهة (متوفر فقط للVLANs)
 :end
 
 :eth_ipv6_address_help:
-Greyed out when using automatic IP assignment. Otherwise specify here the IPv6 address of the system.
+غير مفعلة عند استخدام تعيين عنوان تلقائي. غير ذلك ادخل هنا عنوان IPv6.
 :end
 
 :eth_ipv6_default_gateway_help:
-Greyed out when using automatic IP assignment. Otherwise specify here the IPv6 address of your router.
+غير مفعلة عند استخدام تعيين عنوان تلقائي. غير ذلك ادخل هنا عنوان موجه الشبكة(Router) IPv6.
 :end
 
 :eth_ipv6_privacy_extensions_help:
-Enable or disable the generation of a random IPv6 interface identifier according to RFC4941. This is similar to the temporary IPv6 address generation on Windows machines.
+فعل أو عطل الإنشاء التلقائي لعنوان IPv6 عشوائي بالاعتماد على RFC4941.
+هذه العملية مشابهة لعملية إنشاء عنوان IPv6 مؤقت في أنظمة Windows.
 :end
 
 :eth_ipv6_dns_server_assignment_help:
-If set to *Automatic* the server will use IPv6 DNS server(s) returned by the local automatic assignment.<br>
-If set to *Static* you may enter your own list.
+إذا كان *تلقائي* النظام سيحدد عنوان IPv6 من خلال خادم DNS.<br>
+إذا كان *ثابت* يمكنك إدخال قائمتك الخاصة.
 :end
 
 :eth_ipv6_dns_server_help:
-This is the primary IPv6 DNS server to use. Enter a IPv6 address.
+هذا عنوان IPv6 لخادم DNS المستخدم. ادخل عنوان IPv6.
 :end
 
 :eth_ipv6_dns_server2_help:
-This is the IPv6 DNS server to use when IPv6 DNS server 1 is down.
+هذا عنوان IPv6 DNS عند تعطل الخادمة الأول.
 :end
 
 :eth_ipv6_dns_server3_help:
-This is the IPv6 DNS server to use when IPv6 DNS servers 1 and 2 are both down.
+هذا عنوان IPv6 DNS عند تعطل الخادمة الأول و الثاني.
 :end
 
 :eth_desired_mtu_help:
-This is the MTU size to use on the physical Ethernet interface.
-If left blank, the MTU will automatically be determined (by default 1500 bytes).
+هذا حجم MTU لاستخدام مدخل إيثرنت فعلي.
+إذا ترك فارع. الحجم سيحدد تلقائيًا (الحجم الافتراضي 1500 بايت)
 :end
 
 :eth_enable_vlans_help:
-By default no VLANs are configured.<br>
-Enabling VLANs extends the number of logical connections over the same physical connection.
+في الحالة الافتراضية لا يوجد أي VLAN نشط.<br>
+عند تفعيل VLANs يزيد عدد الإتصالات المنطقية على المنفذ الفعلي.
 
-Note: your router and switch must support VLANs too when this feature is used.
+تنبيه: موجه الشبكة(Router) و المحول(Switch) يجب أن يدعما خاصية VLAN لاستخدامها.
 :end
 
 :eth_vlan_number_help:
-Give each VLAN a unique identifier. Numbers range from 1 to 4095.
+حدد كل VLAN معرف فريد.المجال من 1 إلى 4095
 :end
 
 :eth_network_rules_help:
-The interface assignment rules can be changed here and might be necessary to set the preferred interface for managing Unraid - *use with care, usually there is no need to change*.
+تعيينات الواجهة يمكن تغيرها من هنا و ربما يتطلب إعداد واجهة لإدارة النظام - *استخدم بحذر، على الأرجح لا يوجد حاجة لتغير*.
 
-**eth0** is the main interface used to manage the Unraid system. The other interfaces are optional and may be used as desired.
-Every interface must be uniquely identified by its MAC (hardware) address.
+س**eth0** هي الواجهة الرئيسية لإدارة النظام. الواجهات الأخرى اختيارية و تستخدم بحسب الحاجة.
+كل واجهة يجب أن تعرف بعنوان MAC فريد.
 
-The interface assignment is stored on the flash device under */config/network-rules.cfg*. This file can be viewed with any editor, but it is recommended to make changes via the webGUI only.<br>
-Deleting the file *network-rules.cfg* from the flash device will restore automatic interface assignment after a system reboot.
+إعدادات الواجهة مخزنة على ذاكرة فلاش تحت المسار */config/network-rules.cfg*. هذا الملف يمكن تعديلها من أي قارئ نصوص، لكن يفضل استخدام واجهة النظام فقط.<br>
+حذف الملف *network-rules.cfg* من ذاكر الفلاش سيأدي إلى إنشاء ملف تلقائي بعد إعادة تشغيل النظام.
 :end
 
 :eth_routing_table_help:
-Enter a valid IPv4 route in the format *nnn.nnn.nnn.nnn/xx*, e.g. *192.168.1.0/24*<br>
-or enter a valid IPv6 route in the format *nnnn:nnnn:nnnn::nnnn/xxx*, e.g. *fe80::3ad8:2fff:fe25:9709/64*
+ادخل عنوان IPv4 صحيح باستخدام التنسيق التالي *nnn.nnn.nnn.nnn/xx*, مثال *192.168.1.0/24*<br>
+أو ادخل عنوان IPv6 باستخدام التنسيق التالي *nnnn:nnnn:nnnn::nnnn/xxx*, مثال *fe80::3ad8:2fff:fe25:9709/64*
 
-Select the gateway from the dropdown list or enter a valid IPv4/IPv6 address as gateway value.
+حدد بوابة (Gateway) من القائمة أو ادخل عنوان IPv4/IPv6 صحيح للبوابة.
 
-The metric value is optional, it defaults to 1. Use it to select the prefered gateway when more than one entry of the same route exist.
+القيمة القياسية اختيارية، الافتراضية هي 1. استخدمها لتحديد البوابة المفضلة عند وجود أكثر من مدخل بنفس العنوان.
 :end
 
 :apc_ups_daemon_help:
-Set to 'Yes' to enable apcupsd and start the daemon, set to 'No' to disable apcupsd and stop the daemon.
+حدد خيار 'نعم' لتفعيل apcupsd وتفعيل daemon، حدد خيار 'لا' لتعطيل apcupsd و إيقاف daemon.
 :end
 
 :apc_ups_cable_help:
-Defines the type of cable connecting the UPS to your computer.Possible generic choices for 'cable' are:
+حدد نوع الكابل الإتصال إلى UPS المتصل الجهاز. خيارات متوفرة:
 
-+ USB, Simple, Smart, Ether, or Custom to specify a special cable.
++ USB, بسيط, ذكي, Ether, أو خاص حدد النوع
 :end
 
 :apc_ups_custom_cable_help:
-Specify a special cable by model number, only applicable when *UPS cable* is set to Custom.
+حدد نوع الكابل برقم الطراز، فقط متاحة عند تحديد نوع الكابل *خاص*
 
 + 940-0119A, 940-0127A, 940-0128A, 940-0020B
 + 940-0020C, 940-0023A, 940-0024B, 940-0024C
@@ -1560,348 +1555,350 @@ Specify a special cable by model number, only applicable when *UPS cable* is set
 :end
 
 :apc_ups_type_help:
-Define a *UPS type*, which corresponds to the type of UPS you have (see the Description for more details).
+حدد نوع UPS الذي تمتلكه(انظر إلى التفاصيل للمزيد من المعلومات).
 
-+ **USB** - most new UPSes are USB
-+ **APCsmart** - newer serial character device, appropriate for SmartUPS models using a serial cable (not USB)
-+ **Net** - network link to a master apcupsd through apcupsd's Network Information Server. This is used if the UPS powering your computer is connected to a different computer for monitoring
-+ **SNMP** - SNMP network link to an SNMP-enabled UPS device
-+ **Dumb** - old serial character device for use with simple-signaling UPSes
-+ **PCnet** - PowerChute Network Shutdown protocol which can be used as an alternative to SNMP with the AP9617 family of smart slot cards
-+ **ModBus** - serial device for use with newest SmartUPS models supporting the MODBUS protocol
++ **USB** - النسخة الحديثة تستخدم هذا
++ **APCsmart** - النسخة الحديثة من الأجهزة المتسلسلة، مخصص لأجهزة SmartUPS باستخدام كابل تسلسلي
++ **Net** - إتصال شبكة إلى apcupsd الرئيسي باستخدام شبكة خادم apcupsd. هذه تستخدم إذا كان UPS متصل بجهاز أخر للمراقبة
++ **SNMP** - إتصال SNMP إلى أجهزة SNMP 
++ **Dumb** - إتصال تسلسلي مستخدم للأجهزة القديمة
++ **PCnet** - بروتوكول شبكة PowerChute للإيقاف يمكن استخدامه بديلا SNMP، لأجهزة AP9617.
++ **ModBus** - إتصال تسلسلي لأجهزة SmartUPS الداعمة لبروتوكول MODBUS
 :end
 
 :apc_ups_device_help:
-Enter the *device* which correspondes to your situation, only applicable when *UPS type* is not set to USB.
+ادخل *الجهاز* يتوافق مع موقفك. يفعل فقط تحديد خيار غير USB في *نوع UPS*
 
 + **apcsmart** - /dev/tty**
-+ **net** - hostname:port. Hostname is the IP address of the NIS server. The deafult port is 3551
-+ **snmp** - hostname:port:vendor:community. Hostname is the ip address or hostname of the UPS on the network. Vendor can be can be "APC" or "APC_NOTRAP". "APC_NOTRAP" will disable SNMP trap catching; you usually want "APC". Port is usually 161. Community is usually "private"
++ **net** - hostname:port. Hostname هو عنوان IP لخادم NIS. المنفذ الافتراضي هو 3551
++ **snmp** - hostname:port:vendor:community. Hostname هو عنوان IP أو اسم UPS على الشبكة. vendor ممكن أن يكون اما "APC" أو "APC_NOTRAP". في حال "APC_NOTRAP" سيتم تعطيل SNMP Trap Catching . بالغالب تريد "APC". المنفذ على الأرجح 161. المجتمع على الأرجح خاص.
 + **dumb** - /dev/tty**
-+ **pcnet** - ipaddr:username:passphrase:port. ipaddr is the IP address of the UPS management card. username and passphrase are the credentials for which the card has been configured. port is the port number on which to listen for messages from the UPS, normally 3052. If this parameter is empty or missing, the default of 3052 will be used
++ **pcnet** - ipaddr:username:passphrase:port. ipaddr هو عنوان IP كرت إدارة UPS. اسم المستخدم و كلمة المرور هي طريقة الدخول المعدة من الإعدادات.المنفذ هو المنفذ الي يتم السماع لرسائل من UPS، على الأرجح 3052. إذا كان الحقل فارغ أو مفقود. المنفذ الافتراضي 3052.
 + **modbus** - /dev/tty**
 :end
 
 :apc_battery_level_help:
-If during a power failure, the remaining battery percentage (as reported by the UPS) is below or equal to *Battery level*, apcupsd will initiate a system shutdown.
+في حالة تعطل الطاقة، عند وصول مستوى البطارية (الخاص بالـUPS) إلى الحد أو أقل من هذا الحقل، apcupsd سيقوم بإيقاف النظام.
 :end
 
 :apc_runtime_left_help:
-If during a power failure, the remaining runtime in minutes (as calculated internally by the UPS) is below or equal to this field, apcupsd, will initiate a system shutdown.
+في حالة تعطل الطاقة، عند وصول الدقائق المتبقية (يحسب بداخل الـUPS) يعادل أو أقل الحقل، apcupsd سيقوم بإيقاف النظام.
 :end
 
 :apc_battery_time_help:
-If during a power failure, the UPS has run on batteries for *time-out* many seconds or longer; apcupsd will initiate a system shutdown. A value of zero disables this timer.
+في حالة تعطل الطاقة، عند عمل الـUPS لعدد  *time-out* من الوقت; apcupsd سيقوم بإيقاف النظام. القيمة 0 ستعطل هذه الخاصية
 
-If you have a Smart UPS, you will most likely want to disable this timer by setting it to zero.
-That way, your UPS will continue on batteries until either the % charge remaining drops to or below *Battery level* or the remaining battery runtime drops to or below *minutes*.
+إذا كان لديك Smart UPS، على الأرجح تريد تعطيل هذه الخاصية، الـUPS سيظل يعمل حتى حتى وصول البطارية إلى % معينة أو أقل أو الوقت المتبقي *بدقائق*.
 
-Of course - when testing - setting this to 60 causes a quick system shutdown if you pull the power plug.
-If you have an older dumb UPS, you will want to set this to less than the time you know you can run on batteries.
+عند تجربة الخاصية و وضعها إلى 60 وفصل الطاقة سيأدي إلى إيقاف النظام بسرعة.
+إذا كنت تمتلك جهاز UPS غير ذكي وقديم، يفضل وضع الوقت أقل من وقت عمل البطاريات الطبيعي.
 :end
 
 :apc_note_help:
-**Note:** *Battery level*, *Runtime left*, and *Time on battery* work in conjunction, so the first that occurs will cause the initiation of a shutdown.
+**تنبيه:** *مستوى البطارية*، *الوقت المتبقي*، *الوقت على البطارية* يعملوا بتناسق. لذلك عند حدوث أول حدث منهم سيأدي لإيقاف النظام.
 :end
 
 :apc_killups_help:
-Set to *Yes* to turn off the power to the UPS after a shutdown.
+عند تحديد الخيار إلى *نعم* سيتم إيقاف الـUPS بعد إيقاف النظام.
 :end
 
 :parity_check_scheduled_help:
-By default no parity check is scheduled. Select here the desired schedule. This can be one of the preset schedules for daily, weekly, monthly, yearly or a custom schedule.
+افتراضيا لا يوجد وقت منظم لتأكد من التكافؤ (Parity check). حدد هنا الجدول، يمكن أن تكون واحدة من الخيارات: يوميًا، أسبوعيًا، شهريًا، سنويًا أو جدول مخصص.
 :end
 
 :parity_day_of_the_week_help:
-When a **weekly** or **custom** schedule is selected then choose here the preferred *day of the week*, in the other schedules this setting is not used and unavailable.
+عند تحديد **أسبوعيًا** أو **مخصص**، حدد من هنا *الأيام في الأسبوع*. في الخيارات الأخرى هذا الحقل معطل.
 :end
 
 :parity_week_of_the_month_help:
-When a **monthly** or **yearly** schedule is selected then choose here the preferred *day of the month*.
-When a **custom** schedule is selected then choose here the preferred *week of the month*, in the other schedules this setting is not used and unavailable.
+عند تحديد **شهريًا** أو **سنويًا**، حدد من هنا *الأيام في الشهر*.
+
+عند تحديد **مخصص**، حدد من هنا *الأسبوع في الشهر*. في الخيارات الأخرى هذا الحقل معطل.
 :end
 
 :parity_time_of_the_day_help:
-Choose the desired *time of the day* to start the schedule. Time granularity is given in half hour periods.
+حدد *الوقت في اليوم* لبدء العملية. الوقت معطى بتقسيم كل نصف ساعة.
 :end
 
 :parity_month_of_the_year_help:
-When a **yearly** or **custom** schedule is selected then choose here the preferred *month of the year*, in the other schedules this setting is not used and unavailable.
+عند تحديد **سنويًا** أو **مخصص**، حدد من هنا *الشهر في السنة*. في الخيارات الأخرى هذا الحقل معطل.
 :end
 
 :parity_write_corrections_help:
-Choose here whether any parity errors found during the check, need to be corrected on the parity disk or not.
+حدد هنا إصلاح الأخطاء في عملية التكافؤ عند التحقق، هل تريد بدء الإصلاح أثناء التحقق أم لا.
 :end
 
 :mover_schedule_help:
-Choose a mover schedule ranging from hourly, daily, weekly and monthly.
+حدد جدول الناقل (Mover) من الخيارات: بالساعات، يوميًا، أسبوعيًا، شهريًا.
 
-The interval determines how fast the mover will activated, it runs in the background.
+الجدول يحدد سرعة تفعيل الناقل، والناقل سيعمل في الخلفية.
 :end
 
 :mover_day_of_the_week_help:
-Choose a day when the weekly schedule is selected. Otherwise disabled.
+حدد يوم في الجدول الأسبوعي. غير ذلك معطل.
 :end
 
 :mover_day_of_the_month_help:
-Choose a date when the monthly schedule is selected. Otherwise disabled.
+حدد موعد في الجدول الشهري. غير ذلك معطل.
 :end
 
 :mover_time_of_the_day_help:
-When an hourly schedule is selected this will set the interval in hours. An interval always starts on the whole hour (minute 0).
+عند تحديد بالساعات ، حدد هنا عدد الساعات ما بين عمليات الناقل. تبدأ العملية في الدقيقة 0 من تلك الساعة.
 
-For the other schedules choose here the time of the day the mover should start.
+للخيارات الأخرى حدد الساعة لبدء الناقل.
 :end
 
 :mover_logging_help:
-Write mover messages to the syslog file.
+كتابات العمليات (logs) في ملف syslog.
 :end
 
 :notifications_display_help:
-In *Detailed* view all notifications will be displayed on screen as soon as they arrive.<br>
-Notifications can be acknowledged individually or all in once.
+اظهر الإشعارات على الشاشة *بالتفصيل* حين وصولهم.<br>
+الإشعارات يمكن إغلاقها جميعها أو على حدى.
 
-In *Summarized* view notifications will be counted only and the number of unread notifications is shown in the menu header per category.<br>
-Click on the counters to either acknowledge or view the unread notifications.
+في الوضع *البسيط* سيظهر عدد الإشعارات الغير مقروءة في القائمة العنوان.<br>
+انقر على الرقم لإظهار الإشعارات أو إغلاقها.
 :end
 
 :notifications_date_format_help:
-Select the desired date format which is used in the notifications archive. Recommended is YYYY-MM-DD, which makes the date/time column sortable in a sensible way.
+حدد التنسيق المراد لعرض تاريخ الإشعارات في الأرشيف. مقترح : YYYY-MM-DD،  ما يسهل الترتيب إعتمادً على التاريخ/الوقت.
 :end
 
 :notifications_time_format_help:
-Select the desired time format which is used in the notifications archive. Recommended is 24 hours, which makes the date/time column sortable in a sensible way.
+حدد التنسيق المراد لعرض وقت الإشعارات في الأرشيف. مقترح : 24 ساعة،  ما يسهل الترتيب إعتمادً على التاريخ/الوقت.
 :end
 
 :notifications_display_position_help:
-Choose the position of where notifications appear on screen. Multiple notifications are stacked, bottom-to-top or top-to-bottom depending on the selected placement.
+حدد مكان ظهور الإشعارات في الشاشة.عدة تنبيهات ستظهر بشكل عامودي، من الأعلى-إلى-الأسفل أو الأسفل-إلى-الأعلى اعتماد على المكان.
 :end
 
 :notifications_store_flash_help:
-By default notifications are stored on RAM disk, which will get lost upon system reboot.
-Notifications may be stored permanently on the flash drive under folder '/boot/config/plugins/dynamix' instead.
+افتراضيًا الإشعارات تخزن في قرص RAM، الذي يفقد بعد إعادة التشغيل النظام.
+الإشعارات يمكن تخزينها بشكل دائم على ذاكرة فلاش تحت مجلد '/boot/config/plugins/dynamix'.
 :end
 
 :notifications_system_help:
-By default the notifications system is disabled. Enable it here to start receiving notifications.
-The following sections give more options about which and what type of notifications will be sent.
+افتراضيًا الإشعارات معطلة. يمكن تفعيلها هنا لإستقبال إشعارات.
+القسم التالي يوفر خيارات لأي إشعارات سوف تظهر.
 :end
 
 :notifications_os_update_help:
-Start a periodic verification and notify the user when a new version of the Unraid OS system is detected.
-Use the checkboxes below to select how notifications need to be given; by browser, by email and/or by custom agent.
+ابدأ عملية تحقق منظمة و إشعار المستخدم عند صدور إصدار جديد من النظام.
+حدد طريقة الحصول على الإشعارات; من خلال المتصفح، عن طريق البريد الإلكتروني، أو من خادم مخصص.
 :end
 
 :notifications_plugins_update_help:
-Start a periodic verification and notify the user when a new version of one or more of the installed plugins is detected.
-Use the checkboxes below to select how notifications need to be given; by browser, by email and/or by custom agent.
+ابدأ عملية تحقق منظمة و إشعار المستخدم عند صدور إصدار جديد من الإضافات.
+حدد طريقة الحصول على الإشعارات; من خلال المتصفح، عن طريق البريد الإلكتروني، أو من خادم مخصص.
 :end
 
 :notifications_docker_update_help:
-Start a periodic verification and notify the user when a new version of one or more of the installed dockers is detected.
-Use the checkboxes below to select how notifications need to be given; by browser, by email and/or by custom agent.
+ابدأ عملية تحقق منظمة و إشعار المستخدم عند صدور إصدار جديد من تطبيقات دوكر.
+حدد طريقة الحصول على الإشعارات; من خلال المتصفح، عن طريق البريد الإلكتروني، أو من خادم مخصص.
 :end
 
 :notifications_array_status_help:
-Start a periodic array health check (preventive maintenance) and notify the user the result of this check.
+ابدأ عملية تحقق منظمة و إشعار المستخدم عند حدوث مشاكل في النظام.
 :end
 
 :notifications_agent_selection_help:
-Use the checkboxes above to select what and how notifications need to be given; by browser, by email and/or by a service.<br>
-<b>Tip:</b> you can use custom notification agents; just add them to "/boot/config/plugins/dynamix/notification/agents" directory and check 'Agents'.
+حدد الخانات طريقة عرض الإشعارات; من خلال المتصفح، عن طريق البريد الإلكتروني، أو من خادم مخصص.<br>
+<b>معلومة:</b> يمكنك تحديد خادم مخصص للإشعارات; من خلال إضافتهم إلى "/boot/config/plugins/dynamix/notification/agents" وتحديد خادم مخصص
 :end
 
 :notifications_classification_help:
-Notifications are classified as:
+الإشعارات مصنفة كالتالي:
 
-*notice* - these are informative notifications and do not indicate a problem situation, e.g. a new version is available<br>
-*warning* - these are attentive notifications and may indicate future problems, e.g. a hard disk is hotter than usual<br>
-*alert* - these are serious notifications and require immediate attention, e.g. a failing hard disk<br>
+*تنويه* - إشعارات بمعلومات لا تدل على وجود أي مشكلة، مثال : هنالك إصدار جديد من النظام<br>
+*تحذير* - إشعارات بمعلومات تدل على وجود مشكلة مستقبلا، مثال : إرتفاع حرارة قرص فوق المعتاد<br>
+*إنذار* - إشعارات بمعلومات تدل على وجود مشكلة خطرة يجب إصلاحها، مثال : فشل قرص<br>
 
-Choose for each classification how you want to be notified.
+حدد لكل صنف طريقة التنبيه.
 :end
 
 :smtp_preset_service_help:
-Select a preset service to set the basic service settings.
+حدد خدمة معدة مسبقًا لضبط إعدادات الخدمة الأساسية.
 :end
 
 :smtp_email_address_help:
-Email address of your mail account. This address is used as sender of the notifications.
+البريد الإلكتروني المخصص لإرسال الإشعارات.
 :end
 
 :smtp_recipients_help:
-Recipients of status and error notifications. Specify one or more email addresses, separate multiple email addresses with a space.
+البُرُد الإلكترونية المستقبلة للإشعارات، حدد بريد أو أكثر وافصل بينهم بمسافة " ".
 :end
 
 :smtp_priority_help:
-Set email header with high importance, when there is a problem with unRaid.
+حدد عنوان الرسالة ذات أهمية عالية، عند وجود مشكلة في النظام.
 :end
 
 :smtp_subject_prefix_help:
-Set a prefix for easy recognition of Unraid messages.
+حدد اختصار لتعرف على رسائل Unraid.
 :end
 
 :smtp_mail_server_help:
-Specify the name of the email server. Use the preset service selection to have this filled-in automatically.
+حدد إسم خادم البريد الإلكتروني. استخدم خيارات الخدمات معدة مسبقًا لتعبأة الحقل تلقائيًا.
 :end
 
 :smtp_mail_server_port_help:
-Specify the port of the email server. Use the preset service selection to have this filled-in automatically.
+حدد منفذ خادم البريد الإلكتروني. استخدم خيارات الخدمات معدة مسبقًا لتعبأة الحقل تلقائيًا.
 :end
 
 :smtp_use_ssl_tls_help:
-Specifies whether to use SSL/TLS to talk to the SMTP server.
+حدد SSL/TLS لتواصل مع خادم SMTP.
 :end
 
 :smtp_use_starttls_help:
-Specifies whether to use STARTTLS before starting SSL negotiation - See RFC 2487.
+حدد إذا اردت استخدام STARTTLS قبل مناقشة SSL - شاهد RFC 2487
 :end
 
 :smtp_define_tls_cert_help:
-Select only when you have a certificate which required for communication.
+حدد شهادة توثيق لتواصل عند الحاجة فقط.
 :end
 
 :smtp_tls_cert_location_help:
-The file name of an RSA certificate to use for TLS - as required.
+إسم ملف شهادة RSA لاستخدام TLS - عند الحاجة.
 :end
 
 :smtp_authentication_method_help:
-Select the correct authentication method for your email server. Use test to verify that access is working properly.
+حدد طريقة التوثيق الصحيحة لخادم البريد الإلكتروني. اختبر الطريقة لتأكد من إمكانية التواصل.
 :end
 
 :smtp_username_password_help:
-Enter the username and password to login to your email account. Be aware that the password is stored unencrypted in the email configuration file.
+ادخل اسم المستخدم و كلمة المرور لحساب البريد الإلكتروني. علما بأن كلمة المرور مخزنة بشكل غير مشفر في ملف إعدادات البريد الإلكتروني.
 :end
 
 :plugin_install_help:
-To download and install a plugin, enter the plg file URL and click **Install**. A window will open
-that displays install progress. Do not close this window until install has completed. You may also specify
-the local file name of an extension.
+لتحميل وتثبيت إضافة، ادخل رابط ملف plg و انقر **تثبيت**. وستفتح نافذة
+تظهر حالة التثبيت. لا تغلقها حتى اكتمال التثبيت. ويمكن أيضا
+تحديد صيغة ملف محلي.
 :end
 
 :plugin_error_help:
-These plugins were not installed because of some kind of installation error.  You should delete these
-plugins and then **reboot** your server.*
+هذه الإضافات لم تثبت بسبب مشكلة ما. يمكنك حذفهم.
+و**إعادة تشغيل** *النظام*.
 :end
 
 :plugin_stale_help:
-These plugins were not installed because newer code already exists.  It is safe to simply delete these.
+هذه الإضافات لم تثبت بسبب إصدار احدث مثبت مسبقًا. يمكنك حذفهم بأمان.
 :end
 
 :docker_client_general_help:
-Templates are a quicker way to setting up Docker Containers on your Unraid server.  There are two types of templates:
+القوالب هي طريقة أسرع لإعداد حاويات دوكر على النظام. هنالك نوعين من القوالب :
 
-**Default templates**<br>
-When valid repositories are added to your Docker Repositories page, they will appear in a section on this drop down for you to choose (master categorized by author, then by application template).
-After selecting a default template, the page will populate with new information about the application in the Description field, and will typically provide instructions for how to setup the container.
-Select a default template when it is the first time you are configuring this application.
+**قوالب افتراضية**<br>
+عند إضافة مستودع صحيح إلى صفحة مستودع دوكر، سيظهروا في قائمة منسدلة يمكنك الاختيار بينهم(الترتيب يبدأ من الناشر ثم قالب التطبيق).
+بعد اختيار القالب الافتراضي، الصفحة ستملئ بمعلومات جديد عن التطبيق في حقل الوصف، وبالغالب يتم توفير شرح لطريقة تثبيت الحاوية.
+حدد القالب الافتراضي عند إعداد التطبيق لأول مرة.
 
-**User-defined templates**<br>
-Once you've added an application to your system through a Default template,
-the settings you specified are saved to your USB flash device to make it easy to rebuild your applications in the event an upgrade were to fail or if another issue occurred.
-To rebuild, simply select the previously loaded application from the User-defined list and all the settings for the container will appear populated from your previous setup.
-Clicking create will redownload the necessary files for the application and should restore you to a working state.
-To delete a User-defined template, select it from the list above and click the red X to the right of it.
+**قوالب معرفة من المستخدم**<br>
+بعد إضافة تطبيق إلى النظام من خلال القالب الافتراضي،
+الإعدادات المحددة مخزنة في ذاكر الفلاش لتسهيل عملية إعادة الإنشاء للتطبيق في حالة فشل تحديث أو أي أمر اخر.
+لإعادة بناء، حدد التطبيق المراد من خلال قائمة المعرفة من المستخدم و جميع الإعدادات ستظهر من الإعدادات السابقة.
+النقر على إنشاء سيعيد تنزيل الملفات اللازمة للتطبيق و إعادته إلى حالة عمل.
+لمسح قالب المعرف من المستخدم، حدده من القائمة في الأعلى وانقر علامة "X" الحمراء في الجهة اليمنى.
 :end
 
 :docker_client_name_help:
-Give the container a name or leave it as default.
+ادخل اسم حاوية أو اتركه افتراضيًا.
 :end
 
 :docker_client_overview_help:
-A description for the application container.  Supports basic HTML mark-up.
+وصف تطبيق دوكر. يدعم تنسيق HTML.
 :end
 
 :docker_client_repository_help:
+المستودع الخاص بتطبيق دوكر. تنسيق اسم الناشر/اسم التطبيق.
+اختياريًا يمكنك إضافة 
 The repository for the application on the Docker Registry.  Format of authorname/appname.
 Optionally you can add a : after appname and request a specific version for the container image.
 :end
 
 :docker_client_support_thread_help:
-Link to a support thread on Lime-Technology's forum.
+رابط منتدى الدعم على منتديات Lime-Technology
 :end
 
 :docker_client_project_page_help:
-Link to the project page (eg: www.plex.tv)
+رابط المشروع (مثال: www.plex.tv)
 :end
 
 :docker_client_donation_text_help:
-Text to appear on Donation Links Within The Apps Tab
+النص على روابط التبرع في نافذة التطبيقات.
 :end
 
 :docker_client_donation_link_help:
-Link to the donation page.  If using donation's, both the image and link must be set
+رابط صفحة التبرع. إذا كنت تستخدم تبرعات، يجب وضع الصورة والرابط.
 :end
 
 :docker_client_hub_url_help:
-The path to the container's repository location on the Docker Hub.
+رابط الحاوية في مستودعات منصة Docker Hub.
 :end
 
 :docker_client_template_url_help:
-This URL is used to keep the template updated.
+هذا الرابط يستخدم لإبقاء القالب على أحدث اصدار.
 :end
 
 :docker_client_icon_url_help:
-Link to the icon image for your application (only displayed on dashboard if Show Dashboard apps under Display Settings is set to Icons).
+رابط لأيقونة التطبيق (يظهر فقط في الواجهة الرئيسية تحت التطبيقات إذا كان إظهار الأيقونات مفعل).
 :end
 
 :docker_client_webui_help:
-When you click on an application icon from the Docker Containers page, the WebUI option will link to the path in this field.
-Use [IP] to identify the IP of your host and [PORT:####] replacing the #'s for your port.
+عند النقر على أيقونة التطبيق من صفحة حاويات دوكر، خيار رابط الواجهة سيربط إلى هذا الحقل.
+استخدم [IP] لتعرف عنوان IP النظام و [PORT:####] وتبديل # بالمنفذ.
 :end
 
 :docker_extra_parameters_help:
-If you wish to append additional commands to your Docker container at run-time, you can specify them here.<br>
-For all possible Docker run-time commands, see here: <a href="https://docs.docker.com/reference/run/" target="_blank">https://docs.docker.com/reference/run/</a>
+إذا كنت تريد إضافة أوامر إضافية في تشغيل حاوية دوكر في وقت التشغيل. يمكن تحديدهم هنا.<br>
+لمعرفة جميع الأوامر، اذهب إلى: <a href="https://docs.docker.com/reference/run/" target="_blank">https://docs.docker.com/reference/run/</a>
 :end
 
 :docker_post_arguments_help:
-If you wish to append additional arguments AFTER the container definition, you can specify them here.
-The content of this field is container specific.
+إذا اردت إضافة وسيطات بعد تعريف الحاوية، يمكن إضافتهم هنا.
+محتوى الحقل مخصص لحاوية معينة.
 :end
 
 :docker_cpu_pinning_help:
-Checking a CPU core(s) will limit the container to run on the selected cores only. Selecting no cores lets the container run on all available cores (default)
+تحديد أنوية الـCPU سيجعل الحاويات تعمل على هذه الأنوية فقط. عدم تحديد أي نواة يجعل جميع الأنوية متاحة للحاويات (افتراضيًا)
 :end
 
 :docker_fixed_ip_help:
-If the Bridge type is selected, the application’s network access will be restricted to only communicating on the ports specified in the port mappings section.
-If the Host type is selected, the application will be given access to communicate using any port on the host that isn’t already mapped to another in-use application/service.
-Generally speaking, it is recommended to leave this setting to its default value as specified per application template.
+إذا تم تحديد نوع الجسر، صلاحية وصول التطبيق ستكون مقيدة في التواصل على المنفاذ المحددة.
+إذا تم تحديد مضيف، صلاحية وصول التطبيق ستكون مقيدة في التواصل على المنفاذ المحددة من المضيف إذا لم تكن مستخدمة من خلال تطبيق أخر.
+بشكل عام، يفضل ترك الإعدادات الافتراضية المحددة من كل تطبيق.
 
-IMPORTANT NOTE:  If adjusting port mappings, do not modify the settings for the Container port as only the Host port can be adjusted.
+تنبيه مهم: إذا تريد تغير منفذ، قم بتغيير فقط منفذ المضيف فقط وليس الحاوية.
 :end
 
 :docker_privileged_help:
-For containers that require the use of host-device access directly or need full exposure to host capabilities, this option will need to be selected.
-For more information, see this link: <a href="https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities" target="_blank">https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities</a>
+للحاويات التي تطلب وصول مباشر إلى جهاز من المضيف أو الوصول لإمكانيات المضيف، هذا الخيار يجبه تحديده.
+للمزيد من المعلومات، إذهب إلى : <a href="https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities" target="_blank">https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities</a>
 :end
 
 ; sysdevs help - added May 18, 2020
 :sysdevs_iommu_groups_help:
-This displays a list of IOMMU groups available on your system along with the output of the `lspci` command for each IOMMU group.  The numeric identifiers are used to configure PCI pass-through.
+هذا يظهر قائمة مجموعات IOMMU المتاحة على النظام و ناتج الأمر `lspci` لكل مجموعة. التعريف الرقمي يستخدم لتمرير أجهزة PCI.
 
-Devices you select will be bound to the vfio-pci driver at boot, which makes them available for assignment to a virtual machine, and also prevents the Linux kernel from automatically binding them to any present host driver.
+الأجهزة المحددة ستكون مقيدة إلى البرنامج التشغيلي vfio-pci عند تشغيل النظام، مما يجعلهم متاحين للتعين في الأجهزة الظاهرية، و يمنع كيرنل لينكس من التقيد التلقائي لهم للمضيف.
 
-**Note that selecting a device will bind not only the specified device(s), but *all* other devices in the same IOMMU group as well.**
+**تنبيه تحديد جهاز لن يقيد الجهاز فقط بل كل الأجهزة في مجموعة IOMMU أيضًا**
 
-&nbsp;<i class="fa fa-circle orb green-orb middle"></i>&nbsp;This symbol indicates the device is currently bound to the vfio-pci driver.
+&nbsp;<i class="fa fa-circle orb green-orb middle"></i>&nbsp;هذه العلامة تأشر إلى الجهاز الحالي مقيد لبرنامج التشغيل vfio-pci.
 
-&nbsp;<i class="fa fa-retweet grey-orb middle"></i>&nbsp;&nbsp;&nbsp;This symbol indicates the device supports FLR (Function Level Reset).
+&nbsp;<i class="fa fa-retweet grey-orb middle"></i>&nbsp;&nbsp;&nbsp;هذه العلامة تأشر إلى الجهاز يدعم FLR (Function Level Reset).
 
-<input type="checkbox" value="" disabled>&nbsp;&nbsp;If a checkbox is greyed out it means the device is in use by Unraid and can not be passed through.
+<input type="checkbox" value="" disabled>&nbsp;&nbsp;إذا الخيار معطل يدل الجهاز مستخدم من النظام ولا يمكن تمريره.
 :end
 
 :sysdevs_thread_pairings_help:
-This displays a list of CPU thread pairings.
+هنا تظهر قائمة عمليات الجزئية للأنوية المتزاوجة (CPU threads)
 :end
 
 :sysdevs_usb_devices_help:
-This displays the output of the `lsusb` command.  The numeric identifiers are used to configure PCI pass-through.
+هنا يظهر الناتج من الأمر `lsusb`. التعريف الرقمي يستخدم لتمرير أجهزة PCI.
 :end
 
 :sysdevs_scsi_devices_help:
-This displays the output of the `lsscsi` command.  The numeric identifiers are used to configure PCI pass-through.
+هنا يظهر الناتج من الأمر `lsscsi`. التعريف الرقمي يستخدم لتمرير أجهزة PCI.
 
-Note that linux groups ATA, SATA and SAS devices with true SCSI devices.
+تنبيه لمجموعات لينكس ATA, SATA أو أجهزة SAS بأجهزة SCSI حقيقية.
 :end
