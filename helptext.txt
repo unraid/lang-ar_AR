@@ -1802,268 +1802,270 @@ rlb يتم تحقيقه مناقشة ARP.
 :end
 
 :mover_day_of_the_week_help:
-Choose a day when the weekly schedule is selected. Otherwise disabled.
+حدد يوم في الجدول الأسبوعي. غير ذلك معطل.
 :end
 
 :mover_day_of_the_month_help:
-Choose a date when the monthly schedule is selected. Otherwise disabled.
+حدد موعد في الجدول الشهري. غير ذلك معطل.
 :end
 
 :mover_time_of_the_day_help:
-When an hourly schedule is selected this will set the interval in hours. An interval always starts on the whole hour (minute 0).
+عند تحديد بالساعات ، حدد هنا عدد الساعات ما بين عمليات الناقل. تبدأ العملية في الدقيقة 0 من تلك الساعة.
 
-For the other schedules choose here the time of the day the mover should start.
+للخيارات الأخرى حدد الساعة لبدء الناقل.
 :end
 
 :mover_logging_help:
-Write mover messages to the syslog file.
+كتابات العمليات (logs) في ملف syslog.
 :end
 
 :notifications_display_help:
-In *Detailed* view all notifications will be displayed on screen as soon as they arrive.<br>
-Notifications can be acknowledged individually or all in once.
+اظهر الإشعارات على الشاشة *بالتفصيل* حين وصولهم.<br>
+الإشعارات يمكن إغلاقها جميعها أو على حدى.
 
-In *Summarized* view notifications will be counted only and the number of unread notifications is shown in the menu header per category.<br>
-Click on the counters to either acknowledge or view the unread notifications.
+في الوضع *البسيط* سيظهر عدد الإشعارات الغير مقروءة في القائمة العنوان.<br>
+انقر على الرقم لإظهار الإشعارات أو إغلاقها.
 :end
 
 :notifications_date_format_help:
-Select the desired date format which is used in the notifications archive. Recommended is YYYY-MM-DD, which makes the date/time column sortable in a sensible way.
+حدد التنسيق المراد لعرض تاريخ الإشعارات في الأرشيف. مقترح : YYYY-MM-DD،  ما يسهل الترتيب إعتمادً على التاريخ/الوقت.
 :end
 
 :notifications_time_format_help:
-Select the desired time format which is used in the notifications archive. Recommended is 24 hours, which makes the date/time column sortable in a sensible way.
+حدد التنسيق المراد لعرض وقت الإشعارات في الأرشيف. مقترح : 24 ساعة،  ما يسهل الترتيب إعتمادً على التاريخ/الوقت.
 :end
 
 :notifications_display_position_help:
-Choose the position of where notifications appear on screen. Multiple notifications are stacked, bottom-to-top or top-to-bottom depending on the selected placement.
+حدد مكان ظهور الإشعارات في الشاشة.عدة تنبيهات ستظهر بشكل عامودي، من الأعلى-إلى-الأسفل أو الأسفل-إلى-الأعلى إعتماد على المكان.
 :end
 
 :notifications_store_flash_help:
-By default notifications are stored on RAM disk, which will get lost upon system reboot.
-Notifications may be stored permanently on the flash drive under folder '/boot/config/plugins/dynamix' instead.
+إفتراضيًا الإشعارات تخزن في قرص RAM، الذي يفقد بعد إعادة التشغيل النظام.
+الإشعارات يمكن تخزينها بشكل دائم على ذاكرة فلاش تحت مجلد '/boot/config/plugins/dynamix'.
 :end
 
 :notifications_system_help:
-By default the notifications system is disabled. Enable it here to start receiving notifications.
-The following sections give more options about which and what type of notifications will be sent.
+إفتراضيًا الإشعارات معطلة. يمكن تفعيلها هنا لإستقبال إشعارات.
+القسم التالي يوفر خيارات لأي إشعارات سوف تظهر.
 :end
 
 :notifications_os_update_help:
-Start a periodic verification and notify the user when a new version of the Unraid OS system is detected.
-Use the checkboxes below to select how notifications need to be given; by browser, by email and/or by custom agent.
+ابدأ عملية تحقق منظمة و إشعار المستخدم عند صدور إصدار جديد من النظام.
+حدد طريقة الحصول على الإشعارات; من خلال المتصفح، عن طريق البريد الإلكتروني، أو من خادم مخصص.
 :end
 
 :notifications_plugins_update_help:
-Start a periodic verification and notify the user when a new version of one or more of the installed plugins is detected.
-Use the checkboxes below to select how notifications need to be given; by browser, by email and/or by custom agent.
+ابدأ عملية تحقق منظمة و إشعار المستخدم عند صدور إصدار جديد من الإضافات.
+حدد طريقة الحصول على الإشعارات; من خلال المتصفح، عن طريق البريد الإلكتروني، أو من خادم مخصص.
 :end
 
 :notifications_docker_update_help:
-Start a periodic verification and notify the user when a new version of one or more of the installed dockers is detected.
-Use the checkboxes below to select how notifications need to be given; by browser, by email and/or by custom agent.
+ابدأ عملية تحقق منظمة و إشعار المستخدم عند صدور إصدار جديد من تطبيقات دوكر.
+حدد طريقة الحصول على الإشعارات; من خلال المتصفح، عن طريق البريد الإلكتروني، أو من خادم مخصص.
 :end
 
 :notifications_array_status_help:
-Start a periodic array health check (preventive maintenance) and notify the user the result of this check.
+ابدأ عملية تحقق منظمة و إشعار المستخدم عند حدوث مشاكل في النظام.
 :end
 
 :notifications_agent_selection_help:
-Use the checkboxes above to select what and how notifications need to be given; by browser, by email and/or by a service.<br>
-<b>Tip:</b> you can use custom notification agents; just add them to "/boot/config/plugins/dynamix/notification/agents" directory and check 'Agents'.
+حدد الخانات طريقة عرض الإشعارات; من خلال المتصفح، عن طريق البريد الإلكتروني، أو من خادم مخصص.<br>
+<b>معلومة:</b> يمكنك تحديد خادم مخصص للإشعارات; من خلال إضافتهم إلى "/boot/config/plugins/dynamix/notification/agents" وتحديد خادم مخصص
 :end
 
 :notifications_classification_help:
-Notifications are classified as:
+الإشعارات مصنفة كالتالي:
 
-*notice* - these are informative notifications and do not indicate a problem situation, e.g. a new version is available<br>
-*warning* - these are attentive notifications and may indicate future problems, e.g. a hard disk is hotter than usual<br>
-*alert* - these are serious notifications and require immediate attention, e.g. a failing hard disk<br>
+*تنويه* - إشعارات بمعلومات لا تدل على وجود أي مشكلة، مثال : هنالك إصدار جديد من النظام<br>
+*تحذير* - إشعارات بمعلومات تدل على وجود مشكلة مستقبلا، مثال : إرتفاع حرارة قرص فوق المعتاد<br>
+*إنذار* - إشعارات بمعلومات تدل على وجود مشكلة خطرة يجب إصلاحها، مثال : فشل قرص<br>
 
-Choose for each classification how you want to be notified.
+حدد لكل صنف طريقة التنبيه.
 :end
 
 :smtp_preset_service_help:
-Select a preset service to set the basic service settings.
+حدد خدمة معدة مسبقًا لضبط إعدادات الخدمة الأساسية.
 :end
 
 :smtp_email_address_help:
-Email address of your mail account. This address is used as sender of the notifications.
+البريد الإلكتروني المخصص لإرسال الإشعارات.
 :end
 
 :smtp_recipients_help:
-Recipients of status and error notifications. Specify one or more email addresses, separate multiple email addresses with a space.
+البُرُد الإلكترونية المستقبلة للإشعارات، حدد بريد أو أكثر وافصل بينهم بمسافة " ".
 :end
 
 :smtp_priority_help:
-Set email header with high importance, when there is a problem with unRaid.
+حدد عنوان الرسالة ذات أهمية عالية، عند وجود مشكلة في النظام.
 :end
 
 :smtp_subject_prefix_help:
-Set a prefix for easy recognition of Unraid messages.
+حدد اختصار لتعرف على رسائل Unraid.
 :end
 
 :smtp_mail_server_help:
-Specify the name of the email server. Use the preset service selection to have this filled-in automatically.
+حدد إسم خادم البريد الإلكتروني. إستخدم خيارات الخدمات معدة مسبقًا لتعبأة الحقل تلقائيًا.
 :end
 
 :smtp_mail_server_port_help:
-Specify the port of the email server. Use the preset service selection to have this filled-in automatically.
+حدد منفذ خادم البريد الإلكتروني. إستخدم خيارات الخدمات معدة مسبقًا لتعبأة الحقل تلقائيًا.
 :end
 
 :smtp_use_ssl_tls_help:
-Specifies whether to use SSL/TLS to talk to the SMTP server.
+حدد SSL/TLS لتواصل مع خادم SMTP.
 :end
 
 :smtp_use_starttls_help:
-Specifies whether to use STARTTLS before starting SSL negotiation - See RFC 2487.
+حدد إذا اردت استخدام STARTTLS قبل مناقشة SSL - شاهد RFC 2487
 :end
 
 :smtp_define_tls_cert_help:
-Select only when you have a certificate which required for communication.
+حدد شهادة توثيق لتواصل عند الحاجة فقط.
 :end
 
 :smtp_tls_cert_location_help:
-The file name of an RSA certificate to use for TLS - as required.
+إسم ملف شهادة RSA لإستخدام TLS - عند الحاجة.
 :end
 
 :smtp_authentication_method_help:
-Select the correct authentication method for your email server. Use test to verify that access is working properly.
+حدد طريقة التوثيق الصحيحة لخادم البريد الإلكتروني. اختبر الطريقة لتأكد من إمكانية التواصل.
 :end
 
 :smtp_username_password_help:
-Enter the username and password to login to your email account. Be aware that the password is stored unencrypted in the email configuration file.
+ادخل اسم المستخدم و كلمة المرور لحساب البريد الإلكتروني. علما بأن كلمة المرور مخزنة بشكل غير مشفر في ملف إعدادات البريد الإلكتروني.
 :end
 
 :plugin_install_help:
-To download and install a plugin, enter the plg file URL and click **Install**. A window will open
-that displays install progress. Do not close this window until install has completed. You may also specify
-the local file name of an extension.
+لتحميل وتثبيت إضافة، ادخل رابط ملف plg و انقر **تثبيت**. وستفتح نافذة
+تظهر حالة التثبيت. لا تغلقها حتى إكتمال التثبيت. ويمكن أيضا
+تحديد صيغة ملف محلي.
 :end
 
 :plugin_error_help:
-These plugins were not installed because of some kind of installation error.  You should delete these
-plugins and then **reboot** your server.*
+هذه الإضافات لم تثبت بسبب مشكلة ما. يمكنك حذفهم.
+و**إعادة تشغيل** *النظام*.
 :end
 
 :plugin_stale_help:
-These plugins were not installed because newer code already exists.  It is safe to simply delete these.
+هذه الإضافات لم تثبت بسبب إصدار احدث مثبت مسبقًا. يمكنك حذفهم بأمان.
 :end
 
 :docker_client_general_help:
-Templates are a quicker way to setting up Docker Containers on your Unraid server.  There are two types of templates:
+القوالب هي طريقة أسرع لإعداد حاويات دوكر على النظام. هنالك نوعين من القوالب :
 
-**Default templates**<br>
-When valid repositories are added to your Docker Repositories page, they will appear in a section on this drop down for you to choose (master categorized by author, then by application template).
-After selecting a default template, the page will populate with new information about the application in the Description field, and will typically provide instructions for how to setup the container.
-Select a default template when it is the first time you are configuring this application.
+**قوالب إفتراضية**<br>
+عند إضافة مستودع صحيح إلى صفحة مستودع دوكر، سيظهروا في قائمة منسدلة يمكنك الإختيار بينهم(الترتيب يبدأ من الناشر ثم قالب التطبيق).
+بعد إختيار القالب الإفتراضي، الصفحة ستملئ بمعلومات جديد عن التطبيق في حقل الوصف، وبالغالب يتم توفير شرح لطريقة تثبيت الحاوية.
+حدد القالب الإفتراضي عند إعداد التطبيق لأول مرة.
 
-**User-defined templates**<br>
-Once you've added an application to your system through a Default template,
-the settings you specified are saved to your USB flash device to make it easy to rebuild your applications in the event an upgrade were to fail or if another issue occurred.
-To rebuild, simply select the previously loaded application from the User-defined list and all the settings for the container will appear populated from your previous setup.
-Clicking create will redownload the necessary files for the application and should restore you to a working state.
-To delete a User-defined template, select it from the list above and click the red X to the right of it.
+**قوالب معرفة من المستخدم**<br>
+بعد إضافة تطبيق إلى النظام من خلال القالب الإفتراضي،
+الإعدادات المحددة مخزنة في ذاكر الفلاش لتسهيل عملية إعادة الإنشاء للتطبيق في حالة فشل تحديث أو أي أمر اخر.
+لإعادة بناء، حدد التطبيق المراد من خلال قائمة المعرفة من المستخدم و جميع الإعدادات ستظهر من الإعدادات السابقة.
+النقر على إنشاء سيعيد تنزيل الملفات اللازمة للتطبيق و إعادته إلى حالة عمل.
+لمسح قالب المعرف من المستخدم، حدده من القائمة في الأعلى وانقر علامة "X" الحمراء في الجهة اليمنى.
 :end
 
 :docker_client_name_help:
-Give the container a name or leave it as default.
+ادخل اسم حاوية أو اتركه إفتراضيًا.
 :end
 
 :docker_client_overview_help:
-A description for the application container.  Supports basic HTML mark-up.
+وصف تطبيق دوكر. يدعم تنسيق HTML.
 :end
 
 :docker_client_repository_help:
+المستودع الخاص بتطبيق دوكر. تنسيق اسم الناشر/اسم التطبيق.
+اختياريًا يمكنك إضافة 
 The repository for the application on the Docker Registry.  Format of authorname/appname.
 Optionally you can add a : after appname and request a specific version for the container image.
 :end
 
 :docker_client_support_thread_help:
-Link to a support thread on Lime-Technology's forum.
+رابط منتدى الدعم على منتديات Lime-Technology
 :end
 
 :docker_client_project_page_help:
-Link to the project page (eg: www.plex.tv)
+رابط المشروع (مثال: www.plex.tv)
 :end
 
 :docker_client_donation_text_help:
-Text to appear on Donation Links Within The Apps Tab
+النص على روابط التبرع في نافذة التطبيقات.
 :end
 
 :docker_client_donation_link_help:
-Link to the donation page.  If using donation's, both the image and link must be set
+رابط صفحة التبرع. إذا كنت تستخدم تبرعات، يجب وضع الصورة والرابط.
 :end
 
 :docker_client_hub_url_help:
-The path to the container's repository location on the Docker Hub.
+رابط الحاوية في مستودعات منصة Docker Hub.
 :end
 
 :docker_client_template_url_help:
-This URL is used to keep the template updated.
+هذا الرابط يستخدم لإبقاء القالب على أحدث اصدار.
 :end
 
 :docker_client_icon_url_help:
-Link to the icon image for your application (only displayed on dashboard if Show Dashboard apps under Display Settings is set to Icons).
+رابط لأيقونة التطبيق (يظهر فقط في الواجهة الرئيسية تحت التطبيقات إذا كان إظهار الأيقونات مفعل).
 :end
 
 :docker_client_webui_help:
-When you click on an application icon from the Docker Containers page, the WebUI option will link to the path in this field.
-Use [IP] to identify the IP of your host and [PORT:####] replacing the #'s for your port.
+عند النقر على أيقونة التطبيق من صفحة حاويات دوكر، خيار رابط الواجهة سيربط إلى هذا الحقل.
+استخدم [IP] لتعرف عنوان IP النظام و [PORT:####] وتبديل # بالمنفذ.
 :end
 
 :docker_extra_parameters_help:
-If you wish to append additional commands to your Docker container at run-time, you can specify them here.<br>
-For all possible Docker run-time commands, see here: <a href="https://docs.docker.com/reference/run/" target="_blank">https://docs.docker.com/reference/run/</a>
+إذا كنت تريد إضافة أوامر إضافية في تشغيل حاوية دوكر في وقت التشغيل. يمكن تحديدهم هنا.<br>
+لمعرفة جميع الأوامر، اذهب إلى: <a href="https://docs.docker.com/reference/run/" target="_blank">https://docs.docker.com/reference/run/</a>
 :end
 
 :docker_post_arguments_help:
-If you wish to append additional arguments AFTER the container definition, you can specify them here.
-The content of this field is container specific.
+إذا اردت إضافة وسيطات بعد تعريف الحاوية، يمكن إضافتهم هنا.
+محتوى الحقل مخصص لحاوية معينة.
 :end
 
 :docker_cpu_pinning_help:
-Checking a CPU core(s) will limit the container to run on the selected cores only. Selecting no cores lets the container run on all available cores (default)
+تحديد أنوية الـCPU سيجعل الحاويات تعمل على هذه الأنوية فقط. عدم تحديد أي نواة يجعل جميع الأنوية متاحة للحاويات (إفتراضيًا)
 :end
 
 :docker_fixed_ip_help:
-If the Bridge type is selected, the application’s network access will be restricted to only communicating on the ports specified in the port mappings section.
-If the Host type is selected, the application will be given access to communicate using any port on the host that isn’t already mapped to another in-use application/service.
-Generally speaking, it is recommended to leave this setting to its default value as specified per application template.
+إذا تم تحديد نوع الجسر، صلاحية وصول التطبيق ستكون مقيدة في التواصل على المنفاذ المحددة.
+إذا تم تحديد مضيف، صلاحية وصول التطبيق ستكون مقيدة في التواصل على المنفاذ المحددة من المضيف إذا لم تكن مستخدمة من خلال تطبيق أخر.
+بشكل عام، يفضل ترك الإعدادات الإفتراضية المحددة من كل تطبيق.
 
-IMPORTANT NOTE:  If adjusting port mappings, do not modify the settings for the Container port as only the Host port can be adjusted.
+تنبيه مهم: إذا تريد تغير منفذ، قم بتغيير فقط منفذ المضيف فقط وليس الحاوية.
 :end
 
 :docker_privileged_help:
-For containers that require the use of host-device access directly or need full exposure to host capabilities, this option will need to be selected.
-For more information, see this link: <a href="https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities" target="_blank">https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities</a>
+للحاويات التي تطلب وصول مباشر إلى جهاز من المضيف أو الوصول لإمكانيات المضيف، هذا الخيار يجبه تحديده.
+للمزيد من المعلومات، إذهب إلى : <a href="https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities" target="_blank">https://docs.docker.com/engine/reference/run/#runtime-privilege-and-linux-capabilities</a>
 :end
 
 ; sysdevs help - added May 18, 2020
 :sysdevs_iommu_groups_help:
-This displays a list of IOMMU groups available on your system along with the output of the `lspci` command for each IOMMU group.  The numeric identifiers are used to configure PCI pass-through.
+هذا يظهر قائمة مجموعات IOMMU المتاحة على النظام و ناتج الأمر `lspci` لكل مجموعة. التعريف الرقمي يستخدم لتمرير أجهزة PCI.
 
-Devices you select will be bound to the vfio-pci driver at boot, which makes them available for assignment to a virtual machine, and also prevents the Linux kernel from automatically binding them to any present host driver.
+الأجهزة المحددة ستكون مقيدة إلى البرنامج التشغيلي vfio-pci عند تشغيل النظام، مما يجعلهم متاحين للتعين في الأجهزة الظاهرية، و يمنع كيرنل لينكس من التقيد التلقائي لهم للمضيف.
 
-**Note that selecting a device will bind not only the specified device(s), but *all* other devices in the same IOMMU group as well.**
+**تنبيه تحديد جهاز لن يقيد الجهاز فقط بل كل الأجهزة في مجموعة IOMMU أيضًا**
 
-&nbsp;<i class="fa fa-circle orb green-orb middle"></i>&nbsp;This symbol indicates the device is currently bound to the vfio-pci driver.
+&nbsp;<i class="fa fa-circle orb green-orb middle"></i>&nbsp;هذه العلامة تأشر إلى الجهاز الحالي مقيد لبرنامج التشغيل vfio-pci.
 
-&nbsp;<i class="fa fa-retweet grey-orb middle"></i>&nbsp;&nbsp;&nbsp;This symbol indicates the device supports FLR (Function Level Reset).
+&nbsp;<i class="fa fa-retweet grey-orb middle"></i>&nbsp;&nbsp;&nbsp;هذه العلامة تأشر إلى الجهاز يدعم FLR (Function Level Reset).
 
-<input type="checkbox" value="" disabled>&nbsp;&nbsp;If a checkbox is greyed out it means the device is in use by Unraid and can not be passed through.
+<input type="checkbox" value="" disabled>&nbsp;&nbsp;إذا الخيار معطل يدل الجهاز مستخدم من النظام ولا يمكن تمريره.
 :end
 
 :sysdevs_thread_pairings_help:
-This displays a list of CPU thread pairings.
+هنا تظهر قائمة عمليات الجزئية للأنوية المتزاوجة (CPU threads)
 :end
 
 :sysdevs_usb_devices_help:
-This displays the output of the `lsusb` command.  The numeric identifiers are used to configure PCI pass-through.
+هنا يظهر الناتج من الأمر `lsusb`. التعريف الرقمي يستخدم لتمرير أجهزة PCI.
 :end
 
 :sysdevs_scsi_devices_help:
-This displays the output of the `lsscsi` command.  The numeric identifiers are used to configure PCI pass-through.
+هنا يظهر الناتج من الأمر `lsscsi`. التعريف الرقمي يستخدم لتمرير أجهزة PCI.
 
-Note that linux groups ATA, SATA and SAS devices with true SCSI devices.
+تنبيه لمجموعات لينكس ATA, SATA أو أجهزة SAS بأجهزة SCSI حقيقية.
 :end
