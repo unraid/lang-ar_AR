@@ -1,5 +1,5 @@
-A new version of %s is available=
-Docker=
-Language=
-Notice %s - Version update %s=
-Plugin=
+A new version of %s is available= الإصدار الجديد %s متاح الان
+Docker=دوكر
+Language=اللغة
+Notice %s - Version update %s=تنويه %s - تحديث إصدار %s
+Plugin=إضافة
