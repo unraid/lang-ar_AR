@@ -211,13 +211,13 @@
 :end
 
 :info_btrfs_scrub_help:
-يعمل ** التنظيف Scrub** على تشغيل برنامج *btrfs scrub* الذي سيقرأ جميع كتل البيانات والبيانات الوصفية من جميع الأجهزة ويتحقق من المجموع الاختباري.
+يعمل **التنقيح Scrub** على تشغيل برنامج *btrfs scrub* الذي سيقرأ جميع كتل البيانات والبيانات الوصفية من جميع الأجهزة ويتحقق من المجموع الاختباري.
 
 إذا تم تحديد *إصلاح الكتل التالفة*، سيقوم *btrfs scrub* بإصلاح الكتل التالفة في حالة توفر نسخة صحيحة.
 :end
 
 :info_scrub_cancel_help:
-**إلغاء** سيؤدي إلى إلغاء عملية التنظيف الجارية.
+**إلغاء** سيؤدي إلى إلغاء عملية التنقيح الجارية.
 :end
 
 :info_btrfs_check_help:
@@ -416,7 +416,7 @@
 :share_edit_global1_help:
 * المشاركة *، وتسمى أيضًا *مشاركة المستخدم*، هو ببساطة اسم دليل المستوى الأعلى الموجود على واحد أو أكثر من أجهزة التخزين (المصفوفة والتخزين المؤقت). يمكن تصدير كل مشاركة للوصول من الشبكة. عند استعراض المشاركة، نرجع العرض المركب لجميع الملفات والأدلة الفرعية التي يوجد لها دليل المستوى الأعلى هذا على كل جهاز تخزين.
 
-يتم استخدام * قراءة الإعدادات من* للإعداد المسبق لإعدادات المشاركة الجديدة من إعدادات المشاركة الموجودة.
+يتم استخدام * قراءة الإعدادات من* للإعداد المسبق لإعدادات المشاركة الجديدة من إعدادات مشاركة موجودة.
 
 حدد اسم المشاركة المطلوب واضغط على **قراءة** لنسخ الإعدادات من المصدر المحدد.
 :end
@@ -527,7 +527,7 @@ created on the same disk where the parent directory exists.
 :end
 
 :smb_security_help:
-يتم استخدام * قراءة الإعدادات من* للإعداد المسبق لإعدادات أمان SMB للمشاركة الحالية المحددة مع إعدادات المشاركة الموجودة.
+يتم استخدام * قراءة الإعدادات من* للإعداد المسبق لإعدادات أمان SMB للمشاركة الحالية المحددة مع إعدادات مشاركة موجودة.
 
 حدد اسم المشاركة المطلوب واضغط على **قراءة** لنسخ إعدادات أمان SMB من المصدر المحدد.
 
@@ -577,7 +577,7 @@ created on the same disk where the parent directory exists.
 :end
 
 :smb_private_access_help:
-يتم استخدام * قراءة الإعدادات من* لضبط إعدادات SMB لوصول المستخدم للمشاركة الحالية المحددة من إعدادات مشاركة موجودة مسبقاً.
+يتم استخدام * قراءة الإعدادات من* لضبط إعدادات SMB لوصول المستخدم للمشاركة الحالية المحددة من إعدادات مشاركة موجودة.
 
 حدد اسم المشاركة المطلوب واضغط على **قراءة** لنسخ إعدادات أمان SMB من المصدر المحدد.
 
@@ -802,483 +802,432 @@ created on the same disk where the parent directory exists.
 :end
 
 :disk_default_smart_notification_help:
-SMART notifications are generated on either an increasing RAW value of the attribute, or a decreasing NORMALIZED value which reaches a predefined threshold set by the manufacturer.
+يتم إنشاء إشعارات SMART إما على القيمة الأولية المتزايدة للسمة، أو قيمة الموحدة المتناقصة والتي تصل إلى حد محدد مسبقًا تم تعيينه من قبل الشركة المصنعة.
 
-This section is used to set the global settings for all disks. It is possible to adjust settings for individual disks.
+يستخدم هذا القسم لتعيين الإعدادات العامة لجميع الأقراص. من الممكن ضبط إعدادات الأقراص فردياً.
 :end
 
 :disk_default_smart_tolerance_help:
-A tolerance level may be given to prevent that small changes result in a notification. Setting a too high tolerance level may result in critical changes without a notification.
+يمكن تحديد مستوى من السماحية لمنع التغييرات الصغيرة من أن تؤدي إلى إشعارات. قد يؤدي تعيين مستوى عالٍ جدًا من السماحية إلى تغييرات حرجة بدون إشعارات.
 
-This section is used to set the global settings for all disks. It is possible to adjust settings for individual disks.
+يستخدم هذا القسم لتعيين الإعدادات العامة لجميع الأقراص. من الممكن ضبط إعدادات الأقراص فردياً.
 :end
 
 :disk_default_smart_controller_help:
-By default automatic controller selection is done by smartctl to read the SMART information. Certain controllers however need specific settings for smartctl to work.
-Use this setting to select your controller type and fill-in the specific disk index and device name for your situation. Use the manufacturer's documentation to find the relevant information.
+افتراضيًا، يتم اختيار وحدة التحكم التلقائية بواسطة smartctl لقراءة معلومات SMART. ولكن بعض وحدات التحكم تحتاج إلى إعدادات محددة لكي تعمل smartctl.
+استخدم هذا الإعداد لتحديد نوع وحدة التحكم الخاصة بك واملأ مؤشر القرص المحدد واسم الجهاز لحالتك. استخدم وثائق الشركة المصنعة للعثور على المعلومات ذات الصلة.
 
-This section is used to set the global settings for all disks. It is possible to adjust settings for individual disks.
+يستخدم هذا القسم لتعيين الإعدادات العامة لجميع الأقراص. من الممكن ضبط إعدادات الأقراص فردياً.
 :end
 
 :disk_default_smart_attribute_help:
-The user can enable or disable notifications for the given SMART attributes. It is recommended to keep the default, which is ALL selected attributes,
-when certain attributes are not present on your hard disk or do not provide the correct information, these may be excluded.
-In addition custom SMART attributes can be entered to generate notifications. Be careful in this selection,
-it may cause an avalance of notifcations if inappropriate SMART attributes are chosen.
+يمكن للمستخدم تمكين أو تعطيل الإشعارات لسمات SMART المحددة. من المستحسن الاحتفاظ بالخصائص الافتراضية، وهي جميع السمات المختارة، عندما لا توجد سمات معينة على القرص الثابت أو لا تقدم المعلومات الصحيحة، فقد يتم استبعادها.
+بالإضافة إلى ذلك، يمكن إدخال سمات SMART المخصصة لإنشاء إشعارات. كن حذرًا في هذا التحديد، فقد يتسبب في حدوث سيل من الإخطارات إذا تم اختيار سمات SMART غير المناسبة.
 
-This section is used to set the global settings for all disks. It is possible to adjust settings for individual disks.
+يستخدم هذا القسم لتعيين الإعدادات العامة لجميع الأقراص. من الممكن ضبط إعدادات الأقراص فردياً.
 :end
 
 :docker_repositories_help:
-Use this field to add template repositories.
-Docker templates are used to facilitate the creation and re-creation of Docker containers.  Please setup one per line.
+استخدم هذا الحقل لإضافة مستودعات القالب.
+تستخدم قوالب Docker لتسهيل إنشاء وإعادة إنشاء حاويات Docker. يرجى إعداد واحد لكل سطر.
 
-For a list of popular community-supported repositories, visit here: <a href="http://lime-technology.com/forum/index.php?topic=37958.0" target="_blank">http://lime-technology.com/forum/index.php?topic=37958.0</a>
+للحصول على قائمة بالمستودعات الشهيرة التي يدعمها المجتمع ، تفضل بزيارة هنا: <a href="http://lime-technology.com/forum/index.php?topic=37958.0" target="_blank">http://lime-technology.com/forum/index.php?topic=37958.0</a>
 :end
 
 :docker_enable_help:
-Before you can start the Docker service for the first time, please specify an image file for Docker to install to.
+قبل أن تتمكن من بدء خدمة Docker للمرة الأولى، يرجى تحديد ملف صورة ليستخدمه Docker في التثبيت.
 
-Once started, Docker will always automatically start after the array has been started.
+بمجرد البدء، سيبدأ Docker دائمًا تلقائيًا بعد بدء تشغيل المصفوفة.
 :end
 
 :docker_vdisk_size_help:
-If the system needs to create a new docker image file, this is the default size to use specified in GB.
+إذا كان النظام بحاجة إلى إنشاء ملف صورة Docker جديد، فهذا هو الحجم الافتراضي للاستخدام محدداً بالجيجابايت.
 
-To resize an existing image file, specify the new size here. Next time the Docker service is started the file (and file system) will increased to the new size (but never decreased).
+لتغيير حجم ملف الصورة الموجود، حدد الحجم الجديد هنا. في المرة التالية التي يتم فيها تشغيل خدمة Docker، سيزداد حجم الملف (ونظام الملفات) إلى الحجم الجديد (ولكن لا يمكن تقليله أبدًا).
 :end
 
 :docker_vdisk_location_help:
-You must specify an image file for Docker. The system will automatically create this file when the Docker service is first started.
+يجب تحديد ملف صورة لـ Docker. سيقوم النظام تلقائيًا بإنشاء هذا الملف عند بدء تشغيل خدمة Docker لأول مرة.
 
-The image file name must have the extension .img, If not the input is not accepted and marked red.
+يجب أن يحتوي اسم ملف الصورة على الامتداد .img، إذا لم يكن، سيعتبر الإدخال غير مقبولاً ويتم وضع علامة حمراء عليه.
 
-It is recommended to create this image file outside the array, e.g. on the Cache pool. For best performance SSD devices are preferred.
+يوصى بإنشاء ملف الصورة هذا خارج المصفوفة، على سبيل المثال على تجمع التخزين المؤقت. للحصول على أفضل أداء؛ يفضل استخدام أجهزة SSD.
 :end
 
 :docker_appdata_location_help:
-You can specify a folder to automatically generate and store subfolders containing configuration files for each Docker app (via the /config mapped volume).
+يمكنك تحديد مجلد لإنشاء وتخزين المجلدات الفرعية تلقائيًا لمحتويات ملفات التكوين لكل تطبيق Docker (عبر المجلد /config).
 
-The folder's path must end with a trailing slash (/) character. If not the input is not accepted and marked red.
+يجب أن ينتهي مسار المجلد بحرف مائل (/). إذا لم يكن، سيعتبر الإدخال غير مقبولاً ويتم وضع علامة حمراء عليه.
 
-It is recommended to create this folder outside the array, e.g. on the Cache pool. For best performance SSD devices are preferred.
+يوصى بإنشاء ملف الصورة هذا خارج المصفوفة، على سبيل المثال على تجمع التخزين المؤقت. للحصول على أفضل أداء؛ يفضل استخدام أجهزة SSD.
 
-Only used when adding new Docker apps. Editing existing Docker apps will not be affected by this setting.
+تُستخدم فقط عند إضافة تطبيقات Docker جديدة. لن يتأثر تعديل تطبيقات Docker الحالية بهذا الإعداد.
 :end
 
 :docker_log_rotation_help:
-By default LOG rotation is disabled and will create a single LOG file of unlimited size.
+افتراضيًا، يتم تعطيل تدوير السجل وسيُنشئ ملف سجل واحد بحجم غير محدود.
 
-Enable LOG rotation to limit the size of the LOG file and specify the number of files to keep in the rotation scheme.
+قم بتمكين تدوير السجل لتحديد حجم ملف السجل وتحديد عدد الملفات التي يجب الاحتفاظ بها في نظام التدوير.
 :end
 
 :docker_log_file_size_help:
-Specifies the maximum LOG size. When exceeded LOG rotation will occur.
+حدد الحد الأقصى لحجم السجل. عندما يتم تجاوزه سوف يحدث تدوير للسجل.
 :end
 
 :docker_log_file_number_help:
-Specifies the number of LOG files when LOG rotation is done.
+حدد عدد ملفات السجل عند إتمام دوران السجل.
 :end
 
 :docker_authoring_mode_help:
-If set to **Yes**, when creating/editing containers the interface will be present with some extra fields related to template authoring.
+إذا تم التعيين على **نعم**، عند إنشاء / تعديل الحاويات، ستظهر الواجهة مع بعض الحقول الإضافية المتعلقة بتأليف القالب.
 :end
 
 :docker_custom_network_access_help:
-Allows direct communication between the host and containers using a custom (macvlan) network.<br>
-By default this is prohibited.
+يسمح بالاتصال المباشر بين المضيف والحاويات باستخدام شبكة مخصصة (macvlan).<br>
+هذا ممنوع افتراضياً.
 :end
 
 :docker_user_defined_network_help:
-User created networks are networks created by the user outside of the GUI.<br>
-By default user created networks are removed from Docker. This is done to prevent potential conflicts with the automatic generation of custom networks.
+الشبكات التي ينشئها المستخدم هي شبكات أنشأها المستخدم خارج واجهة المستخدم الرسومية.<br>
+بشكل افتراضي تتم إزالة الشبكات التي أنشأها المستخدم من Docker. يتم ذلك لمنع التعارضات المحتملة مع الإنشاء التلقائي للشبكات المخصصة.
 
-Change this setting to preserve user defined networks, but it is the responsibility of the user to ensure these entries work correctly and are conflict free.
+قم بتغيير هذا الإعداد للحفاظ على الشبكات المعرفة من قبل المستخدم ، ولكن من مسؤولية المستخدم التأكد من أن هذه الإدخالات تعمل بشكل صحيح وخالية من التعارض.
 :end
 
 :docker_include_interface_vlan_ipv4_help:
-Include (default) or exclude the above interfaces or VLANs as custom network for Docker.
+قم بتضمين (الافتراضي) أو استبعاد الواجهات أعلاه أو شبكات VLAN كشبكة مخصصة لـ Docker.
 
-Enter the pool range within each allocated subnet which is used for DHCPv4 assignments by Docker. E.g. 192.168.1.128/25
+أدخل نطاق التجمع داخل كل شبكة فرعية مخصصة يتم استخدامها لتخصيصات DHCPv4 بواسطة Docker. على سبيل المثال 192.168.1.128/25
 :end
 
 :docker_exclude_interface_vlan_ipv4_help:
-Include or exclude (default) the above interfaces or VLANs as custom network for Docker.
+قم بتضمين أو استبعاد (الافتراضي) الواجهات أو شبكات VLAN المذكورة أعلاه كشبكة مخصصة لـ Docker.
 
-Enter the pool range within each allocated subnet which is used for DHCPv4 assignments by Docker. E.g. 192.168.1.128/25
+أدخل نطاق التجمع داخل كل شبكة فرعية مخصصة يتم استخدامها لتخصيصات DHCPv4 بواسطة Docker. على سبيل المثال 192.168.1.128/25
 :end
 
 :docker_include_interface_vlan_ipv6_help:
-Include (default) or exclude the above interfaces or VLANs as custom network for Docker.
+قم بتضمين (الافتراضي) أو استبعاد الواجهات أعلاه أو شبكات VLAN كشبكة مخصصة لـ Docker.
 
-Enter the pool range within each allocated subnet which is used for DHCPv6 assignments by Docker. E.g. 2a02:abcd:9ef5:100:1::/72
+أدخل نطاق التجمع داخل كل شبكة فرعية مخصصة يتم استخدامها لتخصيصات DHCPv6 بواسطة Docker. على سبيل المثال  2a02:abcd:9ef5:100:1::/72
 :end
 
 :docker_exclude_interface_vlan_ipv6_help:
-Include or exclude (default) the above interfaces or VLANs as custom network for Docker.
+قم بتضمين أو استبعاد (الافتراضي) الواجهات أو شبكات VLAN المذكورة أعلاه كشبكة مخصصة لـ Docker.
 
-Enter the pool range within each allocated subnet which is used for DHCPv6 assignments by Docker. E.g. 2a02:abcd:9ef5:100:1::/72
+أدخل نطاق التجمع داخل كل شبكة فرعية مخصصة يتم استخدامها لتخصيصات DHCPv6 بواسطة Docker. على سبيل المثال 2a02:abcd:9ef5:100:1::/72
 :end
 
 :docker_version_help:
-This is the active Docker version.
+هذه أصادر Docker النشط.
 :end
 
 :docker_vdisk_location_active_help:
-This is the location of the Docker image.
+هذا هو موقع صورة Docker.
 :end
 
 :docker_appdata_location_active_help:
-This is the storage location for Docker containers.
+هذا هو موقع التخزين لحاويات Docker.
 :end
 
 :docker_log_rotation_active_help:
-By default a single unlimited LOG file is created. Otherwise LOG file size and number of files are limited when LOG rotation is enabled.
+بشكل افتراضي، يتم إنشاء ملف سجل واحد غير محدود. خلاف ذلك، يكون حجم ملف السجل وعدد الملفات محدودًا عند تمكين تدوير السجل.
 :end
 
 :docker_custom_network_active_help:
-Allows direct communication between the host and containers using a custom (macvlan) network.<br>
-By default this is prohibited.
+يسمح بالاتصال المباشر بين المضيف والحاويات باستخدام شبكة مخصصة (macvlan).<br>
+هذا ممنوع افتراضيا.
 :end
 
 :docker_user_defined_network_active_help:
-Shows whether networks created outside of the GUI are removed or preserved for Docker. When preserved *user defined networks* become available in the *Network type* dropdown list of containers.
+يوضح ما إذا كانت الشبكات التي تم إنشاؤها خارج واجهة المستخدم الرسومية تتم إزالتها أو الاحتفاظ بها لـ Docker. عند الحفاظ على *الشبكات المعرفة من قبل المستخدم* تصبح متاحة في القائمة المنسدلة *نوع الشبكة* في صفحة إعدادات الحاويات.
 :end
 
 :docker_scrub_help:
-**Scrub** runs the *btrfs scrub* program to check file system integrity.
+**التنقيح** يقوم بتشغيل برنامج *btrfs scrub* للتحقق من تكامل نظام الملفات.
 
-If repair is needed you should check the *Correct file system errors* and run a second Scrub pass; this will permit *btrfs scrub* to fix the file system.
+إذا كانت هناك حاجة للإصلاح، فيجب تحديد *تصحيح أخطاء نظام الملفات* وتشغيل تنقيح ثانٍ؛ هذا سيسمح لـ *btrfs scrub* بإصلاح نظام الملفات.
 :end
 
 :docker_cancel_help:
-**Cancel** will cancel the Scrub operation in progress.
+** إلغاء ** سيؤدي إلى إلغاء عملية التنقيح الجارية.
 :end
 
 :id_server_name_help:
-The network identity of your server.  Also known as *hostname* or *short hostname*. Windows networking
-refers to this as the *NetBIOS name* and must be 15 characters or less in length.
-Use only alphanumeric characters (that is, "A-Z", "a-z", and "0-9"), dashes ("-"), and dots (".");
-and, the first and last characters must be alphanumeric.
+هوية الشبكة لخادمك. يُعرف أيضًا باسم *اسم المضيف* أو * اسم المضيف القصير*. تشير شبكات Windows إلى ذلك باسم *اسم NetBIOS* ويجب أن يكون طوله 15 حرفًا أو أقل.
+استخدم فقط الأحرف الأبجدية الرقمية ("A-Z" و "a-z" و "0-9") والشرطات ("-") والنقاط (".")؛ ويجب أن يكون الحرف الأول والأخير أبجديًا رقميًا.
 :end
 
 :id_description_help:
-This is a text field that is seen next to a server when listed within Network or File Explorer
-(Windows), or Finder (macOS).
+هذا الحقل النصي يظهر بجوار الخادم عند إدراجه ضمن الشبكة أو مستكشف الملفات (Windows) أو Finder (macOS).
 :end
 
 :id_model_help:
-This is the server model number.
+هذا هو رقم طراز الخادم.
 :end
 
 :mgmt_start_page_help:
-Select the page which is opened first when entering the GUI. By default the *Main* page is selected.
+حدد الصفحة التي يتم فتحها أولاً عند دخول واجهة المستخدم الرسومية. يتم تحديد الصفحة *الرئيسية* افتراضيًا.
 :end
 
 :mgmt_use_telnet_help:
-By default TELNET access is enabled. TELNET is an insecure type of CLI access however,
-and it is highly recommended to use SSH access instead and disable TELNET access.
+يتم تمكين الوصول عبر TELNET بشكل افتراضي. TELNET هو نوع غير آمن من الوصول إلى CLI، ويوصى بشدة باستخدام وصول عبر SSH بدلاً من ذلك وتعطيل الوصول عبر TELNET.
 :end
 
 :mgmt_telnet_port_help:
-Enter the TELNET port, default port is 23.
+أدخل منفذ TELNET ، المنفذ الافتراضي هو 23.
 :end
 
 :mgmt_use_ssh_help:
-SSH is enabled by default and offers a secure way of CLI access. Upon system startup SSH keys are automatically generated
-if not yet existing, and stored on the flash device in the folder */config/ssh*.
+يتم تمكين SSH افتراضيًا ويوفر طريقة آمنة للوصول إلى CLI. عند بدء تشغيل النظام ، يتم إنشاء مفاتيح SSH تلقائيًا إذا لم تكن موجودة بعد ، ويتم تخزينها على جهاز الفلاش في المجلد */config/ssh*.
 :end
 
 :mgmt_ssh_port_help:
-Enter the SSH port, default port is 22.
+أدخل منفذ SSH ، المنفذ الافتراضي هو 22.
 :end
 
 :mgmt_use_upnp_help:
-Enable (default) or disable the UPnP function on the server. This function allows automatic forwarding of ports on the router, only applicable when UPnP is enabled on the router itself.
+تمكين (الافتراضي) أو تعطيل وظيفة UPnP على الخادم. تسمح هذه الوظيفة بإعادة التوجيه التلقائي للمنافذ على جهاز التوجيه(الراوتر)، لا تنطبق إلا عند تمكين UPnP على جهاز التوجيه نفسه.
 :end
 
 :mgmt_use_ssl_tls_help:
-Determines how the webGUI responds to HTTP and/or HTTPS protocol.
+يحدد كيفية استجابة واجهة المستخدم لبروتوكول HTTP و / أو HTTPS.
 
-Select **No** to disable HTTPS
+حدد **لا** لتعطيل HTTPS
 
-Select **Yes** to enable HTTPS and redirect HTTP to HTTPS. If a Let's Encrypt SSL certificate has not
-been provisioned, then an automatically generated self-signed SSL certificate will be used.
+حدد **نعم** لتمكين HTTPS وإعادة توجيه HTTP إلى HTTPS. إذا لم يتم توفير شهادة Let's Encrypt SSL، فسيتم استخدام شهادة SSL ذاتية التوقيع تلقائيًا.
 
-Select **Auto** if you are using or plan to use a Let's Encrypt SSL certificate provisioned
-by Lime Technology. Before the certificate is provisioned, the webGUI remains
-in http-mode. After provisioning, the webGUI automatically switches to https-mode. In addition
-two background processes are enabled:
+حدد **تلقائي** إذا كنت تستخدم أو تخطط لاستخدام شهادة Let's Encrypt SSL التي توفرها Lime Technology. قبل توفير الشهادة، تظل واجهة المستخدم في وضع http. بعد التوفير، تتحول واجهة المستخدم تلقائيًا إلى وضع https. بالإضافة إلى ذلك، يتم تمكين عمليتين خلفيتين:
 
-- *updatedns* - This starts 30 seconds after server reboot has completed and contacts the Lime Technology
-DNS service to register the servers local IP address. Thereafter it wakes up every 10 minutes in case
-the local IP address has changed again.
+- *updatedns* - يبدأ ذلك بعد 30 ثانية من اكتمال إعادة تشغيل الخادم والاتصال بخدمة DNS الخاصة بـLime Technology لتسجيل عنوان IP المحلي للخوادم. بعد ذلك يستيقظ كل 10 دقائق في حالة تغير عنوان IP المحلي مرة أخرى.
 
-- *renewcert* - This starts 60 seconds after server reboot has completed and contacts the Lime Technology
-certificate renewal service to determine if your Let's Encrypt SSL certificate needs to be renewed.
-Thereafter it wakes up every 24 hours. If within 30 days of expiration, a new certificate is automatically
-provisioned and downloaded to your server.
+- *renewcert* - يبدأ هذا بعد 60 ثانية بعد اكتمال إعادة تشغيل الخادم والاتصال بخدمة تجديد شهادة Lime Technology لتحديد ما إذا كانت شهادة Let's Encrypt SSL الخاصة بك بحاجة إلى التجديد.
+بعد ذلك يستيقظ كل 24 ساعة. في غضون 30 يومًا قبل انتهاء الصلاحية، يتم تلقائيًا توفير شهادة جديدة وتنزيلها على خادمك.
 
-Note: After provisioning a Let's Encrypt SSL certificate you may turn off the *updatedns* and *newcert*
-background processes by changing this field to **Yes**.
+ملاحظة: بعد توفير شهادة Let's Encrypt SSL، يمكنك إيقاف العمليات الخلفية *updatesns* و *newcert* عن طريق تغيير هذا الحقل إلى **نعم**.
 
-**nginx certificate handling details**
+**تفاصيل معالجة شهادة nginx**
 
-The nginx startup script looks for a SSL certificate on the USB boot flash in this order:<br>
+يبحث البرنامج النصي لبدء التشغيل nginx عن شهادة SSL على فلاش تمهيد USB بهذا الترتيب:<br>
 `config/ssl/certs/certificate_bundle.pem`<br>
 `config/ssl/certs/<server-name>_unraid_bundle.pem`
 
-If neither file exists, a self-signed SSL certificate is automatically created and stored in<br>
+في حالة عدم وجود أي ملف ، يتم إنشاء شهادة SSL موقعة ذاتيًا وتخزينها تلقائيًا في<br>
 `config/ssl/certs/<server-name>_unraid_bundle.pem`<br>
 
-Provisioning a Let's Encrypt certificate writes the certificate to<br>
+يؤدي توفير شهادة Let's Encrypt إلى كتابة الشهادة الى<br>
 `config/ssl/certs/certificate_bundle.pem`<br>
 
-**nginx stapling support**
+**دعم nginx stapling**
 
-Whether nginx enables OCSP Staping is determined by which certificate is in use:<br>
-`config/ssl/certs/certificate_bundle.pem` => Yes<br>
-`config/ssl/certs/<server-name>_unraid_bundle.pem` => No
+يتم تحديد ما إذا كانت nginx تُمكّن OCSP Staping من خلال الشهادة المستخدمة:<br>
+`config/ssl/certs/certificate_bundle.pem` => نعم<br>
+`config/ssl/certs/<server-name>_unraid_bundle.pem` => لا
 :end
 
 :mgmt_http_port_help:
-Enter the HTTP port, default port is 80.
+أدخل منفذ HTTP ، المنفذ الافتراضي هو 80.
 :end
 
 :mgmt_https_port_help:
-Enter the HTTPS port, default port is 443.
+أدخل منفذ HTTPS ، المنفذ الافتراضي هو 443.
 :end
 
 :mgmt_local_tld_help:
-Enter your local Top Level Domain. May be blank.
+أدخل نطاق المستوى الأعلى المحلي. قد تكون فارغة.
 :end
 
 :mgmt_certificate_expiration_help:
-**Provision** may be used to allocate a *free* SSL Certficiate from [Let's Encrypt](https://letsencrypt.org/) and
-then upload to your server. Note: We **highly** recommend using a static IP address in this case.
+يمكن استخدام ** توفير** لتخصيص شهادة SSL *مجانية* من [Let's Encrypt](https://letsencrypt.org/) ثم تحميلها إلى خادمك. ملاحظة: **نوصي بشدة** باستخدام عنوان IP ثابت في هذه الحالة.
 
-**Update DNS** may be used to manually initiate updating the DNS A-record of your server FQDN on unraid.net. Note
-that DNS propagation change could take anywhere from 1 minute to several hours (we set TTL to 60 seconds).
+يمكن استخدام **تحديث DNS** لبدء التحديث اليدوي لقيد DNS A-record لـFQDN لخادمك على unraid.net. لاحظ أن تغييرات نشر DNS قد تستغرق من دقيقة واحدة إلى عدة ساعات (نقوم بتعيين TTL على 60 ثانية).
 
-Note: **Provision** may fail if your router or upstream DNS server has
-[DNS rebinding protection](https://en.wikipedia.org/wiki/DNS_rebinding) enabled. DNS rebinding
-protection prevents DNS from resolving a private IP network range. DNS rebinding protection is meant as
-a security feature on a local LAN which includes legacy devices with buggy/insecure "web" interfaces.
+ملاحظة: قد يفشل **توفير** إذا تم تمكين [حماية إعادة ربط DNS](https://en.wikipedia.org/wiki/DNS_rebinding) على جهاز التوجيه أو خادم DNS الرئيسي. تمنع حماية إعادة ربط DNS من حل نطاق شبكة IP الخاصة. يقصد بحماية إعادة ربط DNS كميزة أمان على شبكة LAN المحلية التي تتضمن أجهزة قديمة ذات واجهات "الويب" غير الآمنة.
 
-One source of DNS rebinding protection could be your ISP DNS server. In this case the problem may be solved by
-switching to a different DNS server such as Google's public DNS.
+يمكن أن يكون أحد مصادر حماية إعادة ربط DNS هو خادم ISP DNS الخاص بك. في هذه الحالة، يمكن حل المشكلة بالتبديل إلى خادم DNS مختلف مثل DNS العام لجوجل.
 
-More commonly, DNS rebinding protection could be enabled in your router. Most consumer routers do not implement DNS
-rebinding protection; but, if they do, a configuration setting should be available to turn it off.
+بشكل أكثر شيوعًا، يمكن تمكين حماية إعادة ربط DNS في جهاز التوجيه الخاص بك. لا تقوم معظم أجهزة توجيه المستهلك بتطبيق حماية إعادة ربط DNS؛ ولكن، إذا حدث ذلك، فيجب أن يتوفر إعداد لإيقاف تشغيله.
 
-Higher end routers usually do enable DNS rebinding protection however. Typically there are ways of turning it off
-entirely or selectively based on domain. Examples:
+عادةً ما تعمل أجهزة التوجيه المتطورة على تمكين حماية إعادة ربط DNS. عادةً ما توجد طرق لإيقاف تشغيله كليًا أو بشكل انتقائي بناءً على النطاق. أمثلة:
 
-**DD-WRT:** If you are using "dnsmasq" with DNS rebinding protection enabled, you can add this line to your router
-configuration file:
+**DD-WRT:** إذا كنت تستخدم "dnsmasq" مع تمكين حماية إعادة ربط DNS ، فيمكنك إضافة هذا السطر إلى ملف تكوين جهاز التوجيه الخاص بك:
 
 `rebind-domain-ok=/unraid.net/`
 
-**pfSense:** If you are using pfSense internal DNS resolver service, you can add these Custom Option lines:
+**pfSense:** إذا كنت تستخدم خدمة محلل DNS الداخلي pfSense، فيمكنك إضافة السطور المخصصة هذه:
 
 `server:`<br>
 `private-domain: "unraid.net"`
 
-**Ubiquiti USG router:** you can add this configuration line:
+**Ubiquiti USG router:** يمكنك إضافة سطر التكوين هذا:
 
 `set service dns forwarding options rebind-domain-ok=/unraid.net/`
 
-**OpenDNS:** Go to Settings -> Security and *remove* the checkbox next to
- "Suspicious Responses - Block internal IP addresses". It is an all-or-nothing setting.
+**OpenDNS:**انتقل إلى الإعدادات -> الأمان و * أزل * مربع الاختيار بجوار " Suspicious Responses - Block internal IP addresses". إنه إعداد الكل أو لا شيء.
 
-When all else fails, you can create an entry in your PC's *hosts* file to override external DNS and
-directly resolve your servers unraid.net FQDN to its local IP address.
+عندما يفشل كل شيء آخر، يمكنك إنشاء إدخال في ملف *hosts* على جهاز الكمبيوتر الخاص بك لتجاوز DNS الخارجي وتمكين خوادمك من ربط  unraid.net FQDN مباشرة مع عنوان IP المحلي الخاص به.
 :end
 
 :ftp_server_help:
-Enable or disable the FTP server daemon. By default the FTP server is enabled.
-This setting is not saved, i.e. upon system reboot it will revert to its default setting.
+تمكين أو تعطيل البرنامج الخفي لملقم FTP. يتم تمكين خادم FTP بشكل افتراضي.
+لا يتم حفظ هذا الإعداد ، أي عند إعادة تشغيل النظام ، سيعود إلى إعداده الافتراضي.
 :end
 
 :ftp_users_help:
-Enter the user names (separated by spaces) permitted to access the server using FTP.
-To disallow any user access, clear this setting.
+أدخل أسماء المستخدمين (مفصولة بمسافات) المسموح لها بالوصول إلى الخادم باستخدام FTP.
+لعدم السماح بوصول أي مستخدم ، امسح هذا الإعداد.
 
-**Note:** do not enter user name `root` since this may cause problems in the future.
+**ملاحظة:** لا تدخل اسم المستخدم `root 'لأن هذا قد يسبب مشاكل في المستقبل.
 :end
 
 :ftp_overview_help:
-### Overview
+### نظرة عامة
 
-Unraid includes the popular `vsftpd` FTP server.  The configuration of `vsftp` is currently very
-simple: **All** user names entered above are permitted to access the server via FTP and will have
-*full read/write/delete access* to the entire server, so use with caution.
+يشمل Unraid خادم `FTP vsftpd` الشهير. ملف تكوين "vsftp" بسيط للغاية حاليًا: يُسمح **لجميع** أسماء المستخدمين التي تم إدخالها أعلاه بالوصول إلى الخادم عبر FTP وسيكون لهم *حق الوصول الكامل للقراءة / الكتابة / الحذف* إلى الخادم بالكامل، لذا استخدمه بحذر.
 :end
 
 :smb_enable_help:
-Select 'Yes (Workgroup)' to enable SMB (Windows Networking) protocol support. This
-also enables Windows host discovery.
+حدد "نعم (مجموعة العمل)" لتمكين دعم بروتوكول SMB (شبكة Windows). وهذا يتيح أيضًا اكتشاف مضيف Windows.
 
-Select 'Yes (Active Directory)' to enable Active Directory integration.
+حدد "نعم (Active Directory)" لتمكين تكامل Active Directory.
 :end
 
 :smb_hide_files_help:
-If set to 'Yes' then files starting with a '.' (dot) will appear as *hidden files* and normally
-will not appear in Windows folder lists unless you have "Show hidden files, folders, and drives" enabled
-in Windows Folder Options.
+إذا تم الضبط على "نعم"، فإن الملفات التي تبدأ بالحرف "." (نقطة) ستظهر *كملفات مخفية* وعادة لن تظهر في قوائم مجلدات Windows ما لم يتم تمكين "إظهار الملفات والمجلدات ومحركات الأقراص المخفية" في خيارات مجلد Windows.
 
-If set to 'No' then dot files will appear in folder lists the same as any other file.
+إذا تم الضبط على "لا" ، فستظهر ملفات النقاط في قوائم المجلدات مثل أي ملف آخر.
 :end
 
 :smb_enhanced_macos_help:
-When set to 'Yes' provides enhanced compatibility with Apple SMB clients, resulting, for example, in faster
-Finder browsing, and ability to export Time Machine shares.  This may cause some issues with Windows clients, however.
-Please also refer to the [VFS_FRUIT MAN PAGE](https://www.mankier.com/8/vfs_fruit).
+عند الضبط على "نعم"، يوفر توافقًا محسنًا مع عملاء Apple SMB، مما يؤدي، على سبيل المثال، إلى تصفح أسرع عبر Finder، والقدرة على تصدير مشاركات Time Machine. قد يتسبب هذا في بعض المشكلات مع عملاء Windows.
+يرجى الرجوع أيضا إلى  [VFS_FRUIT MAN PAGE](https://www.mankier.com/8/vfs_fruit).
 :end
 
 :smb_enable_netbios_help:
-Select 'Yes' to enable NetBIOS.  If enabled, SMBv1 protocol will also be recognized.  If disabled,
-clients must use SMBv2 or higher.
+حدد "نعم" لتمكين NetBIOS. في حالة التمكين ، سيتم أيضًا التعرف على بروتوكول SMBv1. في حالة التعطيل ، يجب على العملاء استخدام SMBv2 أو أعلى.
 :end
 
 :smb_enable_wsd_help:
-Select 'Yes' to enable WSD (WS-Discovery).  The only reason to turn this off is when you are running an
-old LAN setup based on SMBv1.
+حدد "نعم" لتمكين WSD (WS-Discovery). السبب الوحيد لإيقاف هذا هو عندما تقوم بتشغيل إعداد LAN قديم يعتمد على SMBv1.
 :end
 
 :smb_wsd_options_help:
-This is a command line options string passed to the WSD daemon upon startup. Leave this field blank unless
-instructed by support to put something here.
+هذه سلسلة خيارات سطر الأوامر التي تم تمريرها إلى البرنامج الخفي لـ WSD عند بدء التشغيل. اترك هذا الحقل فارغًا ما لم يطلب منك فريق الدعم وضع شيء هنا.
 :end
 
 :smb_extra_conf_help:
-Use this page to make changes to your `smb-extra.conf` file.  Samba will need
-to be restarted in order for changes to take effect.
+استخدم هذه الصفحة لإجراء تغييرات على ملف `smb-extra.conf`. ستحتاج Samba إلى إعادة التشغيل حتى تصبح التغييرات سارية المفعول.
 :end
 
 :smb_extra_button_help:
-Click the **Apply** button to commit the current edits.  Click **Reset** to
-undo any changes you make (before Saving). Click **Done** to exit this page.
+انقر فوق الزر **تطبيق** لتنفيذ التعديلات الحالية. انقر فوق **إعادة تعيين** للتراجع عن أي تغييرات تجريها (قبل الحفظ). انقر فوق **تم** للخروج من هذه الصفحة.
 :end
 
 :smb_workgroup_help:
-Enter your local network Workgroup name. Usually this is "WORKGROUP".
+أدخل اسم مجموعة العمل الخاصة بشبكتك المحلية. عادة ما يكون هذا "WORKGROUP".
 :end
 
 :smb_local_master_help:
-If set to 'Yes' then the server will fully participate in browser elections, and in the absense
-of other servers, will usually become the local Master Browser.
+إذا تم الضبط على "نعم" ، فسيشارك الخادم بالكامل في انتخابات المتصفح ، وفي حالة عدم وجود خوادم أخرى ، سيصبح عادةً المتصفح الرئيسي المحلي.
 :end
 
 :nfs_enable_help:
-Select 'Yes' to enable the NFS protocol.
+حدد "نعم" لتمكين بروتوكول NFS.
 :end
 
 :nfs_tunable_fuse_remember_help:
-When NFS is enabled, this Tunable may be used to alleviate or solve instances of "NFS Stale File Handles"
-you might encounter with your NFS client.
+عند تمكين NFS، يمكن استخدام هذا الضبط لتخفيف أو حل مثيلات "NFS Stale File Handles" التي قد تواجهها مع عميل NFS الخاص بك.
 
-In essence, (fuse_remember) tells an internal subsystem (named "fuse") how long to "remember" or "cache"
-file and directory information associated with user shares.  When an NFS client attempts to access a file
-(or directory) on the server, and that file (or directory) name is not cached, then you could encounter
-"stale file handle".
+في الجوهر، يخبر (fuse_remember) نظامًا فرعيًا داخليًا (يسمى "fuse") إلى متى "يتذكر" أو "يخزن مؤقتاً" معلومات الدليل المرتبطة بمشاركة المستخدم. عندما يحاول عميل NFS الوصول إلى ملف (أو دليل) على الخادم، ولم يتم تخزين هذا الملف (أو الدليل) في ذاكرة التخزين المؤقت، فقد تواجه "stale file handle".
 
-The numeric value of this tunable is the number of seconds to cache file/directory name entries,
-where the default value of 330 indicates 5 1/2 minutes.  There are two special values you may also set
-this to:
+القيمة الرقمية لهذا الضبط هي عدد الثواني لتخزين إدخالات اسم الملف/الدليل، حيث تشير القيمة الافتراضية 330 إلى 5 دقائق ونصف الدقيقة. هناك قيمتان خاصتان يمكنك أيضًا تعيينهما على النحو التالي:
 
-* 0 which means, do not cache file/directory names at all, and
-* -1 which means cache file/directory names forever (or until array is stopped)
+* 0 مما يعني عدم تخزين أسماء الملفات / المجلدات في ذاكرة التخزين المؤقت على الإطلاق.
+* -1 مما يعني الاحتفاظ بأسماء ملفات/دليل في ذاكرة التخزين المؤقت إلى الأبد (أو حتى يتم إيقاف المصفوفة)
 
-A value of 0 would be appropriate if you are enabling NFS but only plan to use it for disk shares,
-not user shares.
+ستكون القيمة 0 مناسبة إذا كنت تقوم بتمكين NFS ولكنك تخطط فقط لاستخدامه في مشاركات القرص ، وليس مشاركات المستخدم.
 
-A value of -1 would be appropriate if no other timeout seems to solve the "stale file handle" on
-your client.  Be aware that setting a value of -1 will cause the memory footprint to grow by approximately
-108 bytes per file/directory name cached.  Depending how much RAM is installed in your server and how many
-files/directories you access via NFS this may or may not lead to out-of-memory conditions.
+ستكون القيمة -1 مناسبة إذا لم يكن هناك مهلة أخرى لحل "stale file handle" على العميل الخاص بك. كن على علم بأن تعيين قيمة -1 سيؤدي إلى زيادة حجم الذاكرة بمقدار 108 بايت تقريبًا لكل ملف / دليل تم تخزينه مؤقتًا. اعتمادًا على مقدار ذاكرة الوصول العشوائي المثبتة في الخادم الخاص بك وعدد الملفات/الدلائل التي يمكنك الوصول إليها عبر NFS قد يؤدي هذا أو قد لا يؤدي إلى حالات نفاد الذاكرة.
 :end
 
 :shares_enable_disk_help:
-If set to No, disk shares are unconditionally not exported.
+إذا تم التعيين على "لا" ، فلن يتم تصدير مشاركات القرص دون قيد أو شرط.
 
-If set to Yes, disk shares may be exported.  **WARNING:** Do not copy data from a disk share to a user share
-unless you *know* what you are doing.  This may result in the loss of data and is not supported.
+إذا تم الضبط على "نعم"، يمكن تصدير مشاركات القرص. **تحذير:** لا تنسخ البيانات من مشاركة قرص إلى مشاركة مستخدم ما لم تكن *تدرك* ما تفعله. قد يؤدي ذلك إلى فقدان البيانات ولن تكون مدعومة من قيل فريق الدعم.
 
-If set to Auto, only disk shares not participating in User Shares may be exported.
+إذا تم الضبط على "تلقائي"، يمكن تصدير مشاركات القرص الغير مشاركة في "مشاركات المستخدم" فقط.
 :end
 
 :shares_enable_shares_help:
-If set to 'Yes' the User Shares feature is activated.
+إذا تم الضبط على "نعم" ، يتم تنشيط ميزة "مشاركات المستخدم".
 :end
 
 :shares_included_disks_help:
-This setting defines the set of array disks which are *included* in User Shares.
-Unchecking all disks will allow **all** array disks to be included.
+يحدد هذا الإعداد مجموعة أقراص المصفوفة التي يتم *تضمينها* في مشاركات المستخدم.
+سيؤدي إلغاء تحديد جميع الأقراص إلى السماح بتضمين **جميع** أقراص المصفوفة.
 :end
 
 :shares_excluded_disks_help:
-This setting defines the set of array disk which are *excluded* from User Shares.
-Uncheck all disks in order to not exclude any disks
+يحدد هذا الإعداد مجموعة أقراص المصفوفة التي تم *استبعادها* من مشاركات المستخدم.
+قم بإلغاء تحديد كافة الأقراص حتى لا يتم استبعاد أي قرص
 
-**Note:** Each separate User Share also includes its own set of Included and Excluded
-disks which represent a subset of the Included/Excluded disks defined here.
+**ملاحظة:** تشتمل كل مشاركة مستخدم منفصلة أيضًا على مجموعتها الخاصة من الأقراص المضمّنة والمستبعدة والتي تمثل مجموعة فرعية من الأقراص المضمّنة/المستبعدة المحددة هنا.
 :end
 
 :shares_tunable_hard_links_help:
-If set to Yes then support the link() operation.
+إذا تم الضبط على نعم، فقم بدعم عملية الروابط().
 
-If set to No then hard links are not supported.
+إذا تم الضبط على "لا" ، فلن يتم دعم الروابط الثابتة.
 
-Notes:
+ملاحظات:
 
-* Setting to Yes may cause problems for older media and dvd/bluray players accessing shares using NFS.
-* No matter how this is set, the **mover** will still properly handle any detected hard links.
+* قد يتسبب الضبط على نعم في حدوث مشكلات للوسائط القديمة ومشغلات dvd/bluray التي تصل إلى المشاركات باستخدام NFS.
+* بغض النظر عن كيفية تعيين ذلك، سيظل **الناقل** يتعامل بشكل صحيح مع أي روابط ثابتة تم اكتشافها.
 :end
 
 :shares_tunable_direct_io_help:
-**Experimental**: If set to Yes then mount User Share file system with FUSE *direct_io* mount option.
-This will increase write performance but might possibly decrease read performance.
+**تجريبي**: إذا تم الضبط على "نعم" ، فقم بتحميل نظام مشاركة المستخدم باستخدام خيار تركيب FUSE * direct_io *.
+سيؤدي هذا إلى زيادة أداء الكتابة ولكن قد يقلل من أداء القراءة.
 
-*Auto* selects No.
+*تلقائي* يساوي الخيار "لا".
 :end
 
 :syslog_local_server_help:
-Let the server act as a central syslog server and collect syslog messages from other systems.
-The server can listen on UDP, TCP or both with a selectable port number.
+دع الخادم يعمل كخادم سجل نظام مركزي ويجمع رسائل سجل النظام من أنظمة أخرى.
+يمكن للخادم الاستماع على UDP أو TCP أو كليهما برقم منفذ قابل للتحديد.
 
-Syslog information is stored per IP address. That is every system gets its own syslog file.
+يتم تخزين معلومات سجل النظام لكل عنوان IP. أي أن كل نظام يحصل على ملف سجل النظام الخاص به.
 :end
 
 :syslog_local_folder_help:
-Select the share folder where the syslogs will be stored.
-It is recommended that you use a share located on the cache drive to prevent array disk spinups.
+حدد مجلد المشاركة حيث سيتم تخزين سجلات النظام.
+من المستحسن استخدام مشاركة موجودة على محرك التخزين المؤقت لمنع تنشيط دوران قرص المصفوفة.
 :end
 
 :syslog_local_rotation_help:
-By default LOG rotation is disabled and will create a single LOG file of unlimited size.
+افتراضيًا، يتم تعطيل تدوير السجل وسيُنشئ ملف سجل واحد بحجم غير محدود.
 
-Enable LOG rotation to limit the size of the LOG file and specify the number of files to keep in the rotation scheme.
+قم بتمكين تدوير السجل لتحديد حجم ملف السجل وتحديد عدد الملفات التي يجب الاحتفاظ بها في نظام التدوير.
 :end
 
 :syslog_local_file_size_help:
-Specifies the maximum LOG size. When exceeded LOG rotation will occur.
+يحدد الحد الأقصى لحجم السجل. عندما يتم تجاوز دوران السجل.
 :end
 
 :syslog_local_file_number_help:
-Specifies the number of additional LOG files to keep in the rotation scheme.
+يحدد عدد ملفات السجل الإضافية للاحتفاظ بها في نظام التدوير.
 :end
 
 :syslog_remote_server_help:
-Enter a name or IP address of a remote syslog server.
-This will send a copy of the syslog messages to the designated server.
+أدخل اسمًا أو عنوان IP لخادم سجل نظام بعيد.
+سيؤدي ذلك إلى إرسال نسخة من رسائل سجل النظام إلى الخادم المحدد.
 :end
 
 :syslog_mirror_flash_help:
-This setting is NO by default and must be used with care to avoid unnecessary wear and tear of the USB device.
+هذا الإعداد هو "لا" افتراضيًا ويجب استخدامه بعناية لتجنب التآكل والتلف غير الضروريين لجهاز USB.
 
-Change this setting to YES when troubleshooting is required and it is not possible to get the regular diagnostics information.
-A mirror of the syslog file is stored in the **logs** folder of the flash device.
+قم بتغيير هذا الإعداد إلى "نعم" عندما يكون استكشاف الأخطاء وإصلاحها مطلوبًا ولا يمكن الحصول على معلومات تشخيص منتظمة.
+يتم تخزين نسخة مطابقة لملف سجل النظام في مجلد ***logs** على جهاز الفلاش.
 :end
 
 :confirm_reboot_help:
