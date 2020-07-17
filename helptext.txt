@@ -1807,8 +1807,8 @@ rlb يتم تحقيقه مناقشة ARP.
 :docker_client_repository_help:
 المستودع الخاص بتطبيق دوكر. تنسيق اسم الناشر/اسم التطبيق.
 اختياريًا يمكنك إضافة 
-The repository for the application on the Docker Registry.  Format of authorname/appname.
-Optionally you can add a : after appname and request a specific version for the container image.
+مستودع التطبيق على سجل دوكر. تنسيق اسم الملف/اسم التطبيق.
+اختياريًا، يمكنك إضافة: بعد اسم التطبيق وطلب نسخة محددة لصورة الحاوية.
 :end
 
 :docker_client_support_thread_help:
