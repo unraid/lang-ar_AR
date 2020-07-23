@@ -60,6 +60,7 @@ name of mount tag inside vm=اسم علامة التثبيت داخل الجها
 Name of virtual machine=اسم الجهاز الافتراضي
 Network Bridge=جسر الشبكة
 Network MAC=عنوان التحكم بالنفاذ للوسط للشبكة
+Network Model=
 No Virtual Machines installed=لم يتم تثبيت أجهزة افتراضية
 None available=غير متوفر
 Not enough free space, need at least=لا توجد مساحة حرة كافية، تحتاج على الأقل
