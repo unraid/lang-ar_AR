@@ -67,6 +67,7 @@ Do not use user share names=لا تستخدم أسماء مشاركات المس
 Download SMART report=تحميل تقرير تقنية المراقبة الذاتية والتحليل والإعلام
 Dual parity valid requires ALL disks in their original slots=*التماثل المزدوج* صالح يتطلب **جميع** الأقراص في فتحاتها الأصلية
 Elapsed time=الوقت المنقضي
+Enable user share assignment=
 encrypted=مشفر
 Encryption input=إدخال التشفير
 Encryption status=حالة التشفير
