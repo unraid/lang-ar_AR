@@ -27,3 +27,6 @@ Uninstall=إلغاء التثبيت
 Update All Plugins=تحديث كل الملحقات الإضافية
 Upgrade=ترقية
 View Release Notes=عرض ملاحظات الإصدار
+
+; New entries - 2021-03-14
+No plugins installed=
