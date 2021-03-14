@@ -128,3 +128,8 @@ Was this container created using this plugin=هل تم إنشاء الحاوية
 Web=ويب
 WebUI=WebUI
 Writable=قابل للكتابة
+
+; New entries - 2021-03-14
+Drivers=
+Reset sorting=
+Start Container After Install=

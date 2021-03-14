@@ -298,3 +298,11 @@ Your system has booted with the PCIe ACS Override setting enabled=تم تمهي�
 
 لمزيد من المعلومات، يرجى [الاتصال بالدعم] (https://lime-technology.com/contact).
 :end
+
+; New entries - 2021-03-14
+Delete all notifications=
+Downloading=
+Install Language=
+please configure=
+Uploaded=
+PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)

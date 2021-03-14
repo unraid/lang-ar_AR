@@ -101,3 +101,6 @@ User count %s with %s unprotected=عدد المستخدمين: %sمع %s غير 
 utilization warning=تحذير الاستخدام
 View Running Processes=عرض العلميات الجارية
 Virtual Machines=الأجهزة الافتراضية
+
+; New entries - 2021-03-14
+Temp=
