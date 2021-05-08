@@ -55,3 +55,10 @@ Unmounting disks=تنزيل الأقراص
 Autostart disabled=تم تعطيل التشغيل التلقائي
 Missing encryption key=مفتاح التشفير مفقود
 Opening encrypted volumes=فتح وحدات تخزين المشفرة
+
+; New entries (5) - 2021-05-08
+Container Path=
+Container Port=
+Container Variable=
+Container Label=
+Container Device=
