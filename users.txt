@@ -17,3 +17,13 @@ Use a password up to 128 characters=استعمل كلمة مرور حتى 127 ح
 Use only lowercase letters, digits, underscores and dashes=استعمل أحرف صغيرة أو أرقام أو شرطة سفلية أو شرطة
 User %s has been deleted=تم حذف المستخدم %s
 User name=اسم المستخدم
+
+; New entries (8) - 2021-05-31
+Click Add User to create a user for remote shares access=Click **Add User** to create a user for remote shares access
+Invalid Key=
+Management Access=
+No users are defined=
+Save=
+Shares Access=
+SSH authorized keys=
+Syntax of the key is incorrect=
