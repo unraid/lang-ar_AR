@@ -103,7 +103,6 @@ This will update folder file permissions=سيؤدي هذا إلى تحديث أ�
 Time=الوقت
 To install a registration key, paste the key file URL in the box below and click Install Key=لتثبيت مفتاح تسجيل، قم بلصق عنوان URL الخاص بالملف الرئيسي في المربع أدناه وانقر فوق **تثبيت مفتاح**
 to select your language=لاختيار لغتك
-To support more storage devices as your server grows, click Upgrade Key below=لدعم المزيد من أجهزة التخزين مع نمو خادمك، انقر فوق **ترقية المفتاح** أدناه
 Trial key expires on=***المفتاح التجريبي*** تنتهي صلاحيته بتاريخ
 Trial=تجربة
 Update OS=تحديث نظام التشغيل

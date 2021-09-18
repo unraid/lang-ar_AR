@@ -130,3 +130,7 @@ Wasnt able to stop the process=لم يتم التمكن من إيقاف العم
 Windows 7XP=ويندوز XP7
 Windows 82012, newer Linux distros=ويندوز 8/2012، توزيعات لينوكس الأحدث
 XML View=عرض XML
+
+; New entries (2) - 2021-09-18
+Pop-up Blocker is enabled Please add this site to your exception list=Pop-up Blocker is enabled! Please add this site to your exception list
+Verifying=

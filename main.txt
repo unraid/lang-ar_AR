@@ -94,11 +94,8 @@ Hide=إخفاء
 Identification=التعريف
 Identity=هوية
 if checked, Start array but do not mount disks=إذا تم تحديده، ابدأ المصفوفة ولكن لا تقم بتثبيت الأقراص
-If this is a new array, move the largest disk into the parity slot=إذا كانت هذه المصفوفة جديدة، انقل أكبر قرص إلى فتحة التماثل
 If you are adding a new disk or replacing a disabled disk, try Parity-Swap=إذا كنت تقوم بإضافة قرص جديد أو استبدال قرص معطل، حاول استبدال التماثل
-If you want to preserve the data on the new disks, reset the array configuration and rebuild parity instead=إذا كنت تريد الاحتفاظ بالبيانات الموجودة على الأقراص الجديدة، أعد تعيين تكوين المصفوفة وأعد بناء التماثل بدلاً من ذلك
 Information=معلومات
-Install a replacement disk as soon as possible=قم بتثبيت قرص بديل في أقرب وقت ممكن
 Insufficient free disk space available=مساحة القرص المتوفرة غير كافية
 Interrupted=مقاطعة
 Invalid configuration=تكوين غير صالح
@@ -130,9 +127,7 @@ No data disks=لا توجد أقراص بيانات
 No parity check history present=لا يوجد سجل للتحقق من التماثل
 No self-tests logged on this disk=لم يتم تسجيل أي اختبارات ذاتية على هذا القرص
 Not installed=غير مثبت
-Note do not use pool names which are also used as user share names=ملاحظة: لا تستخدم أسماء التجمع التي تستخدم أيضًا كأسماء مشاركة المستخدم
 OK=موافق
-Once clear completes, the array may be Started, expanding the array to include the new disks=بمجرد اكتمال المسح، يمكن بدء المصفوفة، وتوسيع المصفوفة لتشمل الأقراص الجديدة
 Once copy completes, the array may be Started, to initiate Data-Rebuild of the disabled disk=بمجرد اكتمال النسخ، يمكن بدء المصفوفة، لبدء إعادة بناء البيانات للقرص المعطل
 operation=العملية
 Options see Help=خيارات (راجع قسم المساعدة)
@@ -173,7 +168,6 @@ Retype passphrase=أعد كتابة عبارة المرور
 Schedule=جدولة
 Scrub Status=حالة التنظيف
 Scrub=تنظيف
-See Cache Settings=انظر إعدادات التخزين المؤقت
 self-test in progress=الاختبار الذاتي قيد التقدم
 Self-Test=الاختبار الذاتي
 Server boot mode=وضع تمهيد الخادم
@@ -209,7 +203,6 @@ The array will be immediately available, but unprotected since parity has not be
 The array will be immediately available, but unprotected until Parity-Sync completes=ستكون المصفوفة متاحة على الفور، ولكن **بدون حماية** حتى اكتمال مزامنة التماثل
 The replacement disk must be as big or bigger than the original=يجب أن يكون القرص البديل بنفس حجم أو أكبر من القرص الأصلي
 This is typically done when a new disk is added to the array to get it ready for files to be written to it=يتم ذلك عادةً عند إضافة قرص جديد إلى المصفوفة لتجهيزه لكتابة الملفات عليه
-This unRAID Server OS release has been withdrawn and may no longer be used. Please %s update your server=تم سحب إصدار نظام تشغيل خادم unRAID هذا ولم يعد من الممكن استخدامه. يرجى %s تحديث الخادم الخاص بك
 This will reboot the system=سيؤدي هذا إلى إعادة تشغيل النظام
 This will shutdown the system=سيؤدي هذا إلى إيقاف تشغيل النظام
 This will stop the array=سيؤدي هذا إلى إيقاف المصفوفة
@@ -269,7 +262,6 @@ will pause the Parity-SyncData-Rebuild=سيتم إيقاف مزامنة التم
 will pause the Read-Check=سيتم إيقاف فحص القراءة
 will record all disk information and bring the array on-line=سيسجل جميع معلومات القرص و تشغيل المصفوفة
 will record all disk information, bring the array on-line, and start Parity-Sync=سيسجل جميع معلومات القرص، تشغيل المصفوفة وبدء مزامنة التماثل
-will record the new disks information and bring the expanded array on-line=سيسجل جميع معلومات القرص وتشغيل المصفوفة الممتدة
 will remove the missing cache disk and then bring the array on-line=سيزيل قرص التخزين المؤقت المفقود، ثم تشغيل المصفوفة
 will resume the paused Clearing=سيستأنف المسح المتوقف
 will resume the paused Parity-Check=سيستأنف فحص التماثل المتوقف
@@ -279,7 +271,6 @@ will start Clearing new data disks=بدء  **مسح** أقراص البيانا�
 will start Parity-Check=بدء** فحص التماثل**
 will start Parity-Sync andor Data-Rebuild=بدء** مزامنة التماثل**و/أو**إعادة بناء البيانات**
 will start Read-Check of all array disks=بدء فحص القراءة لجميع أقراص المصفوفة
-will start Read-Check of all data disks=بدء **فحص القراءة** لجميع أقراص البيانات
 will stop Clearing=سيتم إيقاف المسح
 will stop Parity-SyncData-Rebuild=سيتم إيقاف مزامنة التماثل/إعادة بناء البيانات
 will stop the Parity-Check=سيتم إيقاف فحص التماثل

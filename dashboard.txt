@@ -1,5 +1,4 @@
 %s used of %s %s %%=%s تستخدم %s (%s %%)
----=تستخدم
 Active tunnels=القنوات النشطة
 Activity=النشاط
 ago=مُنذ
@@ -26,7 +25,6 @@ FAN=مروحة
 Finding %s error=جاري البحث عن **%s**الخطأ
 Finding %s errors=جاري البحث عن **%s** الاخطاء
 General info=معلومات عامة
-Go to cache settings=الانتقال إلى إعدادات التخزيت المؤقت
 Go to CPU pinning settings=الانتقال إلى إعدادت تثبيت وحدة المعالجة المركزية
 Go to disk settings=الانتقال إلى إعداداتالقرص
 Go to Docker settings=الانتقال إلى إعدادات دوكر

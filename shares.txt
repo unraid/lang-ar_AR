@@ -60,6 +60,5 @@ Time Machine volume size limit=حد سعة حجم آلة الزمن
 Unknown encryption state=حالة التشفير غير معروفة
 Use cache pool for new filesdirectories=استخدام تجمع التخزين المؤقت لملفات/الدلائل الجديدة
 User Shares=مشاركات المستخدم
-Volume dbpath=حجم مسار قاعدة البيانات
 Write=كتابة
 You cannot use the following within share names=لا يمكنك استخدام ما يلي ضمن أسماء المشاركة
