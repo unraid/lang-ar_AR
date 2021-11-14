@@ -2,6 +2,7 @@ Access Mode=وضع الوصول
 Add another Path, Port, Variable, Label or Device=أضف مسار، منفذ، متغير، تسمية، أو جهاز
 Add Configuration=أضف تكوينات
 Add=أضف
+Additional Requirements=
 Always=دائمًا
 App to Host=تطبيق إلى المضيف
 Application=تطبيق
@@ -29,6 +30,7 @@ Container=الحاوية
 CPU Memory load=تحميل وحدة المعالجة المركزية والذاكرة
 CPU Pinning=تثبيت وحدة المعالجة المركزية
 Created=إنشاء
+Crypto Currency=
 Default Value=قيمة افتراضية
 Device=جهاز
 Display=عرض
@@ -37,6 +39,7 @@ Docker Containers=
 Docker Hub URL=رابط DockerHub
 Docker Service failed to start=فشل تفعيل خدامات دوكر
 Downloaders=أدوات التنزيل
+Drivers=
 Edit Configuration=تعديل التكوينات
 Exited=تم الخروج
 Extra Parameters=معلمات إضافية
@@ -64,6 +67,7 @@ Missing parameters=معلمات مفقودة
 Music=موسيقى
 Network Type=نوع الشبكة
 No Docker containers installed=ما من حاويات دوكر مثبتة
+None Listed=
 of=من
 orphan image=صورة وحيدة
 Other=أخرى
@@ -79,6 +83,7 @@ Productivity=الإنتاجية
 Project Page=صفحة المشروع
 Proxy=وكيل
 Pulling image=سحب صورة
+Read Me First=
 Read Only - Shared=للقراءة فقط - مشترك
 Read Only - Slave=للقراءة فقط - تابع
 Read Only=للقراءة فقط
@@ -91,6 +96,7 @@ Removing container=إزالة حاوية
 Removing orphan image=إزالة صورة وحيدة
 Repository=مستودع
 Required=مطلوب
+Reset sorting=
 Resume All=استئناف الكل
 Save=حفظ
 Select a template=تحديد قالب
@@ -111,6 +117,7 @@ Template=قالب
 The command failed=فشل الأمر
 The command finished successfully=نجاح الأمر النهائي
 TOTAL DATA PULLED=**إجمالي البيانات المسحوبة**
+Total size=
 Unknown action=أمر غير معروف
 Update All=تحديث الكل
 update ready=التحديث جاهز
@@ -125,17 +132,4 @@ Web=ويب
 WebUI=WebUI
 Writable=قابل للكتابة
 
-; New entries (4) - 2021-05-08
-Drivers=
-Reset sorting=
-Total size=
-
-; New entries (1) - 2021-06-12
-Crypto Currency=
-
-; New entries (2) - 2021-09-18
-Additional Requirements=
-None Listed=
-
-; New entries (1) - 2021-11-07
-Read Me First=
+; Note: November 14, 2021 - 8 missing translations

@@ -24,6 +24,7 @@ Ok=موافق
 Pause=إيقاف مؤقت
 Proceed=متابعة
 Project Page=صفحة المشروع
+Read Me First=
 Remove container=إزالة الحاوية
 Remove definition=إزالة التعريف
 Remove image=إزالة الصورة
@@ -56,12 +57,11 @@ Autostart disabled=تم تعطيل التشغيل التلقائي
 Missing encryption key=مفتاح التشفير مفقود
 Opening encrypted volumes=فتح وحدات تخزين المشفرة
 
-; New entries (5) - 2021-05-08
+; docker variables
 Container Path=
 Container Port=
 Container Variable=
 Container Label=
 Container Device=
 
-; New entries (1) - 2021-11-14
-Read Me First=
+; Note: November 14, 2021 - 6 missing translations

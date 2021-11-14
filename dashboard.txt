@@ -1,4 +1,9 @@
+%s ago=
 %s used of %s %s %%=%s تستخدم %s (%s %%)
+10 s=
+30 s=
+1 m=
+2 m=
 Active tunnels=القنوات النشطة
 Activity=النشاط
 ago=مُنذ
@@ -7,6 +12,7 @@ All Apps=جميع التطبيقات
 All VMs=جميع الأجهزة الافتراضية
 Battery charge=شحن البطارية
 BIOS dated=مؤرخ Bios
+Click to toggle CPU chart=
 Click to toggle details=انقر لتغيير التفاصيل
 Completed=مكتمل
 Counters info=معلومات المؤشرات
@@ -53,6 +59,7 @@ Last check incomplete on %s=الفحص الأخير لم ينته **%s**
 Last checked on %s=آخر فحص كان في **%s**
 Maximum size=اأقصى حجم مسموح به
 Mode of operation=وضع التشغيل
+Network traffic=
 Next check scheduled on %s=جدولة الفحص القادم في  **%s**
 No docker containers defined=لم يتم التعرف على حاويات دوكر
 No running docker containers=لا توجد حاويات دوكر عاملة
@@ -61,6 +68,7 @@ No shares present=لا توجد مشاركات
 No virtual machines defined=لم يتم التعرف على الأجهزة الافتراضية
 Nominal power=الطاقة الاسمية
 not received=غير مستلم
+Only PNG images are allowed=Only PNG images are allowed!
 Outbound=الصادر
 Overall Load=الحمل الكُلي
 Parity disk not present=القرص التماثلي غير موجود
@@ -75,16 +83,19 @@ Received packets=الحزم المُستلمة
 Runtime left=وقت التشغيل المُتبقي
 Scheduled parity check is disabled=جدولة فحص التمائل معطلة
 Select Case Model=اختر نوع الحالة
+Select time frame=
 Share count %s with %s cache only and %s encrypted=عدد المشاركات: %s مع %s  ذاكرة التخزين المؤقتة فقط %s مشفرة
 Show details=عرض التفاصيل
 Show Information=عرض المعلومات
 Shutdown the system=إيقاف تشغيل النظام
 SMART error=خطأ في تكنولوجيا SMART
+SMART health-check failed=
 SMART=تكنولوجيا SMART
 sn=s/n
 Start the array=تشتغيل المصفوفة
 Started only=بدء فقط
 Stop the array=إيقاف المصفوفه
+Temp=
 This will put the system to sleep=هذا سيؤدي لوضع النظام في وضع السكون
 This will reboot the system=هذا سيؤدي لإعادة تشغيل النظام
 This will shutdown the system=هذا سيؤدي لإيقاف تشغيل النظام
@@ -100,21 +111,4 @@ utilization warning=تحذير الاستخدام
 View Running Processes=عرض العلميات الجارية
 Virtual Machines=الأجهزة الافتراضية
 
-; New entries (3) - 2021-05-08
-%s ago=
-Only PNG images are allowed=Only PNG images are allowed!
-Temp=
-
-; New entries (1) - 2021-05-15
-SMART health-check failed=
-
-; New entries (2) - 2021-05-20
-Click to toggle CPU chart=
-Network traffic=
-
-; New entries (5) - 2021-05-31
-10 s=
-30 s=
-1 m=
-2 m=
-Select time frame=
+; Note: November 14, 2021 - 10 missing translations

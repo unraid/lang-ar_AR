@@ -2,22 +2,30 @@
 anonymous=مجهول
 Author=مؤلف
 Check For Updates=تحقق من وجود تحديثات
+Checking connectivty=
+checking=
 Click here to install version %s=انقر هنا لتثبيت الإصدار %s
+Delete Plugin=
 DOWNGRADE TO VERSION=رجوع إلى الإصدار
 Enter URL of remote plugin file or local plugin file=أدخل رابط ملف الملحق الإضافي أو الملف المحلي للملحق الإضافي
 ERROR=خطأ
 Install Plugin=تثبيت الملحق الإضافي
-install=تثبيت
 Install=تثبيت
+install=تثبيت
 Installed Plugins=الملحقات المثبتة
 Installing Update=جاري تثبيت التحديث
 need check=بحاجة لتحقق
 Next=التالي
+No plugins installed=
 No release notes available=ملاحظات الإصدار غير متاحة
+No response, aborting=
 Plugin File=ملف الملحق الإضافي
+Plugin File Install Errors=
+Plugin History=
 Plugin Update Check=تحقق من تحديثات الملحقات الإضافية
 Plugin=الملحقات الإضافية
 Release Notes=ملاحظات الإصدار
+Remove Plugin=
 remove=إزالة
 Select local plugin file=حدد ملف الملحق الإضافي المحلي
 Stable=مستقر
@@ -25,24 +33,8 @@ STALE=تالف
 Support Thread=خط الدعم
 Uninstall=إلغاء التثبيت
 Update All Plugins=تحديث كل الملحقات الإضافية
+Update Plugin=
 Upgrade=ترقية
 View Release Notes=عرض ملاحظات الإصدار
 
-; New entries (1) - 2021-05-08
-No plugins installed=
-
-; New entries (2) - 2021-05-09
-Checking connectivty=
-No response, aborting=
-
-; New entries (1) - 2021-05-10
-checking=
-
-; New entries (3) - 2021-05-10
-Delete Plugin=
-Remove Plugin=
-Update Plugin=
-
-; New entries (2) - 2021-05-15
-Plugin File Install Errors=
-Plugin History=
+; Note: November 14, 2021 - 9 missing translations
