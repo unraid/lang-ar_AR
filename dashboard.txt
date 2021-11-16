@@ -111,4 +111,4 @@ utilization warning=تحذير الاستخدام
 View Running Processes=عرض العلميات الجارية
 Virtual Machines=الأجهزة الافتراضية
 
-; Note: November 15, 2021 - 10 missing translations
+; Note: November 16, 2021 - 10 missing translations
