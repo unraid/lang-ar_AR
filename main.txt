@@ -175,7 +175,6 @@ registration key=مفتاح التسجيل
 Registration Key Manager=مدير مفتاح التسجيل
 reiserfsck status=حالة reiserfsck
 Rename Pool=إعادة تسمية التجمع
-Rename=إعادة تسمية
 Repair corrupted blocks=إصلاح الكتل التالفة
 Replacement disk installed=تم تركيب القرص البديل
 Replacement disk is too small=القرص البديل صغير جدًا
