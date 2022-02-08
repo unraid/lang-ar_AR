@@ -1,5 +1,6 @@
 A format is NEVER part of a data recovery or disk rebuild process and if done in such circumstances will normally lead to loss of all data on the disks being formatted=التنسيق **لا يعد** جزءًا من عملية استعادة البيانات أو عملية إعادة بناء القرص وإذا تم القيام به في مثل هذه الظروف، فسيؤدي ذلك عادةً إلى فقد جميع البيانات الموجودة على الأقراص التي يتم تنسيقها
 Aborted=تم الإحباط
+Action=
 Add=أضف
 Add Pool=أضف تجمع
 All existing data on this device will be OVERWRITTEN when array is Started=سيتم الكتابة فوق كل البيانات الموجودة على الجهاز عند تشغيل المصفوفة
@@ -55,6 +56,7 @@ Critical disk utilization threshold=عتبة استخدام القرص الحر�
 Current operation %s on %s=العملية الحالية %s من **%s**
 Current position=الموضع الحالي
 Custom attributes use comma to separate numbers=السمات المخصصة (استخدم الفاصلة للفصل بين الأرقام)
+Data-Rebuild in progress=
 Date of purchase=تاريخ الشراء
 Date=التاريخ
 Delete Pool=حذف التجمع
@@ -153,6 +155,7 @@ Parity-Check in progress=التحقق من التماثل قيد التقدم
 Parity Operation History=
 ParityRead-Check History=سجل تماثل/فحص القراءة
 Parity-SyncData-Rebuild in progress=مزامنة التماثل / إعادة بناء البيانات قيد التقدم
+Parity-Sync in progress=
 Partition format=تنسيق القسم
 Partition size=حجم القسم
 Passed=ناجح
@@ -340,4 +343,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: February 8, 2022 - 46 missing translations
+; Note: February 8, 2022 - 49 missing translations
