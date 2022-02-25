@@ -37,4 +37,4 @@ Update Plugin=
 Upgrade=ترقية
 View Release Notes=عرض ملاحظات الإصدار
 
-; Note: February 21, 2022 - 9 missing translations
+; Note: February 25, 2022 - 9 missing translations

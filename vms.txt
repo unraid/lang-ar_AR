@@ -137,4 +137,4 @@ Windows 7XP=ويندوز XP7
 Windows 82012, newer Linux distros=ويندوز 8/2012، توزيعات لينوكس الأحدث
 XML View=عرض XML
 
-; Note: February 21, 2022 - 5 missing translations
+; Note: February 25, 2022 - 5 missing translations

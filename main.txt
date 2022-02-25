@@ -67,6 +67,7 @@ Device is part of a pool=الجهاز جزء من تجمع
 Device locked unknown error=الجهاز مقفل: خطأ غير معروف
 Device locked wrong encryption key=الجهاز مقفل: مفتاح تشفير خاطئ
 Device to be encrypted=الجهاز يحتاج تشفير
+Disable Spin down delay to run a SMART extended self-test=Disable **Spin down delay** to run a SMART extended self-test
 Disk in parity slot is not biggest=القرص في فتحة التماثل ليس الأكبر
 Disk Log Information=معلومات سجل القرص
 Disk-Clear in progress=
@@ -346,4 +347,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: February 21, 2022 - 52 missing translations
+; Note: February 25, 2022 - 53 missing translations
