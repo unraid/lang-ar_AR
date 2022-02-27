@@ -258,6 +258,7 @@ Unmountable Missing encryption key=غير قابل للتثبيت: مفتاح ا
 Unmountable No file system=غير قابل للتثبيت: لا يوجد نظام ملفات
 Unmountable No pool uuid=غير قابل للتثبيت: لا يوجد معرّف فريد عالميًا للتجمع
 Unmountable not btrfs pool=غير قابل للتثبيت: لا يوجد تجمع btrfs
+Unmountable Unsupported or no file system=Unmountable: Unsupported or no file system
 Unmountable Volume not encrypted=غير قابل للتثبيت: وحدة تخزين غير مشفرة
 Unmounted=غير مثبت
 Upgrading diskswapping parity=ترقية القرص/مبادلة التماثل
@@ -347,4 +348,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: February 25, 2022 - 53 missing translations
+; Note: February 27, 2022 - 53 missing translations
