@@ -43,6 +43,7 @@ Hyper-V=Hyper-V
 i440fx will work for most=سوف يعمل i440fx للأغلبية
 Icon=أيقونة
 Initial=أولي
+Invalid storage path=
 Invalid VM to edit=جهاز افتراضي غير صالح للتعديل
 ISO storage path doesnt exist=مسار تخزين أيزو غير موجود
 ISO storage path doesnt exist, please create the user share or empty folder first=ISO storage path doesn't exist, please create the user share (or empty folder) first
@@ -137,4 +138,4 @@ Windows 7XP=ويندوز XP7
 Windows 82012, newer Linux distros=ويندوز 8/2012، توزيعات لينوكس الأحدث
 XML View=عرض XML
 
-; Note: March 11, 2022 - 5 missing translations
+; Note: March 13, 2022 - 6 missing translations

@@ -113,6 +113,8 @@ Information=معلومات
 Insufficient free disk space available=مساحة القرص المتوفرة غير كافية
 Interrupted=مقاطعة
 Invalid configuration=تكوين غير صالح
+invalid device=
+invalid devices=
 Invalid expansion=توسيع غير صالح
 Invalid pool name=اسم تجمع غير صالح
 Invalid, missing or expired=
@@ -348,4 +350,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: March 11, 2022 - 52 missing translations
+; Note: March 13, 2022 - 54 missing translations
