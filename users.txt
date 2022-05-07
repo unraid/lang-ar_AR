@@ -26,4 +26,4 @@ Use only lowercase letters, digits, underscores and dashes=استعمل أحرف
 User %s has been deleted=تم حذف المستخدم %s
 User name=اسم المستخدم
 
-; Note: April 2, 2022 - 7 missing translations
+; Note: May 7, 2022 - 7 missing translations

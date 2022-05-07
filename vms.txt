@@ -37,14 +37,17 @@ free=المساحة الفارغة
 Graphics Card=بطاقة الرسومات
 Graphics ROM BIOS=النظام الأساسي للإدخال والإخراج لبطاقة الرسومات
 Graphics=الرسومات
+Guest not running or guest agent not installed=
 Host Passthrough=عبر المضيف
 Hyperv tweaks for Windows=تعديلات Hyperv لنظام التشغيل ويندوز
 Hyper-V=Hyper-V
 i440fx will work for most=سوف يعمل i440fx للأغلبية
 Icon=أيقونة
 Initial=أولي
+Interfaces=
 Invalid storage path=
 Invalid VM to edit=جهاز افتراضي غير صالح للتعديل
+IP Address=
 ISO storage path doesnt exist=مسار تخزين أيزو غير موجود
 ISO storage path doesnt exist, please create the user share or empty folder first=ISO storage path doesn't exist, please create the user share (or empty folder) first
 ISO storage path was empty=كان مسار تخزين أيزو فارغًا
@@ -84,6 +87,7 @@ Path to ROM BIOS file=المسار إلى ملف قرص النظام الأسا�
 Please choose a folder the LibreELEC image will download to=الرجاء اختيار مجلد ليتم تنزيل صورة LibreELEC عليه
 Please choose a folder the OpenELEC image will download to=الرجاء اختيار مجلد ليتم تنزيل صورة OpenELEC عليه
 Pop-up Blocker is enabled Please add this site to your exception list=Pop-up Blocker is enabled! Please add this site to your exception list
+Prefix=
 Primary=أساسي
 Q35 for a newer machine model with PCIE=Q35 لنموذج آلة أحدث مع PCIE
 QEMU64=QEMU64
@@ -138,4 +142,4 @@ Windows 7XP=ويندوز XP7
 Windows 82012, newer Linux distros=ويندوز 8/2012، توزيعات لينوكس الأحدث
 XML View=عرض XML
 
-; Note: April 2, 2022 - 6 missing translations
+; Note: May 7, 2022 - 10 missing translations

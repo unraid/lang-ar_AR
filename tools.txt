@@ -298,4 +298,4 @@ Your system has booted with the PCIe ACS Override setting enabled=تم تمهي�
 لمزيد من المعلومات، يرجى [الاتصال بالدعم] (https://lime-technology.com/contact).
 :end
 
-; Note: April 2, 2022 - 13 missing translations
+; Note: May 7, 2022 - 13 missing translations
