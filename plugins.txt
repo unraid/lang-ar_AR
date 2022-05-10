@@ -2,7 +2,7 @@
 anonymous=مجهول
 Author=مؤلف
 Check For Updates=تحقق من وجود تحديثات
-Checking connectivty=
+Checking connectivity=
 checking=
 Click here to install version %s=انقر هنا لتثبيت الإصدار %s
 Delete Plugin=
