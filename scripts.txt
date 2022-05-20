@@ -1,4 +1,4 @@
-A new version of %s is available= الإصدار الجديد %s متاح الآن
+A new version of %s is available=الإصدار الجديد %s متاح الآن
 Docker=دوكر
 Language=اللغة
 Notice %s - Version update %s=تنويه %s - تحديث الإصدار %s
