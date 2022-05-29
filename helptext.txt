@@ -1465,7 +1465,8 @@ Unraid OS أولاً بإنشاء جميع الأدلة الرئيسية الض�
 :end
 
 :vms_libvirt_log_help:
-إظهار سجلات Libvert: <a id="openlog" title="/var/log/libvirt/libvirtd.log" href="#" onclick="openWindow('/webGui/scripts/tail_log&arg1=libvirt/libvirtd.log','_(Libvirt Log)_',600,900);">/var/log/libvirt/libvirtd.log</a>
+إظهار سجلات Libvirt: <a onclick="openTerminal('log','libvirt','libvirt/libvirtd.log')">View libvirtd.log</a>
+
 :end
 
 :vms_scrub_help:
