@@ -132,4 +132,4 @@ Web=ويب
 WebUI=WebUI
 Writable=قابل للكتابة
 
-; Note: May 29, 2022 - 8 missing translations
+; Note: June 6, 2022 - 8 missing translations

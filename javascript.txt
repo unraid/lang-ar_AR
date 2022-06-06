@@ -52,9 +52,14 @@ Array Clearing=
 Array Starting=جار بدء المصفوفة
 Array Stopping=جار إيقاف المصفوفة
 Mounting disks=تحميل الأقراص
+Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=تنشيط دوران جميع الأقراص
+Stale configuration=
 Starting services=بدء تشغيل الخدمات
 Stopping services=إيقاف الخدمات
+Starting Recycle Bin=
+Stopping Recycle Bin=
+Sync filesystems=
 Unmounting disks=تنزيل الأقراص
 Autostart disabled=تم تعطيل التشغيل التلقائي
 Missing encryption key=مفتاح التشفير مفقود
@@ -67,4 +72,4 @@ Container Variable=
 Container Label=
 Container Device=
 
-; Note: May 29, 2022 - 9 missing translations
+; Note: June 6, 2022 - 14 missing translations
