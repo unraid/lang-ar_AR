@@ -70,6 +70,7 @@ Nominal power=الطاقة الاسمية
 not received=غير مستلم
 Only PNG images are allowed=Only PNG images are allowed!
 Outbound=الصادر
+Output voltage=
 Overall Load=الحمل الكُلي
 Parity disk not present=القرص التماثلي غير موجود
 Parity disks not present=الأقراص التماثلية غير موجودة
@@ -111,4 +112,4 @@ utilization warning=تحذير الاستخدام
 View Running Processes=عرض العلميات الجارية
 Virtual Machines=الأجهزة الافتراضية
 
-; Note: June 6, 2022 - 10 missing translations
+; Note: September 16, 2022 - 11 missing translations
