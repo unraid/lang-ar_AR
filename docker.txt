@@ -7,8 +7,8 @@ Always=دائمًا
 App to Host=تطبيق إلى المضيف
 Application=تطبيق
 apply update=تطبيق التحديث
-Array must be Started to view Docker containers=يجب **بدء** المصفوفة لإظهار حاويات دوكر
 Are you sure=هل أنت متأكد
+Array must be Started to view Docker containers=يجب **بدء** المصفوفة لإظهار حاويات دوكر
 Autostart=بدء تلقائي
 Back=خلف
 Backup=نسخة احتياطية
@@ -59,6 +59,7 @@ Icon URL=رابط أيقونة
 Image ID=رابط الصورة
 Key=مفتاح
 Label=تسمية
+Lock sortable items=
 Management=الإدارة
 MediaApp=تطبيق وسائط
 MediaServer=خادم وسائط
@@ -119,6 +120,7 @@ The command finished successfully=نجاح الأمر النهائي
 TOTAL DATA PULLED=**إجمالي البيانات المسحوبة**
 Total size=
 Unknown action=أمر غير معروف
+Unlock sortable items=
 Update All=تحديث الكل
 update ready=التحديث جاهز
 Value=قيمة
@@ -132,4 +134,4 @@ Web=ويب
 WebUI=WebUI
 Writable=قابل للكتابة
 
-; Note: June 6, 2022 - 8 missing translations
+; Note: March 17, 2023 - 10 missing translations

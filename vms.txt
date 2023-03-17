@@ -1,12 +1,15 @@
 20 EHCI=2.0 (EHCI)
 30 nec XHCI=3.0 (nec XHCI)
 30 qemu XHCI=3.0 (qemu XHCI)
+9p Mode=
 Allocation=التوزيع
 and if using graphics device passthrough it too needs UEFI=وإذا كنت تستخدم تمرير جهاز الرسومات فإنه يحتاج أيضًا إلى UEFI
 Are you sure=هل أنت متأكد
 Array must be started to view Virtual Machines=يجب **تشغيل** المصفوفة لعرض الأجهزة الافتراضية
 Autostart=التشغيل التلقائي
 Back=رجوع
+Boot Order=
+Boot order=
 Bus=ناقل
 Capacity=السعة
 Change Icon=تغيير الأيقونة
@@ -18,6 +21,7 @@ CPU Mode=وضع وحدة المعالجة المركزية
 CPUs=وحدات المعالجة المركزية
 Create=إنشاء
 Creating=جاري الإنشاء
+define OS boot options=
 define the amount memory=تحديد سعة الذاكرة
 define the maximum amount of memory=تحديد الحد الأقصى لسعة الذاكرة
 define type of cpu presented to this vm=تحديد نوع وحدة المعالجة المركزية المقدمة إلى هذا الجهاز الافتراضي
@@ -27,7 +31,9 @@ Download Folder=مجلد التحميل
 Download, Click and Select virtio drivers image=تنزيل، انقر واختر صورة برامج تشغيل الإدخال والإخراج الافتراضي
 Downloading=جاري التنزيل
 eg=على سبيل المثال
+Eject CD Drive=
 Emulated=تمت مضاهاته
+Enable USB boot=
 ETA=
 Extracting=جاري الاستخراج
 Folder to save the LibreELEC image to=مجلد لحفظ صورة LibreELEC
@@ -37,24 +43,30 @@ free=المساحة الفارغة
 Graphics Card=بطاقة الرسومات
 Graphics ROM BIOS=النظام الأساسي للإدخال والإخراج لبطاقة الرسومات
 Graphics=الرسومات
+Guest agent not installed=
 Guest not running or guest agent not installed=
+Guest not running=
 Host Passthrough=عبر المضيف
 Hyperv tweaks for Windows=تعديلات Hyperv لنظام التشغيل ويندوز
 Hyper-V=Hyper-V
 i440fx will work for most=سوف يعمل i440fx للأغلبية
 Icon=أيقونة
 Initial=أولي
+Insert CD=
+Insert=
 Interfaces=
 Invalid storage path=
 Invalid VM to edit=جهاز افتراضي غير صالح للتعديل
 IP Address=
-ISO storage path doesnt exist=مسار تخزين أيزو غير موجود
+ISO Image=
 ISO storage path doesnt exist, please create the user share or empty folder first=ISO storage path doesn't exist, please create the user share (or empty folder) first
+ISO storage path doesnt exist=مسار تخزين أيزو غير موجود
 ISO storage path was empty=كان مسار تخزين أيزو فارغًا
 keyboard for VNC=لوحة المفاتيح للحوسبة الشبكية الافتراضية
 LibreELEC Version=إصدار LibreELEC
 LibreELEC=LibreELEC
 Libvirt Service failed to start=فشل في تشغيل خدمة Libvirt
+Lock sortable items=
 Logical CPUs=وحدات المعالجة المركزية المنطقية
 Machine=آلة
 Manual=يدوي
@@ -67,18 +79,21 @@ Name of virtual machine=اسم الجهاز الافتراضي
 Network Bridge=جسر الشبكة
 Network MAC=عنوان التحكم بالنفاذ للوسط للشبكة
 Network Model=
+Network Source=
+No CD image inserted in to drive=
 No Virtual Machines installed=لم يتم تثبيت أجهزة افتراضية
 None available=غير متوفر
 Not enough free space, need at least=لا توجد مساحة حرة كافية، تحتاج على الأقل
 Not running=لا يعمل
 OpenELEC Version=إصدار OpenELEC
 OpenELEC=OpenELEC
+Optional=
 OS Install CDRom Bus=ناقل القرص المدمج الخاص بتثبيت نظام التشغيل
 OS Install ISO=أيزو الخاص بتثبيت نظام التشغيل
 Other PCI Devices=أجهزة طرفية أخرى
 OVMF requires a UEFI-compatable OS=يتطلب OVMF نظام تشغيل متوافق مع UEFI
-OVMF=OVMF
 OVMF TPM=
+OVMF=OVMF
 password for VNC=كلمة المرور للحوسبة الشبكية الافتراضية
 path of Unraid share=مسار مشاركة اونريد
 path on Unraid share to save LibreELEC settings=المسار على مشاركة اونريد لحفظ إعدادات LibreELEC
@@ -87,8 +102,10 @@ Path to ROM BIOS file=المسار إلى ملف قرص النظام الأسا�
 Please choose a folder the LibreELEC image will download to=الرجاء اختيار مجلد ليتم تنزيل صورة LibreELEC عليه
 Please choose a folder the OpenELEC image will download to=الرجاء اختيار مجلد ليتم تنزيل صورة OpenELEC عليه
 Pop-up Blocker is enabled Please add this site to your exception list=Pop-up Blocker is enabled! Please add this site to your exception list
+port for virtual console=
 Prefix=
 Primary=أساسي
+protocol for virtual console=
 Q35 for a newer machine model with PCIE=Q35 لنموذج آلة أحدث مع PCIE
 QEMU64=QEMU64
 random mac, you can supply your own=mac عشوائي، يمكنك استعمال خاصتك
@@ -104,7 +121,9 @@ Select the LibreELEC version to use=حدد إصدار LibreELEC للاستخدا
 Select the machine model=حدد طراز الجهاز
 Select the OpenELEC version to use=حدد إصدار OpenELEC لاستخدامه
 Select the USB Controller to emulate=حدد وحدة تحكم USB لتتم مضاهاته
+Select=
 Separate sub-folder and image will be created based on Name=سيتم إنشاء مجلد فرعي منفصل وصورة حسب الاسم
+Serial=
 shares=المشاركات
 Some OSes wont support USB3=لن تدعم بعض أنظمة تشغيل USB3
 Sound Card=بطاقة الصوت
@@ -116,8 +135,12 @@ Toggle VM autostart=تبديل التشغيل التلقائي للجهاز ال
 type of storage image=نوع صورة التخزين
 Unknown action=إجراء غير معروف
 Unknown version=إصدار غير معروف
+Unlock sortable items=
 Unraid Mount tag=علامة تثبيت اونريد
+Unraid Mount Tag=
+Unraid Share Mode=
 Unraid Share=مشاركة اونريد
+Unraid Source Path=
 Updating=جاري التحديث
 USB Controller=متحكم USB
 USB Devices=أجهزة USB
@@ -130,7 +153,17 @@ Verifying=
 video for VNC=فيديو للحوسبة الشبكية الافتراضية
 VirtIO Drivers CDRom Bus=تعريفات الإدخال و الإخراج الافتراضي لناقل القرص المدمج
 VirtIO Drivers ISO=أيزو تعريفات الادخال و الإخراج الافتراضي
+Virtiofs Mode=
 Virtual Machines=الأجهزة الافتراضية
+Virtual=
+VM Console AutoPort=
+VM Console enable Copypaste=VM Console enable Copy/paste
+VM Console Keyboard=
+VM Console Password=
+VM Console Port=
+VM Console Protocol=
+VM Console Video Driver=
+VM Console WS Port=
 VM creation error=خطأ في إنشاء الجهاز الافتراضي
 VM image deletion error=خطأ في حذف صورة الجهاز الافتراضي
 VNC Keyboard=لوحة مفاتيح الحوسبة الشبكية الافتراضية
@@ -140,6 +173,7 @@ VNC=الحوسبة الشبكية الافتراضية
 Wasnt able to stop the process=لم يتم التمكن من إيقاف العملية
 Windows 7XP=ويندوز XP7
 Windows 82012, newer Linux distros=ويندوز 8/2012، توزيعات لينوكس الأحدث
+wsport for virtual console=
 XML View=عرض XML
 
-; Note: June 6, 2022 - 10 missing translations
+; Note: March 17, 2023 - 43 missing translations

@@ -1,4 +1,5 @@
 %s An update is available=%s: يتوفر تحديث
+Alert Message=
 anonymous=مجهول
 Author=مؤلف
 Check For Updates=تحقق من وجود تحديثات
@@ -19,13 +20,14 @@ Next=التالي
 No plugins installed=
 No release notes available=ملاحظات الإصدار غير متاحة
 No response, aborting=
-Plugin File=ملف الملحق الإضافي
 Plugin File Install Errors=
+Plugin File=ملف الملحق الإضافي
 Plugin History=
 Plugin Update Check=تحقق من تحديثات الملحقات الإضافية
 Plugin=الملحقات الإضافية
 Release Notes=ملاحظات الإصدار
 Remove Plugin=
+Remove Selected Plugins=
 remove=إزالة
 Select local plugin file=حدد ملف الملحق الإضافي المحلي
 Stable=مستقر
@@ -37,4 +39,4 @@ Update Plugin=
 Upgrade=ترقية
 View Release Notes=عرض ملاحظات الإصدار
 
-; Note: June 6, 2022 - 9 missing translations
+; Note: March 17, 2023 - 11 missing translations
