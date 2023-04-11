@@ -35,8 +35,9 @@ STALE=تالف
 Support Thread=خط الدعم
 Uninstall=إلغاء التثبيت
 Update All Plugins=تحديث كل الملحقات الإضافية
+Update Incompatible=
 Update Plugin=
 Upgrade=ترقية
 View Release Notes=عرض ملاحظات الإصدار
 
-; Note: March 17, 2023 - 11 missing translations
+; Note: April 11, 2023 - 12 missing translations
