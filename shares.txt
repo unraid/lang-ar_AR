@@ -10,15 +10,17 @@ Automatically split only the top four directory levels as required=التقسي�
 Automatically split only the top level directory as required=التقسيم التلقائي لمستوى الدليل الأول فقط حسب المطلوب
 Automatically split only the top three directory levels as required=التقسيم التلقائي للمستويات الدليل الثلاث الأوائل فقط حسب المطلوب
 Automatically split only the top two directory levels as required=التقسيم التلقائي للمستويين الدليل الأولين فقط حسب المطلوب
+Calculated free space value=
 Comments=ملاحظات
 Compute All=حساب الكل
 Compute=حساب
 Disk Shares=مشاركات القرص
-Do not use reserved names=لا تستخدم الأسماء المحجوزة
 Do not use pool names=لا تستخدم أسماء التجمع
+Do not use reserved names=لا تستخدم الأسماء المحجوزة
 Enable Copy-on-write=تمكين النسخ عند الكتابة
 Enter a name for the share=أدخل اسمًا للمشاركة
 Excluded disks=الأقراص المستبعدة
+Exclusive access=
 Export=تصدير
 Fill-up=التعبئة
 Free=شاغر
@@ -32,16 +34,22 @@ Manual do not automatically split directories=يدوي: لا تقم بالتقس
 Minimum free space=الحد الأدنى من المساحة الشاغرة
 Missing share name=اسم المشاركة مفقود
 Most-free=الأكثر مساحة
+Mover action=
 Mover takes no action=الناقل لا يتخذ أي إجراء
 Mover transfers files from array to cache=ينقل الناقل الملفات من المصفوفة إلى ذاكرة التخزين المؤقت
 Mover transfers files from cache to array=ينقل الناقل الملفات من ذاكرة التخزين المؤقت إلى المصفوفة
+Mover transfers files from Primary storage to Secondary storage=
+Mover transfers files from Secondary storage to Primary storage=
 next user share=مشاركة المستخدم التالي
+Not used=
 Only=فقط
 Prefer=مفضل
 previous user share=مشاركة المستخدم السابق
+Primary storage for new files and folders=Primary storage (for new files and folders)
 Read=قراءة
 Recompute=إعادة حساب
 Rule=قاعدة
+Secondary storage=
 Select cache pool=حدد تجمع التخزين المؤقت
 Set when adding new share only=تعيين عند إضافة مشاركة جديدة فقط
 Share contains data=مشاركة تحتوي على بيانات
@@ -54,6 +62,7 @@ Some or all files unencrypted=بعض أو جميع الملفات غير مشف�
 Some or all files unprotected=بعض أو جميع الملفات غير محمية
 Split level=مستوى التقسيم
 SSD=محرك الأقراص ذي الحالة الصلبة
+Storage=
 There are no exportable disk shares=لا توجد مشاركات قرص قابلة للتصدير
 There are no exportable user shares=لا توجد مشاركات مستخدم قابلة للتصدير
 Time Machine volume size limit=حد سعة حجم آلة الزمن
@@ -62,3 +71,5 @@ Use cache pool for new filesdirectories=استخدام تجمع التخزين �
 User Shares=مشاركات المستخدم
 Write=كتابة
 You cannot use the following within share names=لا يمكنك استخدام ما يلي ضمن أسماء المشاركة
+
+; Note: April 18, 2023 - 9 missing translations
