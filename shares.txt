@@ -72,4 +72,4 @@ User Shares=مشاركات المستخدم
 Write=كتابة
 You cannot use the following within share names=لا يمكنك استخدام ما يلي ضمن أسماء المشاركة
 
-; Note: April 18, 2023 - 9 missing translations
+; Note: April 18, 2023 - 8 missing translations
