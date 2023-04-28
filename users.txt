@@ -1,6 +1,5 @@
 Add User=إضافة مستخدم
 Add=إضافة
-Click Add User to create a user for remote shares access=Click **Add User** to create a user for remote shares access
 Click to select PNG file=انقر لاختيار صورة ملف PNG
 Custom image=تخصيص الصورة
 Description=وصف
@@ -19,7 +18,8 @@ Use only lowercase letters, digits, underscores and dashes=استعمل أحرف
 User %s has been deleted=تم حذف المستخدم %s
 User name=اسم المستخدم
 
-; Note: April 28, 2023 - 7 missing translations
+; Note: April 29, 2023 - 8 missing translations
+Click Add User to create a user for remote shares access=Click **Add User** to create a user for remote shares access
 Invalid Key=
 Management Access=
 No users are defined=

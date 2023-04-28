@@ -48,7 +48,6 @@ Yes=نعم
 Array Starting=جار بدء المصفوفة
 Array Stopping=جار إيقاف المصفوفة
 Mounting disks=تحميل الأقراص
-Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=تنشيط دوران جميع الأقراص
 Starting services=بدء تشغيل الخدمات
 Stopping services=إيقاف الخدمات
@@ -59,11 +58,12 @@ Opening encrypted volumes=فتح وحدات تخزين المشفرة
 
 ; docker variables
 
-; Note: April 28, 2023 - 13 missing translations
+; Note: April 29, 2023 - 14 missing translations
 Donate=
 Read Me First=
 Array Copying=
 Array Clearing=
+Retry unmounting user shares=Retry unmounting user share(s)
 Stale configuration=
 Starting Recycle Bin=
 Stopping Recycle Bin=

@@ -61,7 +61,6 @@ No shares present=لا توجد مشاركات
 No virtual machines defined=لم يتم التعرف على الأجهزة الافتراضية
 Nominal power=الطاقة الاسمية
 not received=غير مستلم
-Only PNG images are allowed=Only PNG images are allowed!
 Outbound=الصادر
 Overall Load=الحمل الكُلي
 Parity disk not present=القرص التماثلي غير موجود
@@ -101,7 +100,7 @@ utilization warning=تحذير الاستخدام
 View Running Processes=عرض العلميات الجارية
 Virtual Machines=الأجهزة الافتراضية
 
-; Note: April 28, 2023 - 41 missing translations
+; Note: April 29, 2023 - 42 missing translations
 %s ago=
 1 m=
 10 s=
@@ -126,6 +125,7 @@ Motherboard Information=
 Network traffic=
 Notices=
 Notifications=
+Only PNG images are allowed=Only PNG images are allowed!
 Output voltage=
 Parity Information=
 Pool=

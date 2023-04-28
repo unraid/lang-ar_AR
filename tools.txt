@@ -133,7 +133,6 @@ In use by Unraid=قيد الاستخدام من قبل Unraid
 Kernel driver in use vfio-pci=برنامج تشغيل Kernel قيد الاستخدام: vfio-pci
 No changes=لا يوجد تغيرات
 PCI Devices and IOMMU Groups=أجهزة PCI ومجموعات IOMMU
-PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
 Reboot to take effect=إعادة التشغيل لتصبح سارية المفعول
 SCSI Devices=أجهزة SCSI
 The below list doesnt not reflect the way IOMMU would naturally group devices=لا تعكس القائمة أدناه الطريقة التي تجمع بها IOMMU الأجهزة بشكل طبيعي
@@ -285,7 +284,7 @@ Your system has booted with the PCIe ACS Override setting enabled=تم تمهي�
 لمزيد من المعلومات، يرجى [الاتصال بالدعم] (https://lime-technology.com/contact).
 :end
 
-; Note: April 28, 2023 - 37 missing translations
+; Note: April 29, 2023 - 38 missing translations
 Alert Message=
 Alerts=
 All Categories=
@@ -323,3 +322,4 @@ View Log=
 View VFIO-PCI Log=
 Warnings Only=
 Warnings=
+PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
