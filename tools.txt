@@ -1,9 +1,6 @@
 A registration replacement key has been created for USB Flash GUID=تم إنشاء تسجيل الـمفتاح البديل للمعرّف الفريد عالميًا لمحرك أقراص USB محمول
 About=حول
-Alert Message=
 alert=إنذار
-Alerts=
-All Categories=
 An email has been sent to=تم إرسال رسالة إلكترونية إلى
 and=و
 Anonymize diagnostics=قم بإخفاء التشخيص
@@ -13,35 +10,27 @@ Are you sure=هل أنت واثق
 Array has been Reset=تم **إعادة تعيين** المصفوفة
 Array must be Started to change permissions=يجب أن **تبدأ** المصفوفة لتغيير الأذونات
 Array must be Stopped to change=يجب **إيقاف** المصفوفة للتغيير
-Array slots=
 Array=المصفوفة
 Author=المؤلف
-Beta=
 Blacklisted USB Flash GUID=المعرّف الفريد عالميًا للمحرك أقراص USB محمول مُدرج في القائمة السوداء
 Branch=فرع
 By using this software, you agree with our=باستخدام هذا البرنامج ، فإنك توافق على
 Cache slots=فتحات التخزين المؤقت
 Cannot connect to key-server=لا يمكن الاتصال بخادم المفاتيح
 Check for Updates=تحقق من وجود تحديثات
-Clear Log=
 click Install Key=انقر فوق <i>تثبيت مفتاح</i>
 collecting diagnostic information this may take several minutes=جمع معلومات التشخيص (قد يستغرق ذلك عدة دقائق)
 Component=المكوّن
 Credits=بيانات فريق العمل
 Data slots=فتحات البيانات
-Delete all notifications=
 Delete notification=حذف الإخطار
-Deprecated Only=
 Developer=المطور
 Diagnostics=التشخيصات
 Disks=الأقراص
 Display Settings=إعدادات العرض
-Downloading=
 End-User License Agreement=اتفاقية ترخيص المستخدم النهائي
 Enter URL of language pack XML file=أدخل عنوان لحزمة اللغة (ملف XML)
 Error accessing your physical USB Flash boot device=خطأ في الوصول إلى جهاز التمهيد الفعلي (محرك أقراص USB محمول)
-Error reporting level=
-Errors Only=
 EULA=اتفاقية ترخيص المستخدم النهائي
 Event=حدث
 Expiration=انتهاء الصلاحية
@@ -53,7 +42,6 @@ Hide Details=أخف التفاصيل
 If you do not receive an email, please check your spam or junk-email folder=إذا لم تتلق بريدًا إلكترونيًا ، فالرجاء التحقق من مجلد البريد العشوائي أو البريد الإلكتروني غير الهام
 Importance=أهمية
 Important=مهم
-Install Language=
 Install=تثبيت
 Installed languages=اللغات المثبتة
 Invalid Trial Installation=التثبيت **التجريبي** غير صالح
@@ -62,35 +50,19 @@ Key file URL=عنوان ملف المفتاح (URL)
 Language support added=تمت إضافة دعم اللغة
 Language support deleted=تم حذف دعم اللغة
 Language=اللغة
-Log file cleared=
-Log size=
-LOG size=
 Missing Key File=ملف المفتاح مفقود
 Missing Language=لغة مفقودة
 Network Settings=اعدادات الشبكة
 New Config=تكوين جديد
 New Permissions=أذونات جديدة
-Next=
-No filter=
-No notifications present=
 No personal information such as user names, passwords, or any other file contents is included in the hardware profile=لا يتم تضمين أي معلومات شخصية مثل أسماء المستخدمين أو كلمات المرور أو أي محتويات أخرى للملف في ملف تعريف الجهاز
 normal=عادي
-Notices Only=
-Notices=
 Only ZIP files are allowed=يُسمح فقط بملفات ZIP
 Page Map=خريطة الصفحة
 Parity slots=فتحات التماثل
-PHP Info=
-PHP Information=
-PHP Log File=
-PHP Settings=
 Please check your=الرجاء التحقق من
-please configure=
-Please provide diagnostics when experiencing problems=
 Please select a language before proceeding=يرجى تحديد لغة قبل المتابعة
 Please=رجاء
-Pool slots=
-Post these in the forums=
 Preserve current assignments=الحفاظ على المهام الحالية
 previous=السابق
 Privacy Policy=سياسة الخصوصية
@@ -110,9 +82,7 @@ See=اطلع
 Select language file=حدد ملف اللغة
 Select language=اختار اللغة
 Show Details=أظهر التفاصيل
-Show errors on screen=
 slots=فتحات
-Stable=
 Subject=موضوع
 System Devices=أجهزة النظام
 System Update Check=التحقق من تحديث النظام
@@ -128,7 +98,6 @@ This server has %s attached storage device=يحتوي هذا الخادم على
 This server has %s attached storage devices=يحتوي هذا الخادم على %s أجهزة تخزين مرفقة
 This utility is used for troubleshooting purposes=يتم استخدام هذه الأداة لأغراض استكشاف الأخطاء وإصلاحها
 This will delete all notification files=سيؤدي هذا إلى حذف جميع ملفات الإعلام
-This will delete the selected notification files=
 This will update folder file permissions=سيؤدي هذا إلى تحديث أذونات المجلد والملف
 Time=الوقت
 To install a registration key, paste the key file URL in the box below and click Install Key=لتثبيت مفتاح تسجيل، قم بلصق عنوان URL الخاص بالملف الرئيسي في المربع أدناه وانقر فوق **تثبيت مفتاح**
@@ -137,7 +106,6 @@ Trial key expires on=***المفتاح التجريبي*** تنتهي صلاحي
 Trial=تجربة
 Update OS=تحديث نظام التشغيل
 Upgrade Key=ترقية المفتاح
-Uploaded=
 uploading hardware information=تحميل معلومات الأجهزة
 Uploading=جاري التحميل
 Use this to develop language packs=استخدم هذا لتطوير حزم اللغات
@@ -145,12 +113,7 @@ Use this to install official language packs=استخدم هذا لتثبيت ح�
 User Shares=مشاركات المستخدم
 User=المستخدم
 Vars=المتغيرات
-VFIO-PCI Log=
-View Log=
-View VFIO-PCI Log=
 warning=تحذير
-Warnings Only=
-Warnings=
 webGUI=واجهة المستخدم الرسومية على شبكة الإنترنت
 When received, please paste the URL into the Key file URL box and=عند الاستلام، يرجى لصق عنوان URL في مربع عنوان <i>ملف المفتاح</i> و
 Wrong File Extension=صيغة ملف خاطئة
@@ -322,4 +285,41 @@ Your system has booted with the PCIe ACS Override setting enabled=تم تمهي�
 لمزيد من المعلومات، يرجى [الاتصال بالدعم] (https://lime-technology.com/contact).
 :end
 
-; Note: March 17, 2023 - 37 missing translations
+; Note: April 28, 2023 - 37 missing translations
+Alert Message=
+Alerts=
+All Categories=
+Array slots=
+Beta=
+Clear Log=
+Delete all notifications=
+Deprecated Only=
+Downloading=
+Error reporting level=
+Errors Only=
+Install Language=
+Log file cleared=
+Log size=
+LOG size=
+Next=
+No filter=
+No notifications present=
+Notices Only=
+Notices=
+PHP Info=
+PHP Information=
+PHP Log File=
+PHP Settings=
+please configure=
+Please provide diagnostics when experiencing problems=
+Pool slots=
+Post these in the forums=
+Show errors on screen=
+Stable=
+This will delete the selected notification files=
+Uploaded=
+VFIO-PCI Log=
+View Log=
+View VFIO-PCI Log=
+Warnings Only=
+Warnings=

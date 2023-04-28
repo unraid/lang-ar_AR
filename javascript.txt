@@ -9,7 +9,6 @@ day=اليوم
 days=الأيام
 disk image and definition=صورة القرص وتعريفه
 Disks=الأقراص
-Donate=
 Done=منجز
 Edit=تحرير
 Execution error=خطأ في التنفيذ
@@ -25,7 +24,6 @@ Ok=موافق
 Pause=إيقاف مؤقت
 Proceed=متابعة
 Project Page=صفحة المشروع
-Read Me First=
 Remove container=إزالة الحاوية
 Remove definition=إزالة التعريف
 Remove image=إزالة الصورة
@@ -47,29 +45,31 @@ Yes, update it=نعم، قم بتحديثه!
 Yes=نعم
 
 ; footer messages
-Array Copying=
-Array Clearing=
 Array Starting=جار بدء المصفوفة
 Array Stopping=جار إيقاف المصفوفة
 Mounting disks=تحميل الأقراص
 Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=تنشيط دوران جميع الأقراص
-Stale configuration=
 Starting services=بدء تشغيل الخدمات
 Stopping services=إيقاف الخدمات
-Starting Recycle Bin=
-Stopping Recycle Bin=
-Sync filesystems=
 Unmounting disks=تنزيل الأقراص
 Autostart disabled=تم تعطيل التشغيل التلقائي
 Missing encryption key=مفتاح التشفير مفقود
 Opening encrypted volumes=فتح وحدات تخزين المشفرة
 
 ; docker variables
+
+; Note: April 28, 2023 - 13 missing translations
+Donate=
+Read Me First=
+Array Copying=
+Array Clearing=
+Stale configuration=
+Starting Recycle Bin=
+Stopping Recycle Bin=
+Sync filesystems=
 Container Path=
 Container Port=
 Container Variable=
 Container Label=
 Container Device=
-
-; Note: June 11, 2022 - 13 missing translations

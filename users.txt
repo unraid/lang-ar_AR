@@ -7,23 +7,23 @@ Description=وصف
 Do not use reserved names=لا تستخدم أسماء محجوزة
 Drag-n-drop a PNG file or click the image at the left=اسحب وضع ملف صورة أو انقر على الصورة على اليسار
 Edit User=تحرير المستخدم
-Invalid Key=
 Invalid user name=اسم المستخدم غير صحيح
-Management Access=
-No users are defined=
 Only PNG images are allowed=فقط صور بصيغة PNG
 Password too long=كلمة المرور طويلة جدًا
 Password=كلمة المرور
 Restore default image=استعادة الصورة الافتراضية
 Retype password=إعادة كتابة كلمة المرور
-Save=
-Shares Access=
 Show Hide password=إظهار/إخفاء كلمة المرور
-SSH authorized keys=
-Syntax of the key is incorrect=
 Use a password up to 128 characters=استعمل كلمة مرور حتى 127 حرف
 Use only lowercase letters, digits, underscores and dashes=استعمل أحرف صغيرة أو أرقام أو شرطة سفلية أو شرطة
 User %s has been deleted=تم حذف المستخدم %s
 User name=اسم المستخدم
 
-; Note: June 6, 2022 - 7 missing translations
+; Note: April 28, 2023 - 7 missing translations
+Invalid Key=
+Management Access=
+No users are defined=
+Save=
+Shares Access=
+SSH authorized keys=
+Syntax of the key is incorrect=
