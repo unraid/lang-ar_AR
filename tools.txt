@@ -284,22 +284,31 @@ Your system has booted with the PCIe ACS Override setting enabled=تم تمهي�
 لمزيد من المعلومات، يرجى [الاتصال بالدعم] (https://lime-technology.com/contact).
 :end
 
-; Note: April 29, 2023 - 38 missing translations
+; Note: December 17, 2023 - 54 missing translations
 Alert Message=
 Alerts=
 All Categories=
 Array slots=
 Beta=
 Clear Log=
+Creating Flash backup=
+Creation error=
 Delete all notifications=
+Delete Modprobe config=
 Deprecated Only=
+Downgrade OS=
 Downloading=
+Driver=
+Edit Modprobe config=
 Error reporting level=
 Errors Only=
+Flash backup=
 Install Language=
+Insufficient free disk space available=
 Log file cleared=
 Log size=
 LOG size=
+Modprobed config file=Modprobe.d config file
 Next=
 No filter=
 No notifications present=
@@ -313,8 +322,15 @@ please configure=
 Please provide diagnostics when experiencing problems=
 Pool slots=
 Post these in the forums=
+Rebuild Modules=
+Remove custom modprobed configuration=Remove custom modprobe.d configuration?
+Save Modprobe config=
+Select View=
 Show errors on screen=
 Stable=
+State=
+Support page=
+System Drivers=
 This will delete the selected notification files=
 Uploaded=
 VFIO-PCI Log=
