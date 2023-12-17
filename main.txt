@@ -191,7 +191,6 @@ Pool name already exists=اسم التجمع موجود بالفعل
 Pool of %s devices=تجمع من %s أجهزة
 Pool Status=
 Power=
-Power=
 Preclear in progress=المسح المسبق قيد التقدم
 previous device=
 Printable Characters Only=أحرف قابلة للطباعة فقط
@@ -396,4 +395,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: December 17, 2023 - 115 missing translations
+; Note: December 17, 2023 - 112 missing translations

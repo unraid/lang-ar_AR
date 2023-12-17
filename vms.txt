@@ -227,4 +227,4 @@ Windows 82012, newer Linux distros=ويندوز 8/2012، توزيعات لينو
 wsport for virtual console=
 XML View=عرض XML
 
-; Note: December 17, 2023 - 97 missing translations
+; Note: December 17, 2023 - 95 missing translations
