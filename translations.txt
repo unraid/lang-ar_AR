@@ -254,7 +254,6 @@ Online Manual=دليل على الإنترنت
 Online manual=دليل على الإنترنت
 OpenSSL=OpenSSL
 optional=اختياري
-Options for Block $action=
 Other Comment=تعليق آخر
 Other information=معلومات أخرى
 Parity device is disabled=تم تعطيل جهاز التماثل
