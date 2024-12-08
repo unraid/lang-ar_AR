@@ -167,7 +167,7 @@ Default appdata storage location=موقع تخزين بيانات التطبيق
 Default critical disk temperature threshold=حدود درجة حرارة القرص الحرجة الافتراضية
 Default critical disk utilization threshold=الحد الأدنى الافتراضي لاستخدام القرص الحرج
 Default critical SSD temperature threshold=
-Default file system=ملف النظام الافتراضي
+Default file system for Array disks=
 Default ISO storage path=مسار تخزين ISO الافتراضي
 Default network bridge=جسر الشبكة الافتراضي
 Default network source=
@@ -216,6 +216,7 @@ Docker LOG maximum file size=الحجم الأقصى للملف تسجيل دو�
 Docker LOG number of files=عدد الملفات تسجيل دوكر
 Docker LOG rotation=دوران تسجيل دوكر
 Docker only=دوكر فقط
+Docker PID Limit=
 Docker service=خدمة دوكر
 Docker Stop Timeout=
 Docker update notification=إشعار تحديث دوكر
@@ -860,4 +861,4 @@ Transient errors in this log can be ignored unless you are having issues=
 Unraid API extra origins=
 View Flash Backup Error Log=
 
-; Note: December 25, 2023 - 352 missing translations
+; Note: December 8, 2024 - 354 missing translations
