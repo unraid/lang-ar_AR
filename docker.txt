@@ -55,6 +55,7 @@ Icon URL=رابط أيقونة
 Image ID=رابط الصورة
 Key=مفتاح
 Label=تسمية
+LAN IPPort=LAN IP:Port
 Management=الإدارة
 MediaApp=تطبيق وسائط
 MediaServer=خادم وسائط
@@ -124,7 +125,7 @@ Web=ويب
 WebUI=WebUI
 Writable=قابل للكتابة
 
-; Note: December 28, 2024 - 32 missing translations
+; Note: December 28, 2024 - 31 missing translations
 3rd Party=
 Additional Requirements=
 Addresses=
@@ -142,7 +143,6 @@ Expired RenewDisable key expiry=Expired! Renew/Disable key expiry!
 Hostname=
 Is Exit Node=
 Key Expiry=
-LAN IPPort=LAN IP:Port
 Lock sortable items=
 None Listed=
 Online=
