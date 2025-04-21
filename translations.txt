@@ -10,6 +10,8 @@
 %s seconds ago=قبل %s ثواني
 %s week ago=قبل %s أسبوع
 %s weeks ago=قبل %s أسابيع
+Abort background operation=
+Abort background process=
 aborted=
 Absolute=مطلق
 Acknowledge=إقرار
@@ -21,6 +23,7 @@ Add VM=أضف جهاز افتراضي
 Advanced View=عرض متقدم
 AFP Security Settings=إعدادات الأمان لبروتوكول AFP
 ago=
+Alert Message=
 All=الكل
 Always Allow=
 Anonymize diagnostics may make troubleshooting more difficult=التشخيص الخفي قد يجعل استكشاف الأخطاء وإصلاحها أكثر صعوبة
@@ -35,6 +38,7 @@ Array Starting=تشغيل المصفوفة
 Array Stopped=تم إيقاف المصفوفة
 Array Stopping=إيقاف المصفوفة
 Array=المصفوفة
+Attention - operation continues in background=
 Attributes=سمات
 Auto=تلقائي
 Automatic=تلقائي
@@ -195,6 +199,7 @@ Locked wrong encryption key=مؤمن: مفتاح تشفير خاطئ
 Log=سجل
 Login=تسجيل الدخول
 Logout=تسجيل الخروج
+Live Updates Paused=
 Main=الرئيسي
 manual=يدوي
 max installable capacity=أقصى سعة قابلة للتثبيت
@@ -214,6 +219,7 @@ Months_array=January:يناير February:فبراير March:مارس April:أب�
 months=شهور
 More=المزيد
 Motherboard=اللوحة الأم
+Move To End=
 Move=نقل
 NA=لا يوجد
 Name=الاسم
@@ -243,6 +249,7 @@ not connected=غير متصل
 Not encrypted=غير مشفر
 not encrypted=غير مشفر
 NOTE=ملاحظة
+Notifications=
 Numbers_array=أرقام المصفوفة thirty:ثلاثون twenty-nine:تسعة-وعشرون twenty-eight:ثمانية-وعشرون twenty-seven:سبعة-وعشرون twenty-six:ستة-وعشرون twenty-five:خمسة-وعشرون twenty-four:أربعة-وعشرون twenty-three:ثلاثة-و-عشرون twenty-two:اثنان-و-عشرون twenty-one:واحد-وعشرون twenty:عشرون nineteen:تسعة-عشر eighteen:ثامنة-عشر seventeen:سبعة-عشر sixteen:ستة-عشر fifteen:خمسة-عشر fourteen:أربعة-عشرة thirteen:ثلاثة-عشر twelve:اثنا-عشر eleven:أحد-عشر ten:عشرة nine:تسعة eight:ثمانية seven:سبعة six:ستة five:خمسة four:أربعة three:ثلاثة two:اثنان one:واحد zero:صفر
 object=
 objects=كائنات
@@ -336,6 +343,7 @@ root requires a password=
 RPM=دورة في الدقيقة
 Running=قيد التشغيل
 running=قيد التشغيل
+Rx=
 safe mode=الوضع الآمن
 sec=ثانية
 second=الثانية
@@ -405,6 +413,7 @@ The command finished successfully=
 The error is=الخطأ هو
 The Unraid OS webgui requires JavaScript=
 There is a physical problem accessing your USB Flash boot device=
+This may leave an unknown state=
 This will start your free 30 day Trial=
 Time remaining=
 to change notification settings=لتغيير إعدادات الإشعار
@@ -419,6 +428,7 @@ Total=المجموع
 total=المجموع
 Transfer Rate=
 Trial=
+Tx=
 Type your question or comment to Lime Technology here=اكتب سؤالك أو تعليقك لشركةLime Technology هنا
 Type=نوع
 Unable to generate system diagnostics=تعذر إنشاء تشخيصات النظام
@@ -427,6 +437,7 @@ Unassigned=غير معين
 unassigned=غير معين
 Unknown=غير معروف
 unknown=غير معروف
+Unlock sortable items=
 Unraid OS=نظام تشغيل Unraid
 Unraidnet re-authentication required=Unraid.net re-authentication required
 Unsupported Feature=
@@ -455,6 +466,9 @@ Warning=تحذير
 Was this container created using this plugin=
 Website=الموقع
 White=أبيض
+WiFi connected=
+WiFi disconnected=
+WiFi status unavailable=
 Wiki=Wiki
 Windows may require a valid User to be defined even for Public shares=
 Write settings to=كتابة الإعدادات إلى
@@ -1253,4 +1267,4 @@ Open a bug report=
 %s year=
 %s years=
 
-; Note: December 28, 2024 - 802 missing translations
+; Note: April 21, 2025 - 816 missing translations

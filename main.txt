@@ -148,6 +148,7 @@ Last checked on %s=آخر فحص بتاريخ **%s**
 Last SMART test result=آخر نتيجة اختبار لتقنية المراقبة الذاتية والتحليل والإعلام
 logs - Separate Intent Log SLOG=logs - Separate Intent Log (SLOG)
 logs - ZFS Intent Log=
+loopback=
 Maintenance mode=نمط الصيانة
 Maintenance Mode=نمط الصيانة
 Maintenance=صيانة
@@ -175,6 +176,7 @@ No parity check history present=لا يوجد سجل للتحقق من التم�
 No self-tests logged on this disk=لم يتم تسجيل أي اختبارات ذاتية على هذا القرص
 Not installed=غير مثبت
 Not present=
+not set=
 OK=موافق
 Once copy completes, the array may be Started, to initiate Data-Rebuild of the disabled disk=بمجرد اكتمال النسخ، يمكن بدء المصفوفة، لبدء إعادة بناء البيانات للقرص المعطل
 operation=العملية
@@ -234,6 +236,7 @@ Repair corrupted blocks=إصلاح الكتل التالفة
 Replacement disk installed=تم تركيب القرص البديل
 Replacement disk is too small=القرص البديل صغير جدًا
 Retype passphrase=أعد كتابة عبارة المرور
+Rx=
 Schedule=جدولة
 Scrub Status=حالة التنظيف
 Scrub=تنظيف
@@ -300,6 +303,7 @@ Toggle readswrites display=تبديل عرض القراءة/الكتابة
 Too many attached devices Please consider upgrading your=الكثير من الأجهزة المرفقة، يرجى النظر في ترقية
 Too many wrong andor missing disks=الكثير من الأقراص الخاطئة و/أو المفقودة
 Total size=الحجم الإجمالي
+Tx=
 Unassign ALL devices to delete this pool=إلغاء تعيين **جميع** الأجهزة لحذف هذا التجمع
 Unassigned Devices=
 Unavailable - disk must be spun up=غير متوفر - يجب تنشيط دوران القرص
@@ -413,4 +417,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: December 28, 2024 - 133 missing translations
+; Note: April 21, 2025 - 137 missing translations

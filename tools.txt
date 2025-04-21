@@ -284,7 +284,7 @@ Your system has booted with the PCIe ACS Override setting enabled=تم تمهي�
 لمزيد من المعلومات، يرجى [الاتصال بالدعم] (https://lime-technology.com/contact).
 :end
 
-; Note: December 17, 2023 - 54 missing translations
+; Note: April 21, 2025 - 55 missing translations
 Alert Message=
 Alerts=
 All Categories=
@@ -308,6 +308,7 @@ Insufficient free disk space available=
 Log file cleared=
 Log size=
 LOG size=
+Log Viewer new=Log Viewer (new)
 Modprobed config file=Modprobe.d config file
 Next=
 No filter=
