@@ -532,6 +532,7 @@ No Cache disk present=ما من قرص ذاكرة تخزين مؤقت
 No change to report=
 No CPU pinning available. Docker service must be started=لا يوجد تثبيت CPU متاح. يجب بدء خدمة دوكر
 No CPU pinning available. VM service must be started=لا يوجد تثبيت CPU متاح. يجب بدء خدمة الجهاز الافتراضي
+No encrypted disks found=
 no name=
 No Parity disk present=لا يوجد قرص تماثل
 No Reply=
@@ -581,6 +582,7 @@ Optional=
 Or if they are improperly configured, use this feature with care=
 or=
 Other networks=
+Otherwise use the keyfile method for UTF8 input=Otherwise use the **keyfile** method for UTF8 input
 Outgoing Proxy Manager=
 Outgoing Proxy=
 Output Voltage=
@@ -640,6 +642,7 @@ Port Up=تشغيل البوابة
 Power Mode=
 Preserve user defined networks=حفظ شبكات المستخدم المحددة
 Preset service=خدمة معدة مسبقًا
+Printable Characters Only=
 Priority in header=الأولوية في رأس الصفحة
 Protocol=بروتوكول
 Provision=توفير
@@ -865,6 +868,7 @@ UPS Status=حالة UPS
 UPS type=نوع UPS
 URL=
 USB=USB
+Use ASCII characters from space to tilde=Use **ASCII** characters from space ' ' to tilde '~'
 Use DEFAULT setting when public NTP servers are defined=
 Use image name dockerimg or docker-xfsimg or select a folder=Use image name docker.img or docker-xfs.img or select a folder
 Use NTP=استخدم NTP
@@ -989,4 +993,4 @@ Transient errors in this log can be ignored unless you are having issues=
 Unraid API extra origins=
 View Flash Backup Error Log=
 
-; Note: April 21, 2025 - 481 missing translations
+; Note: May 31, 2025 - 485 missing translations

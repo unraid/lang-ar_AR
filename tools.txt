@@ -50,6 +50,7 @@ Key file URL=عنوان ملف المفتاح (URL)
 Language support added=تمت إضافة دعم اللغة
 Language support deleted=تم حذف دعم اللغة
 Language=اللغة
+Log Viewer new=Log Viewer (new)
 Missing Key File=ملف المفتاح مفقود
 Missing Language=لغة مفقودة
 Network Settings=اعدادات الشبكة
@@ -284,7 +285,7 @@ Your system has booted with the PCIe ACS Override setting enabled=تم تمهي�
 لمزيد من المعلومات، يرجى [الاتصال بالدعم] (https://lime-technology.com/contact).
 :end
 
-; Note: April 21, 2025 - 55 missing translations
+; Note: May 31, 2025 - 54 missing translations
 Alert Message=
 Alerts=
 All Categories=
@@ -308,7 +309,6 @@ Insufficient free disk space available=
 Log file cleared=
 Log size=
 LOG size=
-Log Viewer new=Log Viewer (new)
 Modprobed config file=Modprobe.d config file
 Next=
 No filter=
